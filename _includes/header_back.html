@@ -1,0 +1,11 @@
+<header class="site-header px2 px-responsive">
+  <div class="mt1 wrap">
+    <div class="measure">
+    {% if page.trip %}
+    <a href="/{{ page.category }}/{{ page.trip }}">Back to collection {{ page.trip | capitalize }} </a>
+    {% else %} 
+    <a href="/{{ page.category }}">Back to {{ page.category | capitalize }} </a>
+    {% endif %}
+    </div>
+  </div>
+</header>

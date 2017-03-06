@@ -1,0 +1,62 @@
+---
+title: Ryan Nguyen
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  trips:
+    title: Trips
+    output: true
+    permalink: "/trips/:path"
+  uploads:
+    title: Uploads
+    output: true
+email: ryannguyentt@gmail.com
+author: Ryan Nguyen - UX Designer based in Singapore
+description: The not-so-quiet space of a designer.
+baseurl: ''
+url: http://ryanntt.com
+google_analytics: 
+google_tag_manager: GTM-NMCCW9
+show_social_icons: false
+date_format: "%b %-d, %Y"
+google_verification: 
+animated: false
+show_related_posts: true
+show_post_footers: false
+ajaxify_contact_form: false
+disqus_shortname: ryanntt
+github_username: ryanntt
+bitbucket_username: 
+stackoverflow_id: 
+twitter_username: ryannguyentt
+google_plus_id: '105998436745738889893'
+linkedin_username: ryanntt
+angellist_username: 
+medium_id: 
+bitcoin_url: 
+paypal_url: 
+flattr_button: 
+show_sharing_icons: true
+share_text: Share this post!
+share_facebook: false
+share_twitter: true
+share_googleplus: false
+share_linkedin: false
+share_digg: false
+share_tumblr: false
+share_reddit: false
+share_stumbleupon: false
+share_hackernews: false
+markdown: kramdown
+redcarpet:
+  extensions:
+  - smart
+  - tables
+  - with_toc_data
+permalink: "/:title"
+sass:
+  sass_dir: _sass
+  style: compressed
+excerpt_separator: ''
