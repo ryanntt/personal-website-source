@@ -158,6 +158,10 @@ blockquote {
   background-position: 0 18px;
 }
 
+.post a.no-underline {
+  background-image: none;
+}
+
 button:focus {outline:0;}
 
 button {
@@ -218,11 +222,6 @@ button {
   }  
 }
 
-.fa-twitter:before, {
-  vertical-align: -15px;
-  color:#3B94D9;
-}
-
 @keyframes heart-animation {
   0% {
     background-position: left;
@@ -251,7 +250,9 @@ button {
 }
 
 .more-posts {
-  margin: 8em 0 2em 0;
+  margin: 4em 0 2em 0;
+  border-top: 1px dashed #999;
+
 }
 
 .more-posts .title {
@@ -261,7 +262,9 @@ button {
 
 .more-posts .post {
   margin-left: 0;
-  border-bottom: $lighter-gray solid 1px;
+  &:not(:last-child) {
+    border-bottom: $lighter-gray solid 1px;
+  }
   h4 {
     margin: 1em 0 0 0 
   }

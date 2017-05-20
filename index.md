@@ -1,5 +1,5 @@
 ---
-title: Ryan Nguyen - Experience Designer in Singapore
+title: Ryan Nguyen - User Experience Designer in Sydney
 layout: default
 ---
 
@@ -7,11 +7,33 @@ layout: default
 
 I am a designer for the web, interaction design and animation. 
 
-I'm currently working in Singapore for [Wego](http://www.wego.com) as a designer in Web Experience team. Outside of work, I like to have fun on a few [side projects](/projects).
+Currently, I am student of Master of Interaction Design and Electronic Arts in University of Sydney, Australia.
 
-I recently start writing about design and life on [Medium](https://medium.com/@ryanntt). I save a copy of my blog [here](/blog) just in case something similar to my first website on GeoCities happend. It's a long story.
+Previously, I worked in Singapore for [Wego](http://www.wego.com) as a designer in Web Experience team. 
 
-I love and write about photography on [Tumblr](http://chillingkat.com). Ready to roll anytime with my Olympus 35RC and Kodak film. 
+Feel free to connect with me on other channels: 
 
-You can see my profile on [Linkedin](http://sg.linkedin.com/in/ryanntt) and follow me on [Twitter](http://twitter.com/ryannguyentt)
-
+<a target="_blank" class="no-underline" href="http://linkedin.com/in/ryanntt">
+  <span class="fa-stack fa-lg">
+    <i class="fa fa-square-o fa-stack-2x"></i>
+    <i class="fa fa-linkedin fa-stack-1x"></i>
+  </span>
+</a>
+<a target="_blank" class="no-underline" href="https://medium.com/@ryanntt">
+  <span class="fa-stack fa-lg">
+    <i class="fa fa-square-o fa-stack-2x"></i>
+    <i class="fa fa-medium fa-stack-1x"></i>
+  </span>
+</a>
+<a target="_blank" class="no-underline" href="http://chillingkat.com">
+  <span class="fa-stack fa-lg">
+    <i class="fa fa-square-o fa-stack-2x"></i>
+    <i class="fa fa-tumblr fa-stack-1x"></i>
+  </span>
+</a>
+<a target="_blank" class="no-underline" href="http://twitter.com/ryannguyentt">
+  <span class="fa-stack fa-lg">
+    <i class="fa fa-square-o fa-stack-2x"></i>
+    <i class="fa fa-twitter fa-stack-1x"></i>
+  </span>
+</a>
