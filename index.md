@@ -5,7 +5,7 @@ layout: default
 
 ## Hello, I'm Ryan.
 
-I am a designer for the web, interaction design and animation. 
+I am a designer for products, interaction and animation. 
 
 Currently, I am student of Master of Interaction Design and Electronic Arts in University of Sydney, Australia.
 
@@ -13,6 +13,18 @@ Previously, I worked in Singapore for [Wego](http://www.wego.com) as a designer 
 
 Feel free to connect with me on other channels: 
 
+<a target="_blank" class="no-underline" href="https://dribbble.com/ryanntt">
+  <span class="fa-stack fa-lg">
+    <i class="fa fa-square-o fa-stack-2x"></i>
+    <i class="fa fa-dribbble fa-stack-1x"></i>
+  </span>
+</a>
+<a target="_blank" class="no-underline" href="https://github.com/ryanntt">
+  <span class="fa-stack fa-lg">
+    <i class="fa fa-square-o fa-stack-2x"></i>
+    <i class="fa fa-github fa-stack-1x"></i>
+  </span>
+</a>
 <a target="_blank" class="no-underline" href="http://linkedin.com/in/ryanntt">
   <span class="fa-stack fa-lg">
     <i class="fa fa-square-o fa-stack-2x"></i>
