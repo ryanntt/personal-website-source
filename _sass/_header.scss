@@ -1,6 +1,8 @@
 .site-header {
   padding-top: $space-1;
   padding-bottom: $space-2;
+  margin-bottom: $space-2;
+  z-index: 100;
 }
 
 .site-header a {
