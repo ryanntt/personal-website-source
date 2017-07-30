@@ -64,7 +64,10 @@ The early involvement of stake holder in wireframing is important to a faster ap
 
 This project is the first time we experiment collaboration workshop with stakeholders. We wanted clients and designers to be aligned with each others about what the design will look like. 
 
-![Screenshot of different idea/sketch all together]({{site.url}}/images/panelplace/collaboration-wireframe.jpg)
+<figure>
+  <img src="/images/panelplace/collaboration-wireframe.jpg" alt="">
+  <figcaption>Screenshot of different idea/sketch all together</figcaption>
+</figure>
 
 ## Design Measurement
 

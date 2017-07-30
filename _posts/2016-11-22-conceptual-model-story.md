@@ -53,7 +53,10 @@ In this article, I want to discuss explicit cues which, in my opinion, sometimes
 
 At my old office pantry, there is a water tap. When the office manager wanted to setup the hot water dispenser, the technician installed a small tube dividing the water flow coming out from the tap. The original tap controlled the water both to the new hot water dispenser and the usual output. Therefore, after that, they installed another tap to control the water flow to the sink only, requiring the original tap to be always open since the dispenser need constant input of water.
 
-![Pantryat my office](http://res.cloudinary.com/ryanntt/image/upload/s--v9oFL0MW--/v1479796061/blog/water-tap/overview-small.jpg)
+<figure>
+  <img src="http://res.cloudinary.com/ryanntt/image/upload/s--v9oFL0MW--/v1479796061/blog/water-tap/overview-small.jpg" alt="">
+  <figcaption>Pantry at my office</figcaption>
+</figure>
 
 ![The tube from water tap to hot water dispenser](http://res.cloudinary.com/ryanntt/image/upload/s--ay6RgxUK--/v1479796058/blog/water-tap/detail-3-small.jpg)
 
