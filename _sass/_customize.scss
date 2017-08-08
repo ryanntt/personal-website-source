@@ -14,7 +14,6 @@ body {
 
 .site-header nav a {
   padding: 0.5em 0 0.2em 0;
-  font-size: 1.4rem;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
@@ -132,8 +131,19 @@ p, .p {
     max-width: 672px;
     margin: 1em auto;
   }
-  h1, h2, h3, h4, h5, h6 {
+  h1 {
     text-align: center;
+  }
+  h2 {
+    margin-top: $space-3;
+  }
+  h3 {
+    margin-top: $space-1+$space-2;
+  }
+  h2,h3,h4,h5,h6 {
+    max-width: 672px;
+    margin-left: auto;
+    margin-right: auto
   }
 }
 
@@ -200,6 +210,10 @@ button {
   &:hover {
     box-shadow: 1px 1px 7px rgba(0,0,0,0.15);
   }
+}
+
+hr {
+  max-width: 672px;
 }
 
 .share-btn, #like-btn, #like-btn.in{
@@ -327,9 +341,6 @@ small {
     top: 0;
     width: 100%;
     background: rgba(248, 248, 248, .96);
-  }
-  .site-header nav a {
-    font-size: 1.1rem;
   }
 }
 

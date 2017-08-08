@@ -1,5 +1,5 @@
 .site-header {
-  padding-top: $space-1;
+  padding-top: 0.8*$space-1;
   padding-bottom: $space-2;
   margin-bottom: $space-2;
   z-index: 100;
@@ -7,12 +7,12 @@
 
 .site-header a {
   color: #333;
-  font-size: $h3;
+  font-size: $h5;
   font-weight: 400;
 }
 
 .site-header .site-title {
-  font-size: $h2;
+  font-size: $h4;
 }
 
 .site-nav {
