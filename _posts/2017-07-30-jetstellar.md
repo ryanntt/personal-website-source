@@ -1,10 +1,13 @@
 ---
-title: JetStellar - Flight Booking to Mars
+title: JetStellar
 date: 2017-07-30 08:06:18 Z
 categories:
 - projects
 layout: post
-summary: Hypotheical project addressing real problems
+status: featured
+text: Flight Booking to Mars
+summary: Attracting traveller to flights to Mars via relevant content and trusworthy interaction. A hypothetical project addressing real problems.
+thumbnail: http://res.cloudinary.com/ryanntt/image/upload/s--np8D86Rc--/c_scale,w_784/v1502257448/201708%20Jetstellar/Project-Thumbnail.png
 ---
 
 # Design Brief

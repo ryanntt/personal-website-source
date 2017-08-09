@@ -50,6 +50,10 @@ p, .p,.f4, dl, ol, ul {
   line-height: 1.8;
 }
 
+.home h1{
+  font-family:$font-family;
+}
+
 h3 {
   font-weight: 400;
   color: #999;
@@ -76,7 +80,7 @@ figcaption {
 }
 
 footer {
-  padding: 2rem 0;
+  padding: 1rem 0 1.5rem 0;
   margin-top: 1.2em;
 }
 
@@ -145,6 +149,14 @@ p, .p {
     margin-left: auto;
     margin-right: auto
   }
+  hr {
+    max-width: 672px;
+  }
+}
+
+.home hr {
+  width: 100px;
+  margin: 3em 0;
 }
 
 .my-video {
@@ -210,10 +222,6 @@ button {
   &:hover {
     box-shadow: 1px 1px 7px rgba(0,0,0,0.15);
   }
-}
-
-hr {
-  max-width: 672px;
 }
 
 .share-btn, #like-btn, #like-btn.in{
@@ -334,7 +342,7 @@ small {
     font-size: 16px;
   }
   body {
-    padding-top: 1.5*$space-4;
+    padding-top: 1.25*$space-4;
   }
   .site-header {
     position: fixed;
@@ -344,15 +352,13 @@ small {
   }
 }
 
-@media screen and (min-width: $viewport-large) {
-  html {
-    font-size: 16px;
-  }
-}
-
 @media screen and (max-width: $viewport-small) {
   html {
     font-size: 16px;
+  }
+
+  .site-header a {
+    font-size: $h4;
   }
   
   table,

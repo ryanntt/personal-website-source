@@ -7,18 +7,18 @@ type: listing
 <div class="trips list">
   {% for trip in site.trips reversed %}
     {% if trip.type == "summary" %}
-      <div class="trip-entry py3">
+      <div class="post-entry py3">
         <a href="{{ trip.title | downcase | prepend: site.baseurl | replace:' ','-' }}" class="post-link">
-          <div class="trip-wrap">
-            <div class="trip-summary">
-              <h3 class="h1 trip-title">{{ trip.title }}</h3>
-              <p class="trip-text">
+          <div class="wrap">
+            <div class="summary">
+              <h3 class="h1 title">{{ trip.title }}</h3>
+              <p class="text">
               {% if trip.text %}
                 {{ trip.text }}
               {% endif %}
               </p>
             </div>
-            <img class="trip-thumb" src="{{ trip.thumbnail }}" ref="{{ trip.title | downcase | prepend: site.baseurl }}" alt="{{trip.title}}">  
+            <img class="thumb" src="{{ trip.thumbnail }}" ref="{{ trip.title | downcase | prepend: site.baseurl }}" alt="{{trip.title}}">  
           </div>
         </a>
       </div>
