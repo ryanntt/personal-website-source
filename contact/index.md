@@ -6,7 +6,7 @@ layout: page
 <div class="py2">
   {% if site.ajaxify_contact_form %}
     <form class="form-stacked">
-      <input type="text" name="email" class="field-light" placeholder="Email Address">
+      <input type="text" name="email" class="field-light" placeholder="Your Email Address">
       <textarea type="text" name="content" class="field-light" rows="5" placeholder="What would you like to say?"></textarea>
       <input type="hidden" name="_subject" value="New submission!" />
       <input type="text" name="_gotcha" style="display:none" />
@@ -14,7 +14,7 @@ layout: page
     </form>
   {% else %}
     <form action="https://formspree.io/{{ site.email }}" method="POST" class="form-stacked">
-      <input type="text" name="email" class="field-light" placeholder="Email Address">
+      <input type="text" name="email" class="field-light" placeholder="Your Email Address">
       <textarea type="text" name="content" class="field-light" rows="5" placeholder="What would you like to say?"></textarea>
       <input type="hidden" name="_next" value="{{ site.baseurl }}/thanks/" />
       <input type="hidden" name="_subject" value="New submission!" />

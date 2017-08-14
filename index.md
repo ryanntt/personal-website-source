@@ -4,11 +4,28 @@ layout: default
 tag: home
 ---
 
-# Hi, I'm Ryan, designer for products and interaction.
+# Hi, I'm Ryan.
+
+## I'm a product and interaction designer.
 
 I'm studying Master of Interaction Design and Electronic Arts in University of Sydney, Australia.
 
-Previously, I worked in Singapore for [Wego](http://www.wego.com) as a designer in Web Experience team. 
+Previously, I worked for [Wego](http://www.wego.com) as a designer in Web Experience team. 
+
+You can contact me through:
+
+<small>
+  <a target="_blank" class="no-underline" href="http://linkedin.com/in/ryanntt">
+    <span class="fa-stack fa-lg">
+      <i class="fa fa-linkedin" aria-hidden="true"></i>
+    </span>
+  </a>
+  <a class="no-underline" href="/contact">
+    <span class="fa-stack fa-lg">
+      <i class="fa fa-envelope-o" aria-hidden="true"></i>
+    </span>
+  </a>
+</small>
 
 --------
 
@@ -38,4 +55,6 @@ Previously, I worked in Singapore for [Wego](http://www.wego.com) as a designer 
   </div>
 </div>
 
-[See All Projects](/projects)
+<form action="/projects">
+  <input type="submit" class="button button-blue button-big mobile-block" value="See all projects" />
+</form>

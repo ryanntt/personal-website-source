@@ -29,18 +29,13 @@ body {
   color: #000000;
 }
 
-.back {
-  font-size: .65em;
-  margin-top: .65em;
-  font-size: 1.125rem;
-}
-
 .post-header {
   text-align: center;
 }
 
 .meta,
 .post-meta {
+  font-family: $heading-font-family;
   font-size: 1.1rem;
   font-style: normal;
 }
@@ -50,7 +45,7 @@ p, .p,.f4, dl, ol, ul {
   line-height: 1.8;
 }
 
-.home h1{
+.home h1, h2{
   font-family:$font-family;
 }
 
@@ -197,7 +192,7 @@ blockquote {
   margin-bottom: 0;
 }
 
-.post a {
+.post a:not(.button) {
   color: $dark-gray;
   background-image: linear-gradient(to bottom, rgba(0,0,0,0) 50%, rgba(0,0,0,0.6) 50%);
   background-repeat: repeat-x;
