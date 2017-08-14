@@ -16,8 +16,10 @@ layout: default
   {% endif %}
   <span class="post-meta small">
   {% if page.minutes %}
+    <i class="fa fa-clock-o" aria-hidden="true"></i>
     {{ page.minutes }} minute read
   {% else %}
+    <i class="fa fa-clock-o" aria-hidden="true"></i>
     {{ minutes }} minute read
   {% endif %}
   </span>
@@ -29,12 +31,6 @@ layout: default
 
 {% if site.show_sharing_icons %}
   {% include share_buttons.html %}
-{% endif %}
-
-{% if site.show_post_footers %}
-  <a href="/{{ page.categories }}" class="back">◃ Back to {{ page.categories }}</a>
-  <div class="py2 post-footer">
-  </div>
 {% endif %}
 
 {% if current[1] == 'blog' %}
@@ -55,20 +51,36 @@ layout: default
   {% endif %}
 {% endif %}
 
-{% if page.categories contains 'blog' %}
-  {% if site.show_related_posts %}
-    <section class="more-posts">
-      <h3 class="title">Related Posts</h3>
-      {% for post in site.related_posts limit:3 %}
-        <div class="post ml2">
-          <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
-            <h4 class="post-title">{{ post.title }}</h4>
-            <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
-          </a>
-        </div>
+{% if site.show_related_posts %}
+  
+  {% assign maxRelated = 3 %}
+  {% assign maxRelatedCounter = 0 %}
+
+  <section class="more-posts">
+    <h3 class="title">You may also enjoy</h3>
+    {% for post in site.posts %}
+      {% for category in post.categories %}
+        {% if post.url != page.url %}
+          {% if page.categories contains category %}
+            {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}  
+            <div class="post ml2">
+              <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
+                <h4 class="post-title">{{ post.title }}</h4>
+                <p class="post-meta">{{ post.date | date: "%b %Y" }}</p>                 
+              </a>
+            </div>
+          {% endif %}
+        {% endif %}       
       {% endfor %}
-    </section>
-  {% endif %}
+      {% if maxRelatedCounter >= maxRelated %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+  </section>
 {% endif %}
 
-
+{% if site.show_post_footers %}
+  <form action="/{{ page.categories }}">
+    <input type="submit" class="button button-blue button-big mobile-block" value="Back to {{ page.categories }}" />
+  </form>
+{% endif %}
