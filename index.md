@@ -25,8 +25,6 @@ I'm studying Master of Interaction Design and Electronic Arts in University of S
   </a>
 </small>
 
---------
-
 ### Key Projects
 
 <div class="projects list featured">

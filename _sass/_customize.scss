@@ -173,6 +173,12 @@ hr {
   margin: 3em 0;
 }
 
+#key-projects {
+  display: inline-block;
+  border-top: 1px solid #ccc;
+  padding-top: 2rem;
+}
+
 .my-video {
   height: 0;
   padding-top: 25px;
@@ -315,12 +321,12 @@ hr {
   margin: 4em auto 1em auto;
   border-top: 1px dashed #999;
   h3 {
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
   }
 }
 
 .more-posts .post {
-  width: 49%;
+  width: 48%;
   margin-left: 0;
   h4 {
     margin: 1em 0 0 0 
