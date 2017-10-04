@@ -8,11 +8,9 @@ tag: home
 
 ## I'm a product and interaction designer.
 
-I'm studying Master of Interaction Design and Electronic Arts in University of Sydney, Australia.
+I'm studying Master of Interaction Design and Electronic Arts in University of Sydney, Australia. Previously, I worked for [Wego](http://www.wego.com) as a designer in Web Experience team. 
 
-Previously, I worked for [Wego](http://www.wego.com) as a designer in Web Experience team. 
-
-You can contact me through:
+<p style="margin-bottom:0;">You can contact me through:</p>
 
 <small>
   <a target="_blank" class="no-underline" href="http://linkedin.com/in/ryanntt">
@@ -56,5 +54,5 @@ You can contact me through:
 </div>
 
 <form action="/projects">
-  <input type="submit" class="button button-blue button-big mobile-block" value="See all projects" />
+  <input type="submit" class="button button-big mobile-block" value="See all projects" />
 </form>
