@@ -1,5 +1,5 @@
 ---
-title: MyZenGarden - Mobile App Design
+title: My Zen Garden
 date: 2014-09-29 18:22:29 Z
 categories:
 - projects

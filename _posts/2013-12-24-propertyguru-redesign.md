@@ -1,11 +1,14 @@
 ---
-title: PropertyGuru Mobile Web Redesign
+title: PropertyGuru
 date: 2013-12-24 18:22:29 Z
 categories:
 - projects
 layout: post
 summary: This project is the first time I designed in HTML and last time used Photoshop
   in my workflow
+text: Mobile web redesign
+thumbnail: http://res.cloudinary.com/ryanntt/image/upload/s--WKdV-DQZ--/c_scale,w_768/v1506606844/propertyguru/thumbnail.jpg
+  
 ---
 
 This is the first time I designed in HTML and last time used Photoshop in my workflow.
