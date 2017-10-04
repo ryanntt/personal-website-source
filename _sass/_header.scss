@@ -6,17 +6,20 @@
 }
 
 .site-header a {
-  color: #333;
+  color: $dark-gray;
   font-size: $h5;
   font-weight: 400;
 }
 
 .site-header .site-title {
+  font-family: $heading-font-family;
   font-size: $h4;
+  color: $darker-gray;
 }
 
 .site-nav {
   margin-top: $space-2;
+  margin-left: 0;
 }
 
 .site-header nav a {

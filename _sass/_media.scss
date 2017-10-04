@@ -17,13 +17,24 @@
 .list .wrap {
   position: relative;
   line-height: 0;
+  border-radius: 5px;
   overflow: hidden;
+  -webkit-transition: .8s cubic-bezier(.2,1,.2,1);
+  -o-transition: .8s cubic-bezier(.2,1,.2,1);
+  transition: .8s cubic-bezier(.2,1,.2,1);
+  &:hover {
+    // -webkit-transform: translateY(-2px);
+    // -ms-transform: translateY(-2px);
+    // transform: translateY(-2px);
+    -webkit-box-shadow: 0 5px 10px 0 rgba(0,0,0,.15);
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,.15);
+  }
 }
 
 .trip .post-header {
-  max-width: 672px;
+  max-width: $text-width;
   margin: 0 auto;
-  line-height: 1.8;
+  line-height: $heading-line-height;
   h1 {
     text-align: center;
   }
@@ -34,7 +45,7 @@
 }
 
 .trip.p-responsive{
-  font-weight: 300;
+  font-weight: 400;
   // padding: 0 0 1em 0;
 }
 
@@ -86,10 +97,11 @@
 .list .summary {
   h3, p ,a {
     color: white;
-    margin: 0 0 0 1.2rem;
+    // margin: 0 0 0 1.2rem;
   }
   h3 {
-    font-weight: 900;
+    font-weight: bold;
+    margin-bottom: 0.25rem;
   }
 }
 
@@ -97,10 +109,62 @@
   color: #EFEFEF;
 }
 
-.list .post-entry:hover .summary {
+.post-entry {
+  padding-bottom: 0;
+}
+
+.post-entry:last-child {
+  padding-bottom: 2rem;
+}
+
+html:not(.projects) .list .post-entry:hover .summary {
   opacity: 0;
   transform: scale(1.15);
   transition-delay: .05s;
+}
+
+html.projects {
+  .posts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .post-entry {
+    width: 49%;
+    min-height: 200px;
+    .thumb {
+      background-color: #EFEFEF;
+    }
+    .summary {
+      position: relative;
+      background: none;
+      padding: 0;
+      h3 {
+        color: $dark-gray;
+      }
+      p, a {
+        color: $mid-gray;
+      }
+    }
+    @media screen and (max-width: $viewport-small) {
+      width: 100%;
+    }
+  }
+}
+
+figcaption {
+  margin-bottom: 2em;
+  padding: 0.1em 0 0.5em 0;
+  color: $mid-gray;
+  text-align: center;
+}
+
+figure {
+  max-width: $measure-width;
+  text-align: center;
+  margin: 0;
+  margin-top: -7px; //hackish way to temporarily fix the different height of <figure> and <img>
 }
 
 .trip-content {
@@ -112,7 +176,7 @@
   display: flex;
   flex-wrap: wrap;
   span {
-    max-width: 672px;
+    max-width: $text-width;
   }
   h4 {
     width: 100%;
@@ -122,38 +186,9 @@
   h2,h3,h4 {
     text-align: center;
   }
-  hr {
-    border: none;
-    text-align: center;
-    width: 100%;
-    height: 10px;
-    margin: 40px auto 0 auto;
-    &:before {
-      content: '...';
-      display: inline-block;
-      color: rgba(0,0,0,.6);
-      position: relative;
-      top: -30px;
-      font-size: 2em;
-      letter-spacing: .6em;
-      left: 10px;
-    }
-  }
   p {
-    max-width: 672px;
+    max-width: $text-width;
     margin: 1em auto;
-  }
-  figure {
-    max-width: 1000px;
-    margin: 2em auto;
-  }
-  figcaption {
-    margin-bottom: 2em;
-    padding: 0.1em 0 0.5em 0;
-    border-bottom: 1px solid #EFEFEF;
-    color: #444;
-    line-height: 1.7;
-    text-align: center;
   }
   video {
     display: block;

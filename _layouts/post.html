@@ -10,7 +10,7 @@ layout: default
 
 <div class="post-header mb2">
   <h1>{{ page.title }}</h1>
-  <span class="post-meta">{{ page.date | date: site.date_format }}</span><br>
+  <span class="post-meta">{{ page.date | date: "%b %Y" }}</span><br>
   {% if page.update_date %}
     <span class="post-meta">Updated: {{ page.update_date | date: site.date_format }}</span><br>
   {% endif %}
@@ -53,34 +53,49 @@ layout: default
 
 {% if site.show_related_posts %}
   
-  {% assign maxRelated = 3 %}
+  {% assign maxRelated = 2 %}
   {% assign maxRelatedCounter = 0 %}
 
   <section class="more-posts">
-    <h3 class="title">You may also enjoy</h3>
-    {% for post in site.posts %}
-      {% for category in post.categories %}
-        {% if post.url != page.url %}
-          {% if page.categories contains category %}
-            {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}  
-            <div class="post ml2">
-              <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
-                <h4 class="post-title">{{ post.title }}</h4>
-                <p class="post-meta">{{ post.date | date: "%b %Y" }}</p>                 
-              </a>
-            </div>
-          {% endif %}
-        {% endif %}       
+    <h3 class="title">You may also enjoy</h3>  
+    <div class="list">
+      {% for post in site.posts %}
+        {% for category in post.categories %}
+          {% if post.url != page.url %}
+            {% if page.categories contains category %}
+              {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}  
+              <div class="post ml2">
+                {% if post.thumbnail %}
+                <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
+                  <div class="wrap">
+                    <img class="thumb" src="{{ post.thumbnail }}" ref="{{ post.title | downcase | prepend: site.baseurl }}" alt="{{post.title}}">  
+                  </div>
+                </a>
+                {% endif %}
+                <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
+                  <h4 class="post-title">{{ post.title }}</h4>
+                  <p class="post-meta">
+                    {% if post.text %}
+                      {{ post.text }}
+                      {% else %}
+                        {{ post.summary }}
+                    {% endif %}
+                  </p>              
+                </a>
+              </div>
+            {% endif %}
+          {% endif %}       
+        {% endfor %}
+        {% if maxRelatedCounter >= maxRelated %}
+          {% break %}
+        {% endif %}
       {% endfor %}
-      {% if maxRelatedCounter >= maxRelated %}
-        {% break %}
-      {% endif %}
-    {% endfor %}
+    </div>
   </section>
 {% endif %}
 
 {% if site.show_post_footers %}
-  <form action="/{{ page.categories }}">
-    <input type="submit" class="button button-blue button-big mobile-block" value="Back to {{ page.categories }}" />
-  </form>
+<form action="/{{ page.categories }}" class="btn-back">
+  <input type="submit" class="button button-big mobile-block" value="Back to {{ page.categories }}" />
+</form>
 {% endif %}
