@@ -126,7 +126,7 @@ h1, h2, h3, h4, h5, h6 {
 .post-content {
   p {
     max-width: $text-width;
-    margin: 1.5em auto;
+    margin: 1.6em auto;
   }
   h2 {
     text-align: center;
@@ -355,14 +355,15 @@ small {
 }
 
 @media screen and (min-width: $viewport-medium) {
-  body {
-    padding-top: 1.25*$space-5;
-  }
-  .site-header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
+  // This is to make header fixed at top
+  // body {
+  //   padding-top: 1.25*$space-5;
+  // }
+  // .site-header {
+  //   position: fixed;
+  //   top: 0;
+  //   width: 100%;
+  // }
   .highlighted {
     p {
       color: #056171;
