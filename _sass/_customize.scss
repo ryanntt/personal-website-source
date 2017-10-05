@@ -45,7 +45,7 @@ p, .p,.f4, dl, ol, ul {
 }
 
 .home .measure{
-  width: 784px;
+  max-width: 784px;
   & > h1, h2{
     color: $darker-gray;
     font-family:$heading-font-family;
