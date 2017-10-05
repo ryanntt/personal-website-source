@@ -223,24 +223,26 @@ hr {
 .button:focus {outline:0;}
 
 .button {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.9rem;
   height: 42px;
-  background-image: -webkit-linear-gradient(45deg,#3284f5, #70b8ff);
-  background-image: -o-linear-gradient(45deg,#3284f5, #70b8ff 100%);
-  background-image: linear-gradient(45deg,#3284f5, #70b8ff);
+  background: white;
   border-radius: 30px;
-  border: none;
+  border: 1px solid $mid-gray;
   -webkit-transition: .8s cubic-bezier(.2,1,.2,1);
   -o-transition: .8s cubic-bezier(.2,1,.2,1);
   transition: .8s cubic-bezier(.2,1,.2,1);
-  color: white;
+  color: $dark-gray;
 
   cursor: pointer;
   &:hover {
-    -webkit-transform: translateY(-2px);
-    -ms-transform: translateY(-2px);
-    transform: translateY(-2px);
-    -webkit-box-shadow: 0 5px 10px 0 rgba(0,0,0,.15);
-    box-shadow: 0 5px 10px 0 rgba(0,0,0,.15);
+    color: $darker-gray;
+    -webkit-transform: translateY(-1px);
+    -ms-transform: translateY(-1px);
+    transform: translateY(-1px);
+    -webkit-box-shadow: 0 5px 10px 0 rgba(0,0,0,.1);
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,.1);
   }
 }
 

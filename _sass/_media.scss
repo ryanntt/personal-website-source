@@ -23,9 +23,6 @@
   -o-transition: .8s cubic-bezier(.2,1,.2,1);
   transition: .8s cubic-bezier(.2,1,.2,1);
   &:hover {
-    // -webkit-transform: translateY(-2px);
-    // -ms-transform: translateY(-2px);
-    // transform: translateY(-2px);
     -webkit-box-shadow: 0 5px 10px 0 rgba(0,0,0,.15);
     box-shadow: 0 5px 10px 0 rgba(0,0,0,.15);
   }
@@ -58,6 +55,10 @@
     -webkit-transform: scale(1.15);
     transform: scale(1.15);
   }  
+}
+
+img {
+  border-radius: 5px;
 }
 
 .list .img {
