@@ -29,7 +29,7 @@ design approach with [Soul](https://www.linkedin.com/in/acowa/) and [Naiyu](http
 ## Process
 
 <figure>
-    <img src="http://res.cloudinary.com/ryanntt/image/upload/s--_xWtin3G--/c_scale,w_784/v1502366594/201708%20Jetstellar/Design-Process.png" alt="Design Process">
+    <img src="http://res.cloudinary.com/ryanntt/image/upload/s--ZP4vUbK0--/c_scale,w_1000/v1507595143/201708%20Jetstellar/Design-Process.png" alt="Design Process">
 </figure>
 
 ### Online Ethnography
@@ -43,7 +43,7 @@ I collected reviews from app store, comparison sites, product reviews to gain in
 Based on the complaints, I grouped them into categories to identify the root of all problems.
 
 <figure>
-    <img src="http://res.cloudinary.com/ryanntt/image/upload/s--GGZOvFHn--/c_scale,w_784/v1502374607/201708%20Jetstellar/Pain-Points.png" alt="Paint Points">
+    <img src="http://res.cloudinary.com/ryanntt/image/upload/s--JCVSYEsx--/c_scale,w_784/v1507595143/201708%20Jetstellar/Pain-Points.png" alt="Paint Points">
 </figure>
 
 ### Design Principles
@@ -51,7 +51,7 @@ Based on the complaints, I grouped them into categories to identify the root of 
 Based on insight gained from background and user research, we developed a framework of design principles to guide us through the various decision-making points in the project.
 
 <figure>
-    <img src="http://res.cloudinary.com/ryanntt/image/upload/s--vQKZ-8Dm--/c_scale,w_784/v1502368067/201708%20Jetstellar/Design-Principles.png" alt="Design Principles">
+    <img src="http://res.cloudinary.com/ryanntt/image/upload/s--ssudwNI_--/c_scale,w_784/v1507595143/201708%20Jetstellar/Design-Principles.png" alt="Design Principles">
 </figure>
 
 ### User Stories
@@ -128,6 +128,12 @@ After the user testing, we iterate one more time based on feedbacks.
 
 You can also see the prototype <a href="https://invis.io/SKC73DXWE" target="_blank">here</a>
 
+### Walkthrough Video
+<p>
+	<div class="my-video [youtube, widescreen]">
+		<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/fcgDN4R5Alg?rel=0" frameborder="0" allowfullscreen></iframe>
+	</div>
+</p>
 ----------
 
 ## Reflection
@@ -150,3 +156,4 @@ A better division of work is to design the same flow on all platforms. The insig
 It’s not advisable to test with less than 5 users as 5 is the optimal number of people to find most of the problems in interface (Jacob Nielsen).
 
 It’s actually ok to test with friends. The initial doubt is that friends may give positive feedbacks but I avoided that by saying the design is by a team mate. It solved the bias well.
+

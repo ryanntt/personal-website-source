@@ -266,6 +266,15 @@ We keep improving the design and getting feedback via user testing. Regarding ti
     <figcaption>Final Mockups of Feedback Form</figcaption>
 </figure>
 
+### Walkthrough Video
+
+<p>
+	<div class="my-video [youtube, widescreen]">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/WouZ9C-qgTU" frameborder="0" allowfullscreen></iframe>
+	</div>
+</p>
+
+
 ### Reflection
 
 What I find most useful in this project is conducting interviews and analysing the result using research method to extract insights from it. It was easy to have a fixed mindset in the beginning about problem but *being open-minded and using analytical thinking led us to new insights of the actual problem*.
