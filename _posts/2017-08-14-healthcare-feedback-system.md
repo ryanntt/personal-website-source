@@ -19,11 +19,11 @@ thumbnail: http://res.cloudinary.com/ryanntt/image/upload/s--mCipRtrl--/c_scale,
 
 ### Design Brief
 
-In Redbank House, Currently patients give feedback at admission, midterm through their care course, end of the course, and there is also a follow-up survey but these are not well integrated and hard to get useful information out of them. A design project would be to make these more **accessible** and **efficient**, align them and design them in a way that they are connected.
+In Redbank House, currently patients give feedback at admission, midterm through their care course, end of the course, and there is also a follow-up survey but these are not well integrated and hard to get useful information out of them. A design project would be to make these more **accessible** and **efficient**, align them and design them in a way that they are connected.
 
 ### About Redbank House
 
-Redbank House is founded in the late 1970s to provide tertiary diagnosis and treatment for children, adolescents and families having mental health problems. It is part of Westmead Hospital, New South Wales, Australia.
+Redbank House was founded in the late 1970s to provide tertiary diagnosis and treatment for children, adolescents and families having mental health problems. It is part of Westmead Hospital, New South Wales, Australia.
 
 ### How We Worked
 
@@ -53,10 +53,10 @@ The feedback provided by patient at different stage of the experience pathway an
 
 ### Online Ethnography
 
-We realised the trend of people giving reviews about services, including healthcare, on Facebook and Google. 
+We recognised the trend of people giving reviews about services, including healthcare, on social channels such as Facebook and Google. 
 
 - People described their unpleasant experience in details on Facebook Google Pages.
-- Some people didn't agree with the feedback given.
+- Some people didn't agree with the feedback given, thinking it was unfair to the doctors.
 
 > "People give feedback about doctor, but not necessarily about the hospital. There are good and bad doctor in the hospital" - A person commented on Facebook review.
 
@@ -67,10 +67,10 @@ The interviews were conducted at several hospitals in Sydney, including:
 - Redbank House (Westmead Hospital) - Our focus
 - Sydney Children Hospital
 
-People interviewed include:
+Around 25 peopel interviewed include:
 - Patients going for monthly checkup
-- Parents of chidlren participating in the treatment program
-- Social workers
+- Relative and parents of chidlren participating in the treatment program
+- Social workers in the hospitals
 
 ### Shadowing
 
@@ -84,8 +84,6 @@ We followed a psychologist in Redbank House for a few hours to understand the pr
 
 ### Redbank House Feedback Process
 
-We follow a specialist in Redbank House to understand the process of sending feedback form, collecting them and analyzing the data.
-
 #### Collecting feedback
 
 - **Admission**: Parent receive the package including questionnaires about demographics, symptom identification.
@@ -94,12 +92,12 @@ We follow a specialist in Redbank House to understand the process of sending fee
 
 #### Data Analysis
 
-- Hospital Admins input the data into database
+- Hospital Admin person input the data into database
 - Specialist/Social workers run SPSS to analyze data creating insights, then share those with other specialists
 
 ### User Journey
 
-People going to hospital for checkup have different concerns at different touchpoints. We used journey to identify the area of problems, and potentially when to offer our solution.
+People going to hospital for checkup have different concerns at different touchpoints. We used customer journey to identify the area of problems, and potentially when to offer our solution.
 
 <figure>
     <img src="http://res.cloudinary.com/ryanntt/image/upload/s--d5ptiM6I--/c_scale,w_1000/v1506949192/Healthcare-Feedback/User-Journey.jpg">
@@ -118,7 +116,7 @@ Impact is measured by frustration level and the the number of people benefits fr
 potential solution. High impact means high number people having frustration greatly
 reduced (Traynor, 2017).
 
-Effort is measured by how unique and complex the solution will be. High effort mean
+Effort is measured by how unique and complex the solution will be. High effort means
 potential solution is unique and highly complex, and that not many of current existing
 solutions haven’t been able to fix the problems well (Porter, J., & Brewer, J. , 2010).
 
@@ -138,7 +136,7 @@ We used affinity mapping to group similar problem together and created painpoint
 
 ### Our Potential Users
 
-We create 3 personas representing our potential users in order to empathise with them:
+We then created 3 personas representing our potential users in order to empathise with them:
 - **James**: 61 year-old grandfather who doesn't have much use for digital technology in his daily life.
 - **Lucy**: 32 year-old girl with a full-on job, living with two uni mates.
 - **Wesley**: 23 years-old male, forever young at heart: no big long-term plans for life – he'll ride the waves as they come.
@@ -150,7 +148,7 @@ We create 3 personas representing our potential users in order to empathise with
 
 ### Framed Problem
 
-Accordig to IDEO Human-Centered Design Framework, having a framed problem help design team have the right understanding of the problem, be more confident in exploring creative possibilities and solutions.  
+According to IDEO Human-Centered Design Framework, having a framed problem helps design team have the right understanding of the problem, be more confident in exploring creative possibilities and solutions.  
 
 <blockquote class="highlighted">
   <p>How might we make the feedback system in hospitals more accessible, engaging, effective and efficient for people? </p>
@@ -162,7 +160,7 @@ Accordig to IDEO Human-Centered Design Framework, having a framed problem help d
 
 ### Design Principles
 
-Before brainstorming ideas, we agreed on a set of principles to guide our solutions. This created constraint for our ideas and kept us aligned. Withint these boundaries, we had freedom to explore many well-focused ideas.
+Before brainstorming ideas, we agreed on a set of principles to guide our solutions. This created constraints for our ideas and kept us aligned. Within these boundaries, we had freedom to explore many well-focused ideas.
 
 <figure>
     <img src="http://res.cloudinary.com/ryanntt/image/upload/s--excBopxe--/c_scale,w_768/v1506994805/Healthcare-Feedback/Design-Principles.png">
@@ -183,7 +181,7 @@ We started with 3 different ideas of how to collect feedbacks from users. Howeve
 
 ### Storyboard
 
-We created storyboards for our three personas James, Lucy and Wesley to visualise how people will use the product. We then use the storyboards as testing scenarios.
+We drew storyboards for our three personas James, Lucy and Wesley to visualise how people will use the product. We then used the storyboards as testing scenarios.
 
 <figure>
     <img src="http://res.cloudinary.com/ryanntt/image/upload/s--WdfxPZ7q--/c_scale,q_60,w_1000/v1506990369/Healthcare-Feedback/Storyboard.png">
@@ -194,7 +192,7 @@ We created storyboards for our three personas James, Lucy and Wesley to visualis
 
 ### Prototype
 
-We combined the strength of our ideas and improve the drawbacks of individuals to produce a prototype that follows our design principles. Our prototype include:
+We combined the strength of our ideas and improved their drawbacks to produce a prototype that follows our design principles. The prototype include:
 - Designed space for giving accurate feedback.
 - Feedback form in tablet for convenience.
 - Interactive feedback visualisation to monitor feedback status.
@@ -234,7 +232,7 @@ User Scenarios for testing:
     <figcaption>We recorded participant's reaction during the test</figcaption>
 </figure>
 
-The testing gave us a genenrally positive results with some minor problems in the interface of feedback form. Most people feel satisfied after giving the feedback and would like to use the product if implemented in hospitals. Most importantly, our hypotheses are proven to be true.
+The testing gave us a genenrally positive results with some minor problems in the interface of feedback form. Most people feel satisfied after giving the feedback and would like to use the product if implemented in hospitals. Most importantly, our hypotheses were proven to be true.
 
 <figure>
     <img src="http://res.cloudinary.com/ryanntt/image/upload/s--jSMtnngY--/c_scale,w_1000/v1506950363/Healthcare-Feedback/Testing-Insights.png">
@@ -257,7 +255,7 @@ I implemented the insights from user testing to the interface of feedback form. 
 
 ### Final Solution
 
-We keep improving the design and getting feedback via user testing. Regarding time constraint of the project, we are satisfied with the final solution.
+We kept improving the design and getting feedback via user testing. Regarding time constraint of the project, we are satisfied with the final solution.
 
 [Prototype on Invision](https://invis.io/J8DRSVR7E#/256422616_Welcome_1)
 
@@ -268,12 +266,13 @@ We keep improving the design and getting feedback via user testing. Regarding ti
 
 ### Walkthrough Video
 
+We created a video to help people visualise how they can our prodcuts to give and review feedbacks in hospital.
+
 <p>
 	<div class="my-video [youtube, widescreen]">
 		<iframe width="560" height="315" src="https://www.youtube.com/embed/WouZ9C-qgTU" frameborder="0" allowfullscreen></iframe>
 	</div>
 </p>
-
 
 ### Reflection
 

@@ -70,7 +70,7 @@ Based on the design principles above, we created a set of user stories and map t
 
 ### Sketches
 
-As a group, we drew many sketches of different platforms. We follow the same site map and user stories.
+As a group, we drew many sketches of different platforms, which were based on site map and user stories.
 
 <figure>
     <img src="http://res.cloudinary.com/ryanntt/image/upload/s--g_Gp5Dmx--/c_scale,w_784/v1502170243/201708%20Jetstellar/Sketches.png" alt="Sketches">
@@ -79,17 +79,17 @@ As a group, we drew many sketches of different platforms. We follow the same sit
 
 ### Wireframes
 
-We digitized sketches and put them into device frames to review the size of elements.
+We digitised sketches and put them into device frames to review the size of elements.
 
 <figure>
     <img src="http://res.cloudinary.com/ryanntt/image/upload/s--OQ-1qLA_--/c_scale,w_784/v1502170801/201708%20Jetstellar/Wireframes.png" alt="Wireframes">
 </figure>
 
-### Challenges on Mobile Web
+### Challenges on Mobile Web UI
 
 **The frame of mobile browsers reduce the visible view of website.** We, therefore, decided not to use fixed bottom navigation bar. Also, the initial view of any screen will have top and bottom bar so we take these into consideration to maximise the visible content initially on page load. This include having clear guide text and title at the top.
 
-**Mobile webs need to adapt to different platform such as iOS, Android and Windows OS.** Instead of relying on iOS or Android Material Guideline, we designd mobile web to be neutral and stay true to native web element as much as possible. There are no native iOS or Android elements in our designs.
+**Mobile webs need to adapt to different platform such as iOS, Android and Windows OS.** Instead of relying on iOS or Android Material Guideline, we designd mobile web to be neutral and stay true to native web elements as much as possible. There are no native iOS or Android elements in our designs.
 
 
 ### High-fidelity
@@ -102,7 +102,7 @@ We developed a style guides and applied them in our wireframes.
 
 ### User Testing
 
-We conducted user testing with 5 users to figure out any usability issues, as well as how people perceive the concept of travelling to Mars. We used the user stories as test scenrarios to look into how people completed these task.
+We conducted user testing with 5 users to figure out usability issues, as well as how people perceive the concept of travelling to Mars via our products. We used the user stories as test scenarios to look into how people completed these task.s
 
 <figure>
     <img src="http://res.cloudinary.com/ryanntt/image/upload/s--Fd4bEw-4--/c_scale,w_784/v1502510699/201708%20Jetstellar/User-Testing.png">
@@ -114,7 +114,7 @@ We conducted user testing with 5 users to figure out any usability issues, as we
 
 ### Final Mockups
 
-After the user testing, we iterate one more time based on feedbacks.
+After the user testing, we iterated one more time according to the feedbacks.
 
 <figure>
     <img src="http://res.cloudinary.com/ryanntt/image/upload/s--X1dcN1_A--/c_scale,q_100,w_784/v1502460052/201708%20Jetstellar/Final-1.png" alt="Final Mockups">
@@ -126,9 +126,12 @@ After the user testing, we iterate one more time based on feedbacks.
 
 ### Final Prototype
 
-You can also see the prototype <a href="https://invis.io/SKC73DXWE" target="_blank">here</a>
+You can see the prototype <a href="https://invis.io/SKC73DXWE" target="_blank">here</a>
 
 ### Walkthrough Video
+
+We created a video to help people visualise how they can our prodcuts to book and manage flights to Mars.
+
 <p>
 	<div class="my-video [youtube, widescreen]">
 		<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/fcgDN4R5Alg?rel=0" frameborder="0" allowfullscreen></iframe>
@@ -141,12 +144,12 @@ You can also see the prototype <a href="https://invis.io/SKC73DXWE" target="_bla
 
 ### Ideas
 
-One of the mistake I did during this wire framing is not have many more ideas. The team move a bit fast for having explored different idea, which cost us time near the end of the project. I saw some better idea to solve our problem and adopt it a bit late. I should have happened earlier during the process.
+One of the mistake I did during this wire framing is not have many more ideas. The team move a bit fast for having explored different idea, which cost us time near the end of the project. I saw some better idea to solve our problem and adopt it a bit late. It should have happened earlier during the process.
 
 
 ### Team Collaboration
 
-As we chose to work on different part of user flow on different platforms in this project, our critique to each other other are limited. It is challenging to work on my user flow and then give critique to some one else’s flow. Working on our own part gives us freedom, which cause inconsistency sometimes among our works. We then will need to standardize a few things.
+As we chose to work on different part of user flow on different platforms in this project, our critique to each other other are limited. It is challenging to work on my user flow and then give critique to some one else’s flow. Working on our own part gives us freedom, which cause inconsistency sometimes among our works. We then needed to standardise a few things.
 
 A better division of work is to design the same flow on all platforms. The insight of user testing can help us improve everyone’s work.
 
@@ -155,5 +158,5 @@ A better division of work is to design the same flow on all platforms. The insig
 
 It’s not advisable to test with less than 5 users as 5 is the optimal number of people to find most of the problems in interface (Jacob Nielsen).
 
-It’s actually ok to test with friends. The initial doubt is that friends may give positive feedbacks but I avoided that by saying the design is by a team mate. It solved the bias well.
+It’s actually still objectve to test with friends. The initial doubt is that friends may give positive feedbacks but I avoided that by saying the design is done by a team mate. It solved the bias and reluctance to give negative feedback well.
 
