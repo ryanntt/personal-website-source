@@ -6,7 +6,7 @@ tag: home
 
 # Hi, I'm Ryan.
 
-## I'm a product and interaction designer.
+## I'm a user experience and product designer.
 
 I'm studying Master of Interaction Design and Electronic Arts in University of Sydney, Australia. Previously, I worked for [Wego](http://www.wego.com) as a designer in Web Experience team. 
 
@@ -34,23 +34,25 @@ I'm studying Master of Interaction Design and Electronic Arts in University of S
         <div class="post-entry py3">
           <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
             <div class="wrap">
-              <div class="summary">
-                <h3 class="h1 title">{{ post.title }}</h3>
-                <p class="text">
-                {% if post.text %}
-                  {{ post.text }}
-                {% endif %}
-                </p>
-              </div>
               <img class="thumb" src="{{ post.thumbnail }}" ref="{{ post.title | downcase | prepend: site.baseurl }}" alt="{{post.title}}">  
             </div>
           </a>
+          <div class="summary">
+            <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
+              <h3 class="h2 title">{{ post.title }}</h3>
+            </a>
+            <p class="text">
+              {% if post.text %}
+                {{ post.text }}
+              {% endif %}
+            </p>
+          </div>
         </div>
       {% endif %}
     {% endfor %}
   </div>
 </div>
 
-<form action="/projects">
+<form action="/projects" class="center">
   <input type="submit" class="button button-big mobile-block" value="See all projects" />
 </form>

@@ -80,28 +80,18 @@ img {
 }
 
 .list .summary {
-  position: absolute;
-  bottom: 0;
   width: 100%;
-  padding: 2rem 0 1rem 0;
   text-align: center;
-  z-index: 1;
-  background: -moz-linear-gradient(top, transparent 0%, rgba(0,0,0,0.6) 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, transparent), color-stop(100%, rgba(0,0,0,0.6)));
-  background: -webkit-linear-gradient(top, transparent 0%, rgba(0,0,0,0.6) 100%);
-  background: -o-linear-gradient(top, transparent 0%, rgba(0,0,0,0.6) 100%);
-  background: -ms-linear-gradient(top, transparent 0%, rgba(0,0,0,0.6) 100%);
-  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.6) 100%);
-  transition: all .3s ease-in-out;
 }
 
 .list .summary {
-  h3, p ,a {
-    color: white;
-    // margin: 0 0 0 1.2rem;
+  p ,a {
+    color: $mid-gray;
   }
   h3 {
+    display:inline-block;
     font-weight: bold;
+    color: $dark-gray;
     margin-bottom: 0.25rem;
   }
 }
@@ -116,12 +106,6 @@ img {
 
 .post-entry:last-child {
   padding-bottom: 2rem;
-}
-
-html:not(.projects) .list .post-entry:hover .summary {
-  opacity: 0;
-  transform: scale(1.15);
-  transition-delay: .05s;
 }
 
 html.projects {
@@ -141,12 +125,6 @@ html.projects {
       position: relative;
       background: none;
       padding: 0;
-      h3 {
-        color: $dark-gray;
-      }
-      p, a {
-        color: $mid-gray;
-      }
     }
     @media screen and (max-width: $viewport-small) {
       width: 100%;

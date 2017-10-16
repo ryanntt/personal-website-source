@@ -17,12 +17,12 @@ tag: projects
           <div class="summary">
             <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
               <h3 class="h3 title">{{ post.title }}</h3> 
+            </a>
               <p class="text">
               {% if post.text %}
                 {{ post.text }}
               {% endif %}
               </p>
-            </a>
           </div>
         </div>
     {% endfor %}

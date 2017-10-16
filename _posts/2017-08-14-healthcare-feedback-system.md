@@ -7,23 +7,23 @@ layout: post
 status: featured
 text: Feedback system design in healthcare
 summary: Help healthcare organization and professional improve service quality via listening to feedbacks from patient
-thumbnail: http://res.cloudinary.com/ryanntt/image/upload/s--mCipRtrl--/c_scale,q_60,w_768/v1507076267/Healthcare-Feedback/Final-Mockup-1.png
+thumbnail: http://res.cloudinary.com/ryanntt/image/upload/s--xmJ4V6iF--/q_80/v1508162768/Healthcare-Feedback/Final-Mockup-1.png
 ---
 
 <figure>
-    <img src="http://res.cloudinary.com/ryanntt/image/upload/s--mCipRtrl--/c_scale,q_60,w_768/v1507076267/Healthcare-Feedback/Final-Mockup-1.png">
+    <img width="768" src="http://res.cloudinary.com/ryanntt/image/upload/s--xmJ4V6iF--/q_80/v1508162768/Healthcare-Feedback/Final-Mockup-1.png">
     <figcaption>Final Product</figcaption>
 </figure>
 
 ## Overview
 
-### Design Brief
-
-In Redbank House, currently patients give feedback at admission, midterm through their care course, end of the course, and there is also a follow-up survey but these are not well integrated and hard to get useful information out of them. A design project would be to make these more **accessible** and **efficient**, align them and design them in a way that they are connected.
-
 ### About Redbank House
 
 Redbank House was founded in the late 1970s to provide tertiary diagnosis and treatment for children, adolescents and families having mental health problems. It is part of Westmead Hospital, New South Wales, Australia.
+
+### Design Brief
+
+In Redbank House, currently patients give feedback at admission, midterm through their care course, end of the course, and there is also a follow-up survey but these are not well integrated and hard to get useful information out of them. A design project would be to make these more **accessible** and **efficient**, align them and design them in a way that they are connected.
 
 ### How We Worked
 
@@ -44,7 +44,7 @@ In this case study, I want to highlight some of the most important human-centere
 
 <hr>
 
-## Understand Problem
+## Understanding The Problem
 
 
 ### The Role of Feedback in Improving Healthcare system
@@ -239,9 +239,9 @@ The testing gave us a genenrally positive results with some minor problems in th
     <figcaption>Insights from user testing</figcaption>
 </figure>
 
-### Interation
+### Iteration
 
-I implemented the insights from user testing to the interface of feedback form. [Min Yi] rewrote the copy to make it more engaging and friendly. [Elektra] redesigned the interactive feedback wall. 
+I implemented the insights from user testing to the interface of feedback form. [Min Yi](https://www.linkedin.com/in/min-yi-tan-648039127/) rewrote the copy to make it more engaging and friendly. [Elektra](https://www.linkedin.com/in/elektra-jiang-099546129/) redesigned the interactive feedback wall. 
 
 <figure>
     <img src="http://res.cloudinary.com/ryanntt/image/upload/s--DmjcZrAa--/c_scale,w_1000/v1507034878/Healthcare-Feedback/Final-Mock-1.png">
@@ -260,7 +260,7 @@ We kept improving the design and getting feedback via user testing. Regarding ti
 [Prototype on Invision](https://invis.io/J8DRSVR7E#/256422616_Welcome_1)
 
 <figure>
-    <img src="http://res.cloudinary.com/ryanntt/image/upload/s--P7I_9mEN--/c_scale,w_1000/v1507076588/Healthcare-Feedback/Final-Mockup-2.png">
+    <img width="1000" src="http://res.cloudinary.com/ryanntt/image/upload/s--x8DcJmGH--/q_80/v1508162776/Healthcare-Feedback/Final-Mockup-2.png">
     <figcaption>Final Mockups of Feedback Form</figcaption>
 </figure>
 
