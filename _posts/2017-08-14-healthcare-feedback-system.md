@@ -7,12 +7,12 @@ layout: post
 status: featured
 text: Feedback system design in healthcare
 summary: Help healthcare organization and professional improve service quality via listening to feedbacks from patient
-thumbnail: http://res.cloudinary.com/ryanntt/image/upload/s--xmJ4V6iF--/q_80/v1508162768/Healthcare-Feedback/Final-Mockup-1.png
+thumbnail: http://res.cloudinary.com/ryanntt/image/upload/s--YJ655bTg--/c_fill,h_1082,w_1536/v1508815659/Healthcare-Feedback/Final-Mockup-1.png
 ---
 
 <figure>
-    <img width="768" src="http://res.cloudinary.com/ryanntt/image/upload/s--xmJ4V6iF--/q_80/v1508162768/Healthcare-Feedback/Final-Mockup-1.png">
-    <figcaption>Final Product</figcaption>
+    <img width="768" src="http://res.cloudinary.com/ryanntt/image/upload/s--YJ655bTg--/c_fill,h_1082,w_1536/v1508815659/Healthcare-Feedback/Final-Mockup-1.png">
+    <figcaption>Final Prototype</figcaption>
 </figure>
 
 ## Overview
@@ -49,11 +49,11 @@ In this case study, I want to highlight some of the most important human-centere
 
 ### The Role of Feedback in Improving Healthcare system
 
-The feedback provided by patient at different stage of the experience pathway and cross different path ways can help form a complementary instrument in evaluating the delivery of integrated care. The insights will be used to facilitate the improvement in quality of integrated care in the NSW public hospital sector. (Sutherland, & Levesque, 2014)
+The feedback provided by patient at different stage of the experience pathway and cross different path ways can help form a complementary instrument in evaluating the delivery of integrated care. The insights will be used to facilitate the improvement in quality of integrated care in the NSW public hospital sector.
 
 ### Online Ethnography
 
-We recognised the trend of people giving reviews about services, including healthcare, on social channels such as Facebook and Google. 
+We recognised the trend of people giving reviews about services, including healthcare, on social channels such as Facebook and Google. Researching these reviews gave us an overview picture before interviewing people at hospitals.
 
 - People described their unpleasant experience in details on Facebook Google Pages.
 - Some people didn't agree with the feedback given, thinking it was unfair to the doctors.
@@ -62,19 +62,21 @@ We recognised the trend of people giving reviews about services, including healt
 
 ### On-site Interview
 
+**What we want -** As healthcare is new knowledge domain for foreigners like us, we want to understand it from perspective of local residents in Sydney. Reading online reviews and discussion wasnot enough. We went to several hospitals in Sydney and had a chat with people at canteen and waiting areas.
+
 The interviews were conducted at several hospitals in Sydney, including:
 
 - Redbank House (Westmead Hospital) - Our focus
 - Sydney Children Hospital
 
-Around 25 peopel interviewed include:
+Around 25 people interviewed include:
 - Patients going for monthly checkup
-- Relative and parents of chidlren participating in the treatment program
+- Relative and parents of children participating in the treatment program
 - Social workers in the hospitals
 
 ### Shadowing
 
-We followed a psychologist in Redbank House for a few hours to understand the process of designing, collecting and processing feedback forms.
+**Why this method -** From the beginning, the staffs at Redbank told us about the time-consuming process of distributing, collecting and analysing feedbacks. Therefore, we followed a psychologist in Redbank House for a few hours to understand how the process is being carried out in a daily basis.
 
 <figure>
     <img src="http://res.cloudinary.com/ryanntt/image/upload/s--yC76QItN--/c_scale,w_768/v1506940677/Healthcare-Feedback/Shadowing.jpg">
@@ -84,7 +86,9 @@ We followed a psychologist in Redbank House for a few hours to understand the pr
 
 ### Redbank House Feedback Process
 
-#### Collecting feedback
+After interviewing and shadowing psychologists, we understood the whole picture of feedback process in Redbank House.
+
+<!-- #### Collecting feedback
 
 - **Admission**: Parent receive the package including questionnaires about demographics, symptom identification.
 - **Weekly**: Parents meet specialist weekly to discuss the status of the child and give feedback on the treatment → Qualitative feedback.
@@ -93,11 +97,29 @@ We followed a psychologist in Redbank House for a few hours to understand the pr
 #### Data Analysis
 
 - Hospital Admin person input the data into database
-- Specialist/Social workers run SPSS to analyze data creating insights, then share those with other specialists
+- Specialist/Social workers run SPSS to analyze data creating insights, then share those with other specialists -->
+
+<figure>
+    <img width="768" src="http://res.cloudinary.com/ryanntt/image/upload/s--u9fKem-h--/v1508813760/Healthcare-Feedback/Feedback-Process.png">
+</figure>
+
+
+### Our Potential Users
+
+We then created 3 personas representing our potential users in order to empathise with them.
+
+- **James**: 61 year-old grandfather who doesn't have much use for digital technology in his daily life.
+- **Lucy**: 32 year-old girl with a full-on job, living with two uni mates.
+- **Wesley**: 23 years-old male, forever young at heart: no big long-term plans for life – he'll ride the waves as they come.
+
+<figure>
+    <img src="http://res.cloudinary.com/ryanntt/image/upload/s--ubRICLyM--/c_scale,w_768/v1507032930/Healthcare-Feedback/Personas.png">
+    <figcaption>Writeup by <a href="https://www.linkedin.com/in/min-yi-tan-648039127/">Min Yi Tan</a>. Icons and layout by <a href="https://www.linkedin.com/in/elektra-jiang-099546129/">Elektra</a></figcaption>
+</figure>
 
 ### User Journey
 
-People going to hospital for checkup have different concerns at different touchpoints. We used customer journey to identify the area of problems, and potentially when to offer our solution.
+People going to hospital for checkup have different concerns at different touch points. We used customer journey to identify the area of problems, and potentially when to offer our solution.
 
 <figure>
     <img src="http://res.cloudinary.com/ryanntt/image/upload/s--d5ptiM6I--/c_scale,w_1000/v1506949192/Healthcare-Feedback/User-Journey.jpg">
@@ -110,15 +132,15 @@ People going to hospital for checkup have different concerns at different touchp
 
 ### Problem Prioritisation
 
-Having discovered other problems in other areas in Redbank House aside from feedback, we want to focus on problems that we can solved within limited time of the project. We used the Impact/Effort scale, commonly ultilised in product development, to figure out the priorities.
+**What we want** is to solve a problem well at a time. Having discovered other problems in other areas in Redbank House aside from feedback, we want to design and create a significant impact given limited time and resources. Therefore, we used the Impact/Effort scale, commonly ultilised in product development, to prioritise problems. 
 
 Impact is measured by frustration level and the the number of people benefits from
 potential solution. High impact means high number people having frustration greatly
-reduced (Traynor, 2017).
+reduced.
 
 Effort is measured by how unique and complex the solution will be. High effort means
 potential solution is unique and highly complex, and that not many of current existing
-solutions haven’t been able to fix the problems well (Porter, J., & Brewer, J. , 2010).
+solutions haven’t been able to fix the problems well.
 
 <figure>
     <img src="http://res.cloudinary.com/ryanntt/image/upload/s--WafJuQa9--/c_scale,w_1000/v1506951979/Healthcare-Feedback/Problem-Prioritisation.png">
@@ -127,28 +149,15 @@ solutions haven’t been able to fix the problems well (Porter, J., & Brewer, J.
 
 ### Problems in Giving Feedback
 
-We used affinity mapping to group similar problem together and created painpoints themes to understand the core problems. There are 4 of them:
+We used affinity mapping to group similar problem together and created pain points themes to understand the core problems. There are 4 of them:
 
 <figure>
     <img src="http://res.cloudinary.com/ryanntt/image/upload/s--7YFiltaF--/c_scale,w_768/v1506994796/Healthcare-Feedback/Problem-Themes.png">
 </figure>
 
-
-### Our Potential Users
-
-We then created 3 personas representing our potential users in order to empathise with them:
-- **James**: 61 year-old grandfather who doesn't have much use for digital technology in his daily life.
-- **Lucy**: 32 year-old girl with a full-on job, living with two uni mates.
-- **Wesley**: 23 years-old male, forever young at heart: no big long-term plans for life – he'll ride the waves as they come.
-
-<figure>
-    <img src="http://res.cloudinary.com/ryanntt/image/upload/s--ubRICLyM--/c_scale,w_768/v1507032930/Healthcare-Feedback/Personas.png">
-    <figcaption>Writeup by <a href="https://www.linkedin.com/in/min-yi-tan-648039127/">Min Yi Tan</a>. Icons and layout by <a href="https://www.linkedin.com/in/elektra-jiang-099546129/">Elektra</a></figcaption>
-</figure>
-
 ### Framed Problem
 
-According to IDEO Human-Centered Design Framework, having a framed problem helps design team have the right understanding of the problem, be more confident in exploring creative possibilities and solutions.  
+What is a framed problem? Framed problem is a statement that specify the problem to the extent that everyone in design team can understand it as well as the direction of solution. According to IDEO Human-Centered Design Framework, having a framed problem helps design team have the right understanding of the problem, be more confident in exploring creative possibilities and solutions.  
 
 <blockquote class="highlighted">
   <p>How might we make the feedback system in hospitals more accessible, engaging, effective and efficient for people? </p>
@@ -232,7 +241,7 @@ User Scenarios for testing:
     <figcaption>We recorded participant's reaction during the test</figcaption>
 </figure>
 
-The testing gave us a genenrally positive results with some minor problems in the interface of feedback form. Most people feel satisfied after giving the feedback and would like to use the product if implemented in hospitals. Most importantly, our hypotheses were proven to be true.
+The testing gave us a generally positive results with some minor problems in the interface of feedback form. Most people feel satisfied after giving the feedback and would like to use the product if implemented in hospitals. Most importantly, our hypotheses were proven to be true.
 
 <figure>
     <img src="http://res.cloudinary.com/ryanntt/image/upload/s--jSMtnngY--/c_scale,w_1000/v1506950363/Healthcare-Feedback/Testing-Insights.png">
