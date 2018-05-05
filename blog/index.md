@@ -3,8 +3,9 @@ title: Blog
 layout: default
 ---
 
-<div class="blog">
+## Blog
 
+<div class="blog">
   <div class="posts">
     {% for post in site.categories.blog %}
       <div class="post py3">

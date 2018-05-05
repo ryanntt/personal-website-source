@@ -3,23 +3,23 @@ title: Say Hello to Ryan
 layout: page
 ---
 
-<div class="py2">
+<div class="py2" style="max-width: 672px; margin: auto;">
   {% if site.ajaxify_contact_form %}
     <form class="form-stacked">
-      <input type="text" name="email" class="field-light" placeholder="Email Address">
+      <input type="text" name="email" class="field-light" placeholder="Your Email Address">
       <textarea type="text" name="content" class="field-light" rows="5" placeholder="What would you like to say?"></textarea>
       <input type="hidden" name="_subject" value="New submission!" />
       <input type="text" name="_gotcha" style="display:none" />
-      <button type='submit' class="button button-blue button-big mobile-block">Say Hello</button>
+      <button type='submit' class="button button-big mobile-block">Say Hello</button>
     </form>
   {% else %}
     <form action="https://formspree.io/{{ site.email }}" method="POST" class="form-stacked">
-      <input type="text" name="email" class="field-light" placeholder="Email Address">
+      <input type="text" name="email" class="field-light" placeholder="Your Email Address">
       <textarea type="text" name="content" class="field-light" rows="5" placeholder="What would you like to say?"></textarea>
       <input type="hidden" name="_next" value="{{ site.baseurl }}/thanks/" />
       <input type="hidden" name="_subject" value="New submission!" />
       <input type="text" name="_gotcha" style="display:none" />
-      <input type="submit" class="button button-blue button-big mobile-block" value="Say Hello">
+      <input type="submit" class="button button-big mobile-block" value="Say Hello">
     </form>
   {% endif %}
 </div>
