@@ -37,5 +37,7 @@ The visual depicts the meeting moment of different **flows** coming from differe
 
 <canvas style="margin-left:auto; margin-right: auto; display:block" data-processing-sources="/js/grid.pde"></canvas>
 
+<hr>
+
 ### Game: Galatic Run
 *to be updated soon*

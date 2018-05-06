@@ -372,6 +372,12 @@ small {
   }
 }
 
+@media screen and (max-width: $viewport-medium) {
+  canvas {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: $viewport-small) {
   .site-header a {
     font-size: $h4;
