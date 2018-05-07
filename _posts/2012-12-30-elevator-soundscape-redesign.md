@@ -7,7 +7,7 @@ layout: post
 summary: This is an case study about designing the soundscape of elevator by using
   nature's sound
 text: Sound design
-thumbnail: http://res.cloudinary.com/ryanntt/image/upload/s--iFmQSc6z--/c_fill,h_541,w_768/v1506671444/elevator-soundscape/thumbnail_e32eiy.jpg
+thumbnail: https://res.cloudinary.com/ryanntt/image/upload/s--iFmQSc6z--/c_fill,h_541,w_768/v1506671444/elevator-soundscape/thumbnail_e32eiy.jpg
 ---
 
 This is an case study about redesigning the soundscape of elevator by using nature's sound

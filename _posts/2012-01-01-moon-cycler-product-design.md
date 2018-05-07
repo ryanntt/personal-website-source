@@ -7,7 +7,7 @@ layout: post
 summary: This project is about redesigning hair trimmer and how I first learnt product
   design
 text: 3D Product design
-thumbnail: http://res.cloudinary.com/ryanntt/image/upload/s--4s622Upx--/c_fill,h_541,w_768/v1506680996/mooncycler/thumbnail.jpg
+thumbnail: https://res.cloudinary.com/ryanntt/image/upload/s--4s622Upx--/c_fill,h_541,w_768/v1506680996/mooncycler/thumbnail.jpg
 ---
 
 This project is about redesigning hair trimmer and how I first learnt product design
