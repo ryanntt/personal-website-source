@@ -6,11 +6,11 @@ categories:
 layout: post
 text: Flight Booking to Mars
 summary: Attracting traveller to flights to Mars via relevant content and trusworthy interaction. A hypothetical project addressing real problems.
-thumbnail: http://res.cloudinary.com/ryanntt/image/upload/s--joBwpY4s--/c_fill,h_541,w_768/v1502257448/201708%20Jetstellar/Project-Thumbnail.jpg
+thumbnail: https://res.cloudinary.com/ryanntt/image/upload/s--joBwpY4s--/c_fill,h_541,w_768/v1502257448/201708%20Jetstellar/Project-Thumbnail.jpg
 ---
 
 <figure>
-    <img src="http://res.cloudinary.com/ryanntt/image/upload/s--8OCkCzxZ--/c_scale,w_784/v1502616677/201708%20Jetstellar/Final-Mockups.png">
+    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--8OCkCzxZ--/c_scale,w_784/v1502616677/201708%20Jetstellar/Final-Mockups.png">
     <figcaption>Final Mockups</figcaption>
 </figure>
 
@@ -28,7 +28,7 @@ design approach with [Soul](https://www.linkedin.com/in/acowa/) and [Naiyu](http
 ## Process
 
 <figure>
-    <img src="http://res.cloudinary.com/ryanntt/image/upload/s--ZP4vUbK0--/c_scale,w_1000/v1507595143/201708%20Jetstellar/Design-Process.png" alt="Design Process">
+    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--ZP4vUbK0--/c_scale,w_1000/v1507595143/201708%20Jetstellar/Design-Process.png" alt="Design Process">
 </figure>
 
 ### Online Ethnography
@@ -36,13 +36,13 @@ design approach with [Soul](https://www.linkedin.com/in/acowa/) and [Naiyu](http
 I collected reviews from app store, comparison sites, product reviews to gain insights into the good and bad points of existing products from users' perspectives.
 
 <figure>
-    <img src="http://res.cloudinary.com/ryanntt/image/upload/s--DhRLVEJZ--/c_scale,w_784/v1502375180/201708%20Jetstellar/Online-Ethnography.png" alt="Online Ethnography">
+    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--DhRLVEJZ--/c_scale,w_784/v1502375180/201708%20Jetstellar/Online-Ethnography.png" alt="Online Ethnography">
 </figure>
 
 Based on the complaints, I grouped them into categories to identify the root of all problems.
 
 <figure>
-    <img src="http://res.cloudinary.com/ryanntt/image/upload/s--JCVSYEsx--/c_scale,w_784/v1507595143/201708%20Jetstellar/Pain-Points.png" alt="Paint Points">
+    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--JCVSYEsx--/c_scale,w_784/v1507595143/201708%20Jetstellar/Pain-Points.png" alt="Paint Points">
 </figure>
 
 ### Design Principles
@@ -50,7 +50,7 @@ Based on the complaints, I grouped them into categories to identify the root of 
 Based on insight gained from background and user research, we developed a framework of design principles to guide us through the various decision-making points in the project.
 
 <figure>
-    <img src="http://res.cloudinary.com/ryanntt/image/upload/s--ssudwNI_--/c_scale,w_784/v1507595143/201708%20Jetstellar/Design-Principles.png" alt="Design Principles">
+    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--ssudwNI_--/c_scale,w_784/v1507595143/201708%20Jetstellar/Design-Principles.png" alt="Design Principles">
 </figure>
 
 ### User Stories
@@ -58,13 +58,13 @@ Based on insight gained from background and user research, we developed a framew
 Based on the design principles above, we created a set of user stories and map them to different screens in our application. This helps us audit our deliverables in the end of project more easily. 
 
 <figure>
-    <img src="http://res.cloudinary.com/ryanntt/image/upload/s--0vxjPYpC--/v1502345171/201708%20Jetstellar/User-Stories.png" alt="User Stories">
+    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--0vxjPYpC--/v1502345171/201708%20Jetstellar/User-Stories.png" alt="User Stories">
 </figure>
 
 ### Site Map
 
 <figure>
-    <img src="http://res.cloudinary.com/ryanntt/image/upload/s--XaREl5qM--/v1502169483/201708%20Jetstellar/Site-Map.png" alt="Site Map">
+    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--XaREl5qM--/v1502169483/201708%20Jetstellar/Site-Map.png" alt="Site Map">
 </figure>
 
 ### Sketches
@@ -72,7 +72,7 @@ Based on the design principles above, we created a set of user stories and map t
 As a group, we drew many sketches of different platforms, which were based on site map and user stories.
 
 <figure>
-    <img src="http://res.cloudinary.com/ryanntt/image/upload/s--g_Gp5Dmx--/c_scale,w_784/v1502170243/201708%20Jetstellar/Sketches.png" alt="Sketches">
+    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--g_Gp5Dmx--/c_scale,w_784/v1502170243/201708%20Jetstellar/Sketches.png" alt="Sketches">
     <figcaption>Final sketches of important screens</figcaption>
 </figure>
 
@@ -81,7 +81,7 @@ As a group, we drew many sketches of different platforms, which were based on si
 We digitised sketches and put them into device frames to review the size of elements.
 
 <figure>
-    <img src="http://res.cloudinary.com/ryanntt/image/upload/s--OQ-1qLA_--/c_scale,w_784/v1502170801/201708%20Jetstellar/Wireframes.png" alt="Wireframes">
+    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--OQ-1qLA_--/c_scale,w_784/v1502170801/201708%20Jetstellar/Wireframes.png" alt="Wireframes">
 </figure>
 
 ### Challenges on Mobile Web UI
@@ -96,7 +96,7 @@ We digitised sketches and put them into device frames to review the size of elem
 We developed a style guides and applied them in our wireframes.
 
 <figure>
-    <img src="http://res.cloudinary.com/ryanntt/image/upload/s--tdSE7CVl--/c_scale,w_784/v1502172447/201708%20Jetstellar/Mockup-1.png" alt="Mockup-1">
+    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--tdSE7CVl--/c_scale,w_784/v1502172447/201708%20Jetstellar/Mockup-1.png" alt="Mockup-1">
 </figure>
 
 ### User Testing
@@ -104,11 +104,11 @@ We developed a style guides and applied them in our wireframes.
 We conducted user testing with 5 users to figure out usability issues, as well as how people perceive the concept of travelling to Mars via our products. We used the user stories as test scenarios to look into how people completed these task.s
 
 <figure>
-    <img src="http://res.cloudinary.com/ryanntt/image/upload/s--Fd4bEw-4--/c_scale,w_784/v1502510699/201708%20Jetstellar/User-Testing.png">
+    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--Fd4bEw-4--/c_scale,w_784/v1502510699/201708%20Jetstellar/User-Testing.png">
 </figure>
 
 <figure>
-    <img src="http://res.cloudinary.com/ryanntt/image/upload/s--cNlukhXW--/c_scale,w_784/v1502344422/201708%20Jetstellar/User-Testing-Results.png" alt="User Testing results">
+    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--cNlukhXW--/c_scale,w_784/v1502344422/201708%20Jetstellar/User-Testing-Results.png" alt="User Testing results">
 </figure>
 
 ### Final Mockups
@@ -116,11 +116,11 @@ We conducted user testing with 5 users to figure out usability issues, as well a
 After the user testing, we iterated one more time according to the feedbacks.
 
 <figure>
-    <img src="http://res.cloudinary.com/ryanntt/image/upload/s--X1dcN1_A--/c_scale,q_100,w_784/v1502460052/201708%20Jetstellar/Final-1.png" alt="Final Mockups">
+    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--X1dcN1_A--/c_scale,q_100,w_784/v1502460052/201708%20Jetstellar/Final-1.png" alt="Final Mockups">
 </figure>
 
 <figure>
-    <img src="http://res.cloudinary.com/ryanntt/image/upload/s--T-QJct6e--/c_scale,q_100,w_784/v1502460052/201708%20Jetstellar/Final-2.png" alt="Final Mockups">
+    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--T-QJct6e--/c_scale,q_100,w_784/v1502460052/201708%20Jetstellar/Final-2.png" alt="Final Mockups">
 </figure>
 
 ### Final Prototype

@@ -6,7 +6,7 @@ categories:
 layout: post
 text: Mobile game design
 summary: My first mobile game design. Had fun with UI and character design.
-thumbnail: http://res.cloudinary.com/ryanntt/image/upload/s--QgnsFS3N--/c_scale,w_768/v1506608263/scindo/thumbnail.png
+thumbnail: https://res.cloudinary.com/ryanntt/image/upload/s--QgnsFS3N--/c_scale,w_768/v1506608263/scindo/thumbnail.png
 ---
 
 <em>SCiNDO is a mobile game project that my friends and I created together under the name Hiterus Studio. The game utilise the mobile gesture swiping to create a fun and challenging mechanics. It has been published on Google Play Store.</em>

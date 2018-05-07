@@ -7,7 +7,7 @@ layout: post
 summary: This project is the first time I designed in HTML and last time used Photoshop
   in my workflow
 text: Mobile web redesign
-thumbnail: http://res.cloudinary.com/ryanntt/image/upload/s--WKdV-DQZ--/c_scale,w_768/v1506606844/propertyguru/thumbnail.jpg
+thumbnail: https://res.cloudinary.com/ryanntt/image/upload/s--WKdV-DQZ--/c_scale,w_768/v1506606844/propertyguru/thumbnail.jpg
   
 ---
 

@@ -7,7 +7,7 @@ layout: post
 summary: This project is about how I learnt A/B testing and first time experienced
   product development process
 text: Homepage optimisation using A/B testing
-thumbnail: http://res.cloudinary.com/ryanntt/image/upload/s--hyRorDuK--/c_scale,w_768/v1506611885/panelplace/thumbnail.png
+thumbnail: https://res.cloudinary.com/ryanntt/image/upload/s--hyRorDuK--/c_scale,w_768/v1506611885/panelplace/thumbnail.png
 ---
 
 This project is about how I learnt A/B testing and first time experienced product development process. 
