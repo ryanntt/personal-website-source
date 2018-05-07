@@ -8,7 +8,9 @@ tag: home
 
 ## I'm a user experience and product designer.
 
-I'm studying Master of Interaction Design and Electronic Arts in University of Sydney, Australia. Previously, I worked for [Wego](http://www.wego.com) as a designer in Web Experience team. 
+👨‍🎓 I'm studying Master of Interaction Design and Electronic Arts in University of Sydney, Australia. Previously, I worked for [Wego](https://www.wego.com), a travel tech company, as a designer in Web Experience team.
+
+Want to know more about me? Have a chat 💬 with [my digital avatar](https://ryanntt.com/pabot).
 
 <p style="margin-bottom:0;">You can contact me through:</p>
 
@@ -25,7 +27,7 @@ I'm studying Master of Interaction Design and Electronic Arts in University of S
   </a>
 </small>
 
-### Key Projects
+<h2 class="key-category"> Key Projects</h2>
 
 <div class="projects list featured">
   <div class="posts">
@@ -55,4 +57,28 @@ I'm studying Master of Interaction Design and Electronic Arts in University of S
 
 <form action="/projects" class="center">
   <input type="submit" class="button button-big mobile-block" value="See all projects" />
+</form>
+
+
+<h2 class="key-category">Writing</h2>
+
+<div class="blog featured">
+  <div class="posts">
+    {% for post in site.categories.blog limit:3 %}
+      <div class="post py3">
+        <a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><h3 class="h3 post-title">{{ post.title }}</h3></a>
+        <p class="post-summary">
+          {% if post.summary %}
+            {{ post.summary }}
+          {% else %}
+            {{ post.excerpt }}
+          {% endif %}
+        </p>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<form action="/blog" class="center">
+  <input type="submit" class="button button-big mobile-block" value="See all writings" />
 </form>
