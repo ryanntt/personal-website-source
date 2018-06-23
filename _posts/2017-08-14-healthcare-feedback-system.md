@@ -289,4 +289,6 @@ What I find most useful in this project is conducting interviews and analysing t
 
 Working in a team with people from different background (Marketing, Design, Media) is rewarding and challenging. *Seeing problems from perspectives of users and working on solutions from different disciplines* help us have creative solutions and possibilities.
 
-Following human-centred design thoroughly was tiring at some points, but *practicing them make us understand the framework much more than reading about it*. 
+Following human-centred design thoroughly was tiring at some points, but *practicing them make us understand the framework much more than reading about it*.
+
+**Update on 30 August 2017**: The project was mentioned in University of Sydney News article [Design student ideas aid the delivery of better healthcare](https://sydney.edu.au/news-opinion/news/2017/06/21/design-student-ideas-aid-the-delivery-of-better-healthcare.html), receiving positive feedbacks from social workers at Redbank House.
