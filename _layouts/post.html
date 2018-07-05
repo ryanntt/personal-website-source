@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% assign current = page.url | downcase | split: '/' %}
-{% assign minutes = content | strip_html | number_of_words | divided_by: 180 %}
+{% assign minutes = content | strip_html | number_of_words | divided_by: 140 %}
 {% if minutes == 0 %}
 {% assign minutes = 1 %}
 {% endif %}

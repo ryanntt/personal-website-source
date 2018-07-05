@@ -16,7 +16,7 @@ email: ryannguyentt@gmail.com
 author: Ryan Nguyen - UX Designer based in Singapore
 description: The not-so-quiet space of a designer.
 baseurl: ''
-url: http://ryanntt.com
+url: https://ryanntt.com
 google_analytics: 
 google_tag_manager: GTM-NMCCW9
 show_social_icons: false
@@ -26,7 +26,7 @@ animated: false
 show_related_posts: true
 show_post_footers: true
 ajaxify_contact_form: false
-disqus_shortname:
+disqus_shortname: ryanntt
 github_username: ryanntt
 bitbucket_username: 
 stackoverflow_id: 

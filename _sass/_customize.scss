@@ -217,6 +217,10 @@ hr {
   position: absolute;
 }
 
+.blog .posts {
+  max-width: 620px;
+}
+
 .posts .post {
   margin-bottom: 0;
 }
@@ -238,7 +242,7 @@ hr {
 .button {
   margin-bottom: 1rem;
   font-weight: bold;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-size: 0.9rem;
   height: 42px;
   background: white;
@@ -303,6 +307,12 @@ hr {
     width: 100%;
     background: none;
   }  
+}
+
+#disqus_thread {
+  max-width: 672px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @keyframes heart-animation {
