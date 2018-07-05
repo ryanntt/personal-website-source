@@ -8,24 +8,19 @@ tag: home
 
 ## I'm a user experience and product designer.
 
-👨‍🎓 I'm studying Master of Interaction Design and Electronic Arts in University of Sydney, Australia. Previously, I worked for [Wego](https://www.wego.com), a travel tech company, as a designer in Web Experience team.
+I'm studying Master of Interaction Design and Electronic Arts in University of Sydney, Australia. Previously, I worked for [Wego](https://www.wego.com), a travel tech company, as a designer in Web Experience team.
 
-Want to know more about me? Have a chat 💬 with [my digital avatar](https://ryanntt.com/pabot).
+Feel free to contact me if you want to collaborate on a project.
 
-<p style="margin-bottom:0;">You can contact me through:</p>
+<form action="/pabot" style="display: inline-block; margin-right:0.5em">
+  <input type="submit" class="button button-big mobile-block" value="Chat with Ryan" />
+</form>
 
-<small>
-  <a target="_blank" class="no-underline" href="http://linkedin.com/in/ryanntt">
-    <span class="fa-stack fa-lg">
-      <i class="fa fa-linkedin" aria-hidden="true"></i>
-    </span>
-  </a>
-  <a class="no-underline" href="/contact">
-    <span class="fa-stack fa-lg">
-      <i class="fa fa-envelope-o" aria-hidden="true"></i>
-    </span>
-  </a>
-</small>
+<form action="/contact" style="display: inline-block;">
+  <input type="submit" class="button button-big mobile-block" value="Email Ryan" />
+</form>
+
+<br/>
 
 <h2 class="key-category"> Key Projects</h2>
 
