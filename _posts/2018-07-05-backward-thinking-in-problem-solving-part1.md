@@ -4,7 +4,7 @@ date: 2018-07-05 00:06:00 Z
 categories:
 - blog
 layout: post
-summary: Sometimes, if you do not begin at the end, you end at the beginning. Backward thinking in problem solving can be observed frequently in my life and design career, either happening to me or some one else. I have learnt many lessons about it and decided to write about it here.
+summary: Sometimes, if you do not begin at the end, you end at the beginning. I have learnt many lessons about this and decided to share those in this blog post.
 
 ---
 
