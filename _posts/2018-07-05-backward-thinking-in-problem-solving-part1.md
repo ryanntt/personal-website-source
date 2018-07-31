@@ -49,7 +49,7 @@ As more and more people, including me, say we are problem solvers, I reflected a
 
 After knowing the concepts of backward and forward thinking, I reflected on what happened in my past projects and notice that I used both methods under different circumstances.
 
-In the next article, I’m going to talk about the cases where backward thinking thrives and its importance in product design. Meanwhile, you can start looking at how you solve daily problems from perspective of working forward and backward. Prepare to be surprised!
+In the next article, I’m going to talk about starting project with objectives, instead of problems. Meanwhile, you can start looking at how you solve daily problems from perspective of working forward and backward. Prepare to be surprised!
 
 ### References
 
