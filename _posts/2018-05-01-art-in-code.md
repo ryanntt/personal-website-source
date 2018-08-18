@@ -4,7 +4,6 @@ date: 2018-05-01 08:06:18 Z
 categories:
 - projects
 layout: post
-status: featured
 text: How I play with art, technology and design
 summary: Create generative art and game using Processing
 thumbnail: https://res.cloudinary.com/ryanntt/image/upload/s--Xc5h1P6---/v1525614090/art-in-code/art-in-code-thumbnail.png
