@@ -2,7 +2,7 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -moz-font-feature-settings: "liga" on;
+  -moz-font-feature-settings: "liga" off;
 }
 
 .site-header {
@@ -124,6 +124,25 @@ p, .p {
 
 h1, h2, h3, h4, h5, h6 {
   color: $darker-gray;
+}
+
+
+.avatar {
+  display:block; 
+  margin-top: 108px; 
+  width: 220px; 
+  height: 220px;
+  img {
+    border: 1px solid #efefef;
+    border-radius:400px;
+  }
+}
+
+.intro-text {
+  display:block; 
+  width: 50%; 
+  padding-left: 8%; 
+  flex: 1;
 }
 
 .post-content {
@@ -449,6 +468,29 @@ small {
   }
 
   table td:first-child:before { content: ''; }
+
+  .intro {
+    flex-direction: column;
+  }
+
+  .avatar {
+    margin-top: 1.5em; 
+    width: 110px; 
+    height: 110px;
+  }
+  
+  .intro-text {
+    width: 100%; 
+    padding-left: 0; 
+    flex: 1;
+  }
+
+  .home .measure{
+    h1 {
+      margin-top: 0.5em;
+    }
+  }
+  
 }
 
 footer a{

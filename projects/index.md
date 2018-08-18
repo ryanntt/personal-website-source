@@ -1,10 +1,10 @@
 ---
-title: Projects
+title: Case Studies
 layout: default
 tag: projects
 ---
 
-## Projects
+## Case Studies
 <div class="projects list">
   <div class="posts">
     {% for post in site.categories.projects %} 

@@ -3,26 +3,27 @@ title: Ryan Nguyen - User Experience Designer in Sydney
 layout: default
 tag: home
 ---
+<div class="intro" style="display:flex; align-items: flex-start;">
 
-# Hi, I'm Ryan.
+  <div class="avatar">
+    <img src="http://ryanntt.com/pabot/img/400x400-profile.png"/>
+  </div>
 
-## I'm a user experience and product designer.
+  <div  class="intro-text" style="">
+    <h1> Hi, I'm Ryan.</h1>
+    <p>I'm a UX/Product designer with five years of experience turning new technology and complex business to lovable products. Currently finishing my last semester of Master in Interaction Design at University of Sydney.</p>
+    <p>Previously, I made travelling easier at <a href="https://www.wego.com" target="_blank">Wego</a>. My favourite part in design career has been building culture of collaborating and enabling each others to thrive in every team that I worked in. I love spending my time with talented people building <a href="#case-studies">meaningful products</a> together.</p> 
+    <p>I am interested in designing for products that free up people from mundane tasks to have time for learning, family and life. Feel free to say hi if you want to collaborate on such products.</p>
+    <p><a href="mailto:hello@ryanntt.com">hello@ryanntt.com</a></p>
+    <form action="/pabot" style="display: inline-block; margin-right:0.5em">
+      <input type="submit" class="button button-big mobile-block" value="Chat with Ryan's Avatar" />
+    </form>
 
-I'm studying Master of Interaction Design and Electronic Arts in University of Sydney, Australia. Previously, I worked for [Wego](https://www.wego.com), a travel tech company, as a designer in Web Experience team.
-
-Feel free to contact me if you want to collaborate on a project.
-
-<form action="/pabot" style="display: inline-block; margin-right:0.5em">
-  <input type="submit" class="button button-big mobile-block" value="Chat with Ryan" />
-</form>
-
-<form action="/contact" style="display: inline-block;">
-  <input type="submit" class="button button-big mobile-block" value="Email Ryan" />
-</form>
-
+  </div>
+</div>
 <br/>
 
-<h2 class="key-category"> Key Projects</h2>
+<h2 class="key-category" id="case-studies"> Case Studies</h2>
 
 <div class="projects list featured">
   <div class="posts">
@@ -51,11 +52,11 @@ Feel free to contact me if you want to collaborate on a project.
 </div>
 
 <form action="/projects" class="center">
-  <input type="submit" class="button button-big mobile-block" value="See all projects" />
+  <input type="submit" class="button button-big mobile-block" value="See all case studies" />
 </form>
 
 
-<h2 class="key-category">Writing</h2>
+<h2 class="key-category">Writings</h2>
 
 <div class="blog featured">
   <div class="posts">
