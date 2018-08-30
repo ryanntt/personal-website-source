@@ -1,11 +1,11 @@
 ---
-title: Art in Code
+title: Design in Code
 date: 2018-05-01 08:06:18 Z
 categories:
 - projects
 layout: post
-text: How I play with art, technology and design
-summary: Create generative art and game using Processing
+text: Generative design using Processing
+summary: Generate design through code
 thumbnail: https://res.cloudinary.com/ryanntt/image/upload/s--Xc5h1P6---/v1525614090/art-in-code/art-in-code-thumbnail.png
 js: yes
 ---
