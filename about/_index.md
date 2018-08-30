@@ -3,11 +3,10 @@ title: About Ryan Nguyen
 layout: page
 ---
 
-I am an experience designer with passion in user testing and interaction design, based in Singapore. 
+A Sydney-based designer turning new technology and complex business to likable product. Finishing my last semester of Master in Interaction Design in University of Sydney.
 
-You can find me on:
+Prior, I helped making travelling easier at [Wego](https://www.wego.com). My favourite part in design career has been building a culture of collaborating, enabling each other to design better in any team that I works in. I love spending my time with talented people building great products together. 
 
-- [Linkedin](http://sg.linkedin.com/in/ryanntt )
-- [Twitter](http://twitter.com/ryannguyentt)
+Originally a front-end engineer building responsive websites, I was fasciated with how design can make things easier for people, I became a self-taught designer and have been enjoying this journey so far.
 
-Besides design, I love travelling, photography and garden. I ocassionaly blog about my travel on <a href="http://chillingkat.tumblr.com" target="_blank">my photography blog</a>. 
+I am interested in designing for products that enable people to have more meaningful interaction with other human beings. Feel free say hi if you want to collaborate on such product.
