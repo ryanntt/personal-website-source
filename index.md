@@ -6,7 +6,7 @@ tag: home
 <div class="intro" style="display:flex; align-items: flex-start;">
 
   <div class="avatar">
-    <img src="http://ryanntt.com/pabot/img/400x400-profile.png"/>
+    <img src="./images/me.png"/>
   </div>
 
   <div  class="intro-text" style="">
