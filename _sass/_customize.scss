@@ -428,10 +428,21 @@ small {
 }
 
 @media screen and (max-width: $viewport-small) {
+  html {
+    font-size: 16px;
+  }
+  h1, .h1 {
+    font-size: 1.4rem;
+  }
+  h2, .h2 {
+    font-size: 1.2rem;
+  }
+  h3, .h3 {
+    font-size: 1.1rem;
+  }
   .site-header a {
     font-size: $h4;
   }
-  
   table,
   tbody {
     display: block;
