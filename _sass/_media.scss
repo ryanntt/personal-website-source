@@ -133,10 +133,13 @@ html.projects {
 }
 
 figcaption {
+  max-width: 672px;
+  margin: 0 auto;
   margin-bottom: 2em;
   padding: 0.1em 0 0.5em 0;
   color: $mid-gray;
   text-align: center;
+  font-size: 0.9em;
 }
 
 figure {

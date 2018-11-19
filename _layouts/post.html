@@ -10,19 +10,21 @@ layout: default
 
 <div class="post-header mb2">
   <h1>{{ page.title }}</h1>
-  <span class="post-meta">{{ page.date | date: "%b %Y" }}</span><br>
-  {% if page.update_date %}
-    <span class="post-meta">Updated: {{ page.update_date | date: site.date_format }}</span><br>
+  {% if page.categories contains 'blog' %}
+    <span class="post-meta">{{ page.date | date: "%b %Y" }}</span><br>
+    {% if page.update_date %}
+      <span class="post-meta">Updated: {{ page.update_date | date: site.date_format }}</span><br>
+    {% endif %}
+    <span class="post-meta small">
+    {% if page.minutes %}
+      <i class="fa fa-clock-o" aria-hidden="true"></i>
+      {{ page.minutes }} minute read
+    {% else %}
+      <i class="fa fa-clock-o" aria-hidden="true"></i>
+      {{ minutes }} minute read
+    {% endif %}
+    </span>
   {% endif %}
-  <span class="post-meta small">
-  {% if page.minutes %}
-    <i class="fa fa-clock-o" aria-hidden="true"></i>
-    {{ page.minutes }} minute read
-  {% else %}
-    <i class="fa fa-clock-o" aria-hidden="true"></i>
-    {{ minutes }} minute read
-  {% endif %}
-  </span>
 </div>
 
 <article class="post-content">

@@ -30,6 +30,7 @@ body {
 
 .post-header {
   text-align: center;
+  margin-bottom: 2em;
 }
 
 .meta,
@@ -146,7 +147,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .post-content {
-  p {
+  p, table {
     max-width: $text-width;
     margin: 1.6em auto;
   }
@@ -258,10 +259,15 @@ hr {
 
 .button:focus {outline:0;}
 
+#summary {
+  max-width: 672px;
+  margin: 0 auto;
+}
+
 .button {
   margin-bottom: 1rem;
   font-weight: bold;
-  text-transform: capitalize;
+  // text-transform: capitalize;
   font-size: 0.9rem;
   height: 42px;
   background: white;

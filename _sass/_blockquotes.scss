@@ -15,3 +15,16 @@ blockquote footer {
   text-align: left;
   padding: 0;
 }
+
+blockquote.emphasis {
+  background-color: #FAF3EA;
+  margin: 2em 0;
+  .label {
+    font-style: normal;
+    color: #994D17;
+  }
+  p {
+    font-style: normal;
+    color: #AE5E26;
+  }
+}
