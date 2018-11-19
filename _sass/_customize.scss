@@ -418,6 +418,9 @@ small {
   canvas {
     width: 100%;
   }
+  .post a:not(.button):not(.post-link) {
+    background-position: 0 18px;
+  }
 }
 
 @media screen and (max-width: $viewport-small) {
