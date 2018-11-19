@@ -6,7 +6,7 @@ tag: home
 <div class="intro" style="display:flex; align-items: flex-start;">
 
   <div class="avatar">
-    <img src="http://ryanntt.com/pabot/img/400x400-profile.png"/>
+    <img src="./images/me.png"/>
   </div>
 
   <div  class="intro-text" style="">
@@ -16,7 +16,7 @@ tag: home
     <p>I am interested in designing for products that free up people from mundane tasks to have time for learning, family and life. Feel free to say hi if you want to collaborate on such products.</p>
     <p><a href="mailto:hello@ryanntt.com">hello@ryanntt.com</a></p>
     <form action="/pabot" style="display: inline-block; margin-right:0.5em">
-      <input type="submit" class="button button-big mobile-block" value="Chat with Ryan's Avatar" />
+      <input type="submit" class="button button-big mobile-block" value="Chat with Ryan's avatar" />
     </form>
 
   </div>

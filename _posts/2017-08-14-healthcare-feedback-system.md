@@ -1,12 +1,12 @@
 ---
-title: Improve healthcare service quality through feedback
+title: Making healthcare feedback accessible
 date: 2017-08-29 08:06:18 Z
 categories:
 - projects
 layout: post
 status: featured
-text: Feedback system design in healthcare
-summary: Help healthcare organization and professional improve service quality via listening to feedbacks from patient
+text: design research / interaction design / design thinking
+summary: Helping healthcare organization and professional improve service quality via listening to feedbacks from patient
 thumbnail: https://res.cloudinary.com/ryanntt/image/upload/s--YJ655bTg--/c_fill,h_1082,w_1536/v1508815659/Healthcare-Feedback/Final-Mockup-1.png
 ---
 
@@ -25,9 +25,12 @@ Redbank House was founded in the late 1970s to provide tertiary diagnosis and tr
 
 In Redbank House, currently patients give feedback at admission, midterm through their care course, end of the course, and there is also a follow-up survey but these are not well integrated and hard to get useful information out of them. A design project would be to make these more **accessible** and **efficient**, align them and design them in a way that they are connected.
 
+
+
+
 ### How We Worked
 
-I worked together with [Min Yi Tan](https://www.linkedin.com/in/min-yi-tan-648039127/) and [Elektra Jiang](https://www.linkedin.com/in/elektra-jiang-099546129/) in this project, using human-centered design methodology to understand, define problem, then explore and create solution (*see diagram below*).
+I worked together with [Min Yi Tan](https://www.linkedin.com/in/min-yi-tan-648039127/) and [Elektra Jiang](https://www.linkedin.com/in/elektra-jiang-099546129/) in this project, using human-centered design methodology to understand, define problem, then explore and create solution (*see diagram below*). We worked individually in the research phase in March 2017 then regrouped in April 2017 to start the ideation, then followed through the rest of the project. The project ended in May 2017.
 
 <figure>
     <img src="https://res.cloudinary.com/ryanntt/image/upload/s---OzjSgOu--/c_scale,w_1000/v1506927689/Healthcare-Feedback/Double-Diamond-Framework.png">
@@ -273,7 +276,7 @@ We kept improving the design and getting feedback via user testing. Regarding ti
     <figcaption>Final Mockups of Feedback Form</figcaption>
 </figure>
 
-### Walkthrough Video
+<!-- ### Walkthrough Video
 
 We created a video to help people visualise how they can our prodcuts to give and review feedbacks in hospital.
 
@@ -281,7 +284,7 @@ We created a video to help people visualise how they can our prodcuts to give an
 	<div class="my-video [youtube, widescreen]">
 		<iframe width="560" height="315" src="https://www.youtube.com/embed/WouZ9C-qgTU" frameborder="0" allowfullscreen></iframe>
 	</div>
-</p>
+</p> -->
 
 ### Reflection
 
