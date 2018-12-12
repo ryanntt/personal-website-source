@@ -9,10 +9,6 @@ summary: My first mobile game design. Had fun with UI and character design.
 thumbnail: https://res.cloudinary.com/ryanntt/image/upload/s--mg7Q8PuR--/c_scale,w_1536/v1542801308/scindo/scindo-thumbnail.png
 ---
 
-<figure>
-    <img width="768" src="https://res.cloudinary.com/ryanntt/image/upload/s--mg7Q8PuR--/c_scale,w_1536/v1542801308/scindo/scindo-thumbnail.png">
-</figure>
-
 ## About SCiNDO
 
 SCiNDO is a mobile game project that I designed when I was a member of Hiterus Studio, a game studio in Singapore. The project was started in December 2014 and ended in November 2015. The game utilises the mobile gesture swiping to create a fun yet challenging gameplay to solve puzzles. The lastest version of the game was published on Google Play Store in September 2015.
@@ -26,7 +22,7 @@ I worked as the only interface and visual designer in the project. The game leve
 The game was inspired by another mobile game called [Blek](https://en.wikipedia.org/wiki/Blek). However, we wanted our game to have a unique interaction and challenge. The concept of splitting the main object was from the board game [Pandemic](https://en.wikipedia.org/wiki/Pandemic_%28board_game%29), where the bacteria can spread out and infect cities.
 
 
-<blockquote class="emphasis">
+<blockquote class="highlighted full-width">
     <p>We believe that mobile games can stimulate our problem-solving skills in a visual, interactive and challenging way.</p>
 </blockquote>
 

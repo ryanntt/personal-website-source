@@ -9,16 +9,11 @@ text: interface design, experimental design
 thumbnail: https://res.cloudinary.com/ryanntt/image/upload/s--caXM7FiC--/c_scale,h_1082,w_1536/v1542723204/panelplace/panelplace-thumbnail.png
 ---
 
-<figure>
-    <img width="768" src="https://res.cloudinary.com/ryanntt/image/upload/s--caXM7FiC--/c_scale,h_1082,w_1536/v1542723204/panelplace/panelplace-thumbnail.png">
-    <figcaption>Control (A) and variable (B) of the homepage design</figcaption>
-</figure>
-
 ## Context
 
 PanelPlace is a platform that helps people track and manage paid survey opportunities from market research companies. In July 2014, the client was working on significant feature changes and wanted to redesign the homepage as part of this rebranding. The conversion rate at homepage was low as people were reluctant to register for a new service like PanelPlace. As PanelPlace was growing its user base, therefore, this was the most critical issue on the website. The client wanted to take this opportunity to communicate with users about the rebranding of its product and new features.
 
-<blockquote class="emphasis">
+<blockquote class="highlighted full-width">
     <h2 class="label">Reframed challenge</h2>
     <p>How can we redesign the homepage to convey trust and potential values of using PanelPlace to the new customers?</p>
 </blockquote>
@@ -47,7 +42,7 @@ We want to understand what people think when they reach the homepage, and why th
 
 We interviewed 6 users. The questions were structured to help us gain insights into their goals and needs in the platform. Some people joined the platform just because they had free time and want to spend on earning some money. Others are very systematic about how to manage their earning and want to be efficient when doing surveys. We identified a common theme among these users.
 
-<blockquote class="emphasis">
+<blockquote class="highlighted full-width">
     <h2 class="label">Common theme</h2>
     <p>People consider answering surveys as a way to earn side money, so they do it only when the process is convenient, flexible and hassle-free.</p>
 </blockquote>
@@ -65,7 +60,7 @@ The early involvement of stakeholders in wireframing is essential to the faster 
   <figcaption>We used Six Up method, which requires each person to draw 6 ideas. We then compiled and sorted them into catefories.</figcaption>
 </figure>
 
-<blockquote class="emphasis">
+<blockquote class="highlighted full-width">
     <h2 class="label">PanelPlace's Value Proposition</h2>
     <p>Our customers can focus on earning money as we help them choose and manage the optimal survey panels at their convenience.</p>
 </blockquote>
@@ -186,4 +181,4 @@ There were one control and four variations. I ran the test for seven days. Withi
 
 Two weeks after we launched the redesigned homepage, the improvement of signup rate was relatively smaller than the result in the experiments. The reason, we agreed, was that the conversion rate was decided by not just individual elements but as a whole with their complex influential relationship. Regarding the time and traffic constraints we had, the testings helped my team improve the design, and convince client to implement the new design.  
 
-<p style="color:#999999;">All information in this case study is my own and does not necessarily reflects PanelPlace's view.</p>
+<p style="color:#999999;">All information in this case study is my own and does not necessarily reflect PanelPlace's view.</p>

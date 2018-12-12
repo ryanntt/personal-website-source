@@ -6,15 +6,10 @@ categories:
 - projects
 layout: post
 status: featured
-text: design research / interaction design / design thinking
+text: design research | interaction design | design thinking
 summary: Helping healthcare organization and professional improve service quality via listening to feedbacks from patient
 thumbnail: https://res.cloudinary.com/ryanntt/image/upload/s--YJ655bTg--/c_fill,h_1082,w_1536/v1508815659/Healthcare-Feedback/Final-Mockup-1.png
 ---
-
-<figure>
-    <img width="768" src="https://res.cloudinary.com/ryanntt/image/upload/s--YJ655bTg--/c_fill,h_1082,w_1536/v1508815659/Healthcare-Feedback/Final-Mockup-1.png">
-    <figcaption>Final Prototype</figcaption>
-</figure>
 
 ## Overview
 
@@ -25,7 +20,6 @@ Redbank House was founded in the late 1970s to provide tertiary diagnosis and tr
 ### Design Brief
 
 In Redbank House, currently patients give feedback at admission, midterm through their care course, end of the course, and there is also a follow-up survey but these are not well integrated and hard to get useful information out of them. A design project would be to make these more **accessible** and **efficient**, align them and design them in a way that they are connected.
-
 
 
 
@@ -163,7 +157,7 @@ We used affinity mapping to group similar problem together and created pain poin
 
 What is a framed problem? Framed problem is a statement that specify the problem to the extent that everyone in design team can understand it as well as the direction of solution. According to IDEO Human-Centered Design Framework, having a framed problem helps design team have the right understanding of the problem, be more confident in exploring creative possibilities and solutions.  
 
-<blockquote class="highlighted">
+<blockquote class="highlighted full-width">
   <p>How might we make the feedback system in hospitals more accessible, engaging, effective and efficient for people? </p>
 </blockquote>
 

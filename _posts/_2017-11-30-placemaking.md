@@ -64,7 +64,7 @@ The feedback provided by patient at different stage of the experience pathway an
 
 What is a framed problem? Framed problem is a statement that specify the problem to the extent that everyone in design team can understand it as well as the direction of solution. According to IDEO Human-Centered Design Framework, having a framed problem helps design team have the right understanding of the problem, be more confident in exploring creative possibilities and solutions.  
 
-<blockquote class="highlighted">
+<blockquote class="highlighted full-width">
   <p>How might we make the feedback system in hospitals more accessible, engaging, effective and efficient for people? </p>
 </blockquote>
 
