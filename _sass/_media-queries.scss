@@ -1,6 +1,7 @@
 @media screen and (min-width: $viewport-small) {
   html {
     font-size: 16px;
+    overflow-x: hidden;
   }
 
   h1,
@@ -27,10 +28,10 @@
     margin-left: $space-4;
   }
 
-  blockquote {
-    margin-left: $space-3;
-    padding: $space-3;
-  }
+  // blockquote {
+  //   margin-left: $space-3;
+  //   padding: $space-3;
+  // }
 
   .social-icons-left {
     text-align: left;

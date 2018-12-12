@@ -1,9 +1,9 @@
 ---
-title: Blog
+title: Writings
 layout: default
 ---
 
-## Blog
+## Writings
 
 <div class="blog">
   <div class="posts">

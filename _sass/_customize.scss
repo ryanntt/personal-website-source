@@ -1,6 +1,10 @@
+.site-title {
+  padding-top: 4px;
+}
+
 .site-header {
   box-sizing: border-box;
-  border-bottom: 1px solid #EFEFEF;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 1px 1px;
   background: rgba(255, 255, 255, .96);
 }
 
@@ -13,17 +17,33 @@
 }
 
 .site-header nav a:hover {
-  border-bottom: 1px solid $dark-gray;
+  border-bottom: 2px solid $brand;
 }
 
 .site-header nav a.current {
-  border-bottom: 1px solid $dark-gray;
+  border-bottom: 2px solid $brand;
   color: #000000;
 }
 
 .post-header {
   text-align: center;
   margin-bottom: 2em;
+}
+
+.post-header.project {
+  display: flex;
+  text-align: left;
+}
+
+.project-summary {
+  max-width: 50%;
+}
+.project-meta {
+  max-width: 50%;
+}
+
+.project-summary {
+  padding-right: 5%;
 }
 
 .meta,
@@ -39,16 +59,12 @@ p, .p,.f4, dl, ol, ul {
 }
 
 .home .measure{
-  max-width: 768px;
   & > h1, h2{
     color: $darker-gray;
     font-family:$heading-font-family;
   }
-  & > h1 {
-    margin-top: 2em;
-  }
   & > p {
-    max-width: 620px;
+    max-width: $text-width;
   }
 }
 
@@ -62,6 +78,10 @@ p, .p,.f4, dl, ol, ul {
 
 .site-wrap {
  min-height: 100%;
+}
+
+section {
+  padding: 2em 0 2.5em 0;
 }
 
 footer {
@@ -106,10 +126,6 @@ ul {
   margin: 1em auto;
 }
 
-.p-responsive {
-  padding: 0 1rem 1rem 1rem;
-}
-
 p, .p {
   font-weight: 400;
   line-height: $line-height;
@@ -123,9 +139,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .avatar {
   display:block; 
-  margin-top: 108px; 
-  width: 220px; 
-  height: 220px;
+  margin: 1.5em auto;
+  width: 110px; 
+  height: 110px;
   img {
     border: 1px solid #efefef;
     border-radius:400px;
@@ -134,9 +150,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .intro-text {
   display:block; 
-  width: 50%; 
-  padding-left: 8%; 
-  flex: 1;
+  max-width: $text-width; 
 }
 
 .post-content {
@@ -189,10 +203,15 @@ hr {
   margin: 3em 0;
 }
 
+.horizontal-bar {
+  display: block;
+  height: 4px;
+  width: 70px;
+  background: #c91d1d;
+}
+
 .key-category {
   display: inline-block;
-  border-top: 1px solid #ccc;
-  padding-top: 2rem;
 }
 
 .home .posts .post{
@@ -231,7 +250,7 @@ hr {
 }
 
 .blog .posts {
-  max-width: 620px;
+  max-width: $text-width;
 }
 
 .posts .post {
@@ -253,27 +272,26 @@ hr {
 .button:focus {outline:0;}
 
 #summary {
-  max-width: 672px;
+  max-width: $text-width;
   margin: 0 auto;
 }
 
 .button {
   margin-bottom: 1rem;
-  font-weight: bold;
-  // text-transform: capitalize;
+  padding: 0.8rem 1rem;
   font-size: 0.9rem;
-  height: 42px;
-  background: white;
-  border-radius: 30px;
+  background: $darker-gray;
+  color: white;
+  border-radius: 4px;
   border: 1px solid $mid-gray;
   -webkit-transition: .8s cubic-bezier(.2,1,.2,1);
   -o-transition: .8s cubic-bezier(.2,1,.2,1);
   transition: .8s cubic-bezier(.2,1,.2,1);
-  color: $dark-gray;
 
   cursor: pointer;
   &:hover {
-    color: $darker-gray;
+    background: darken( $brand, 8% );
+    border-color: darken( $brand, 10% );
     -webkit-transform: translateY(-1px);
     -ms-transform: translateY(-1px);
     transform: translateY(-1px);
@@ -328,7 +346,7 @@ hr {
 }
 
 #disqus_thread {
-  max-width: 672px;
+  max-width: $text-width;
   margin-left: auto;
   margin-right: auto;
 }
@@ -363,6 +381,7 @@ hr {
 .more-posts {
   max-width: $text-width;
   margin: 4em auto 1em auto;
+  padding: 1em 0 1em 0;
   border-top: 1px dashed #999;
   h3 {
     margin-bottom: 1.5rem;
@@ -376,7 +395,7 @@ hr {
     margin: 1em 0 0 0 
   }
   p {
-    margin: 0.2em 0 1.2em 0;
+    margin: 0.2em 0 1.5em 0;
     font-size: 0.9em;
     line-height: 1.3rem;
   }
@@ -396,6 +415,15 @@ small {
   margin: auto;
 }
 
+.full-width {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
 @media screen and (min-width: $viewport-medium) {
   // This is to make header fixed at top
   // body {
@@ -406,12 +434,6 @@ small {
   //   top: 0;
   //   width: 100%;
   // }
-  .highlighted {
-    p {
-      color: #056171;
-      font-size: 1.5rem;
-    } 
-  }
 }
 
 @media screen and (max-width: $viewport-medium) {
@@ -420,6 +442,12 @@ small {
   }
   .post a:not(.button):not(.post-link) {
     background-position: 0 18px;
+  }
+  .post-header.project {
+    flex-direction: column;
+  }
+  .project-summary, .project-meta {
+    max-width: 100%;
   }
 }
 
@@ -439,6 +467,7 @@ small {
   .site-header a {
     font-size: $h4;
   }
+
   table,
   tbody {
     display: block;
@@ -464,7 +493,7 @@ small {
   table th[data-title]:before,
   table td[data-title]:before {
     content: attr(data-title) ":\00A0";
-    font-weight: bold;
+    font-weight: $bold-font-weight;
   }
 
   table > tbody > tr > td {
@@ -476,34 +505,22 @@ small {
   table > tbody > tr > td:empty {display: none;}
 
   table > tbody > tr > td:first-child {
-    font-weight: bold;
+    font-weight: $bold-font-weight;
     font-size: 1.1em;
   }
 
   table td:first-child:before { content: ''; }
-
-  .intro {
-    flex-direction: column;
-  }
-
-  .avatar {
-    margin-top: 1.5em; 
-    width: 110px; 
-    height: 110px;
-  }
-  
-  .intro-text {
-    width: 100%; 
-    padding-left: 0; 
-    flex: 1;
-  }
 
   .home .measure{
     h1 {
       margin-top: 0.5em;
     }
   }
-  
+
+  .more-posts .post {
+    width: 100%;
+    margin-bottom: 0;
+  }
 }
 
 footer a{

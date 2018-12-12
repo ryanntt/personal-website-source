@@ -1,5 +1,5 @@
 .site-header {
-  padding-top: 0.8*$space-1;
+  padding-top: 1*$space-1;
   padding-bottom: $space-2;
   margin-bottom: $space-4;
   z-index: 100;
@@ -15,7 +15,11 @@
   font-family: $heading-font-family;
   font-size: $h4;
   color: $darker-gray;
-  font-weight:bold;
+  font-weight:$bold-font-weight;
+  img {
+    max-height: 20px;
+    border-radius: 0;
+  }
 }
 
 .site-nav {

@@ -16,15 +16,17 @@ blockquote footer {
   padding: 0;
 }
 
-blockquote.emphasis {
-  background-color: #FAF3EA;
-  margin: 2em 0;
+blockquote.highlighted {
+  background-color: #163d6f;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding: 2rem 0;
   .label {
     font-style: normal;
-    color: #994D17;
+    color: #e9f2ff;
   }
   p {
     font-style: normal;
-    color: #AE5E26;
+    color: #e9f2ff;
   }
 }
