@@ -1,5 +1,5 @@
 .site-header {
-  padding-top: 1*$space-1;
+  padding-top: $space-3;
   padding-bottom: $space-2;
   margin-bottom: $space-4;
   z-index: 100;
@@ -7,7 +7,7 @@
 
 .site-header a {
   color: $dark-gray;
-  font-size: $h5;
+  font-size: $h4;
   font-weight: 400;
 }
 
@@ -34,9 +34,8 @@
 .site-header nav a:hover,
 .site-header nav a:focus,
 .site-header nav a:active {
-  color: #444;
-  opacity: 1;
-  border-bottom: 2px solid #444;
+  color: white;
+  background: $brand;
 }
 
 .site-nav a + a {

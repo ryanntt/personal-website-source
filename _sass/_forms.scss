@@ -43,7 +43,7 @@ textarea {
   padding: $form-field-padding-y $form-field-padding-x;
 }
 
-.form-stacked input,
+.form-stacked input:not(.button),
 .form-stacked textarea,
 .form-stacked select {
   width: 100%;

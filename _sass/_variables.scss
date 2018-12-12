@@ -5,7 +5,7 @@ $font-family: 'Poppins', 'Helvetica Neue', Helvetica, 'Arial', sans-serif !defau
 $line-height: 1.6 !default;
 $heading-font-family: 'Poppins', 'Helvetica Neue', Helvetica, 'Arial', sans-serif !default;
 $heading-font-weight: 500 !default;
-$heading-line-height: 1.35 !default;
+$heading-line-height: 1.4 !default;
 $monospace-font-family: 'Source Code Pro', Consolas, monospace !default;
 $fallback-font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
 $h1: 2.0rem !default;
@@ -54,10 +54,10 @@ $darken-1: rgba(#000,.0625) !default;
 $darken-2: rgba(#000,.125) !default;
 $darken-3: rgba(#000,.25) !default;
 $darken-4: rgba(#000,.5) !default;
-$brand: #c91d1d !default;
+$brand: #e25e11 !default;
 
 // Links
-$link-color: $blue;
+$link-color: $brand;
 $link-hover-color: darken($blue, 40%);
 
 // Breakpoints

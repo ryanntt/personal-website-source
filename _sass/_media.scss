@@ -21,7 +21,6 @@
 .list .wrap {
   position: relative;
   line-height: 0;
-  border-radius: 5px;
   overflow: hidden;
   -webkit-transition: .8s cubic-bezier(.2,1,.2,1);
   -o-transition: .8s cubic-bezier(.2,1,.2,1);
@@ -56,10 +55,6 @@
   }  
 }
 
-img {
-  border-radius: 5px;
-}
-
 .list .img {
   width: 100%;
   padding-bottom: 66.77%;
@@ -89,12 +84,12 @@ img {
 }
 
 .list .summary {
-  p ,a {
+  p {
     color: $mid-gray;
   }
-  h3 {
+  .title {
     font-weight: $bold-font-weight;
-    color: $dark-gray;
+    color: $darker-gray;
     margin-top: 0;
     margin-bottom: 0.25rem;
   }
@@ -222,7 +217,7 @@ figure {
     }
   }
   .list .post-entry {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 
   .list .summary, .list .thumbnail {
@@ -230,6 +225,6 @@ figure {
   }
 
   .list .summary {
-    margin: 1em 0 2em 0;
+    margin: $h5 0 $h4 0;
   }
 }   
