@@ -8,9 +8,18 @@ tag: home
   <div class="horizontal-bar"></div>
   <div  class="intro-text">
     <h1> Hello, I'm Ryan, a product designer in Sydney. I design meaningful and lovable products across different technologies and businesses.</h1>
-    <form action="/pabot">
-      <input type="submit" class="button button-big mobile-block" value="Feeling Chatty Today" />
+    <form>
+      <input id="start-chat" type="button" class="button button-big mobile-block" value="Feeling Chatty Today" onClick="startChat()"/>
     </form>
+    <div class="spacer-block-2"></div>
+  </div>
+  <div id="chat" class="hidden">
+    <div id="avatar" class="hidden">
+      <img src="./images/me.png" alt="">    
+    </div>
+    <div class="botui-app-container" id="my-pa">
+      <bot-ui></bot-ui>
+    </div>
   </div>
 </section>
 
@@ -49,6 +58,8 @@ tag: home
 
 </section>
 
+<div class="spacer-block-1"></div>
+
 <section>
   <div class="horizontal-bar"></div>
   <h2 class="h1 key-category">Writings</h2>
@@ -72,6 +83,8 @@ tag: home
   </div>
 
 </section>
+
+<div class="spacer-block-1"></div>
 
 <section>
   <div class="horizontal-bar"></div>
@@ -99,3 +112,8 @@ tag: home
     {% endif %}
   </div>
 </section>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="./js/vue/2.0.6/vue.min.js"></script>
+<script src="./js/botui/botui.min.js"></script>
+<script src="./js/botui/mybot.js"></script>

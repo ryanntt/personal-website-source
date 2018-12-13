@@ -56,10 +56,10 @@
 
 .project-meta span {
   display: inline-block;
-  background: #e0fffc; // try out highlight in blue for skills
+  background: #86f9a9; // try out highlight in blue for skills
   padding: 0.2em 0.6em;
   margin: 0.1em 0;
-  border-radius: 4px;
+  border-radius: 20px;
   color: #293c3a;
 }
 
@@ -196,13 +196,12 @@ h1, h2, h3, h4, h5, h6 {
 hr {
   border: none;
   text-align: center;
+  height: 20px;
   width: 100%;
-  height: 10px;
-  margin: 40px auto 0 auto;
   &:before {
     content: '...';
     display: inline-block;
-    color: rgba(0,0,0,.6);
+    color: rgba(171, 23, 23, 0.6);
     position: relative;
     top: -30px;
     font-size: 2em;
@@ -515,11 +514,11 @@ small {
 
   table td:first-child:before { content: ''; }
 
-  .home .measure{
-    h1 {
-      margin-top: 0.5em;
-    }
-  }
+  // .home .measure{
+  //   h1 {
+  //     margin-top: 0.5em;
+  //   }
+  // }
 
   .more-posts .post {
     width: 100%;

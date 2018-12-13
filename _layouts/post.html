@@ -45,9 +45,16 @@ layout: default
   {% endif %}
 </div>
 
+
+{% if page.categories contains 'projects' %}
+<div class="spacer-block-2"></div>
+
 <figure class="project-hero full-width">
     <img src= {{ page.thumbnail }} >
 </figure>
+
+<div class="spacer-block-2"></div>
+{% endif %}
 
 
 <article class="post-content">

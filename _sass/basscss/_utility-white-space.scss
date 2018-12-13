@@ -180,3 +180,35 @@
   padding-left: $space-4;
   padding-right: $space-4;
 }
+
+.spacer-block-1 {
+  height: auto;
+  padding: $space-1 0;
+}
+
+.spacer-block-2 {
+  height: auto;
+  padding: $space-2 0;
+}
+
+.spacer-block-3 {
+  height: auto;
+  padding: $space-3 0;
+}
+
+@media screen and (max-width: $viewport-small) {
+  .spacer-block-1 {
+    height: auto;
+    padding: 0;
+  }
+
+  .spacer-block-2 {
+    height: auto;
+    padding: $space-1 0;
+  }
+  
+  .spacer-block-3 {
+    height: auto;
+    padding: $space-2 0;
+  }
+}

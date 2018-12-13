@@ -2,7 +2,7 @@
 $base-font-size: 18px !default;
 $bold-font-weight: 500 !default;
 $font-family: 'Poppins', 'Helvetica Neue', Helvetica, 'Arial', sans-serif !default;
-$line-height: 1.6 !default;
+$line-height: 1.65 !default;
 $heading-font-family: 'Poppins', 'Helvetica Neue', Helvetica, 'Arial', sans-serif !default;
 $heading-font-weight: 500 !default;
 $heading-line-height: 1.4 !default;
@@ -54,7 +54,7 @@ $darken-1: rgba(#000,.0625) !default;
 $darken-2: rgba(#000,.125) !default;
 $darken-3: rgba(#000,.25) !default;
 $darken-4: rgba(#000,.5) !default;
-$brand: #e25e11 !default;
+$brand: #F2490C !default;
 
 // Links
 $link-color: $brand;
@@ -121,6 +121,6 @@ $hljs-chunk: $light-gray;
 $footer-border-top: thin solid #f3f3f3;
 $footer-padding: $space-3;
 $footer-color: #7a7a7a;
-$footer-bg-color: #fafafa;
+$footer-bg-color: #ffffff;
 $footer-font-weight: 400;
 $footer-font-size: .75rem;

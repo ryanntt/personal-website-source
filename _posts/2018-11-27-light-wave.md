@@ -6,8 +6,9 @@ categories:
 - projects
 layout: post
 status: featured
-text:  design research | interaction design | interface design
-summary: Creating trust between autonomous cars and pedestrian by visualising intention and awareness.
+text:  <span>design research</span>  <span>interaction design</span> <span>interface design</span>
+summary: <p>Drivers in human-driven car and pedestrians communicate with each other via eye contact and hand gesture, which do not exist in autonomous cars. With autonomous cars being tested in many cities around the world, the lack of interpersonal communication poses a challenge in having clear communication between autonomous cars and pedestrian.</p> <p>This project aims to design a communication solution and answer the question of how people understand and trust this solution in their interaction with driverless cars, especially in the situation not regulated by a traffic light.</p>
+year: 2018
 thumbnail: https://res.cloudinary.com/ryanntt/image/upload/s--tnaJ7x5C--/v1543381304/light-wave/light-wave-thumbnail.png
 
 ---

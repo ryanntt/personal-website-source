@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <!-- #if expr="$HTTP_COOKIE=/fonts\-loaded\=true/" -->
-<html AMP lang="en" class="fonts-loaded {{ page.tag }}">
+<html lang="en" class="fonts-loaded {{ page.tag }}">
 <!-- #else -->
-<html AMP lang="en" class="{{ page.tag }}">
+<html lang="en" class="{{ page.tag }}">
 <!-- #endif -->
 
 {% include head.html %}
@@ -10,7 +10,7 @@
 <body class="site{% if site.animated %} animated fade-in-down{% endif %}">
   <div class="site-wrap">
     {% include header.html %}
-    <div class="post px2 wrap" role="main" id="{{ page.date | date: '%Y-%m-%d' }}">
+    <div class="post px2 py2 wrap" role="main" id="{{ page.date | date: '%Y-%m-%d' }}">
       <div class="measure">
         {{ content }}
       </div>

@@ -21,12 +21,8 @@ blockquote.highlighted {
   margin-top: 2em;
   margin-bottom: 2em;
   padding: 2rem 0;
-  .label {
+  .label, p {
     font-style: normal;
-    color: #e9f2ff;
-  }
-  p {
-    font-style: normal;
-    color: #e9f2ff;
+    color: white;
   }
 }

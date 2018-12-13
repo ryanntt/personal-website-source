@@ -1,7 +1,7 @@
 .site-header {
   padding-top: $space-3;
-  padding-bottom: $space-2;
-  margin-bottom: $space-4;
+  padding-bottom: $space-3;
+  margin-bottom: 0; // prev $space-4
   z-index: 100;
 }
 
