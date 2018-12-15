@@ -14,10 +14,10 @@ tag: home
     <div class="spacer-block-2"></div>
   </div>
   <div id="chat" class="hidden">
-    <div id="avatar" class="hidden">
-      <img src="./images/me.png" alt="">    
-    </div>
     <div class="botui-app-container" id="my-pa">
+      <div id="avatar" class="hidden">
+        <img src="./images/me.png" alt="">    
+      </div>
       <bot-ui></bot-ui>
     </div>
   </div>

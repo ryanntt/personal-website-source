@@ -2,6 +2,7 @@ var innerHeight = window.innerHeight;
 var screenWidth = screen.width;
 
 var botui = new BotUI('my-pa');
+var chatSection = $('#chat');
 
 var accessToken = "565f08f95fe147bf84d78b10ba53d7f7",
 baseUrl = "https://api.dialogflow.com/v1/",
@@ -9,15 +10,16 @@ messageInternalError = "Oh no, there has been an internal server error",
 messageSorry = "I'm sorry, I don't ahve the answer to that";
 
 function startChat() {
-    $('#start-chat').css('display', 'none');
     $('html, body').animate({
         scrollTop: $("#chat").offset().top
     }, 1000); // smooth scrolling
 
     $("#chat").toggleClass('open');
     $("#avatar").toggleClass('open');
-    $('#my-pa').css('height', innerHeight);
+    $('#chat').css('min-height', innerHeight);
     send("Hello");
+    $('#start-chat').css('visibility', 'hidden');
+    $('#chat').css('max-height', 'none');
 };
 
 function send(val) {
@@ -49,9 +51,11 @@ function prepareResponse(val) {
     // console.log(delay);
     setTimeout(function() {
         respond(entry);
+        scrollSmooth();
     }, delay);
     delay += typingTime(messageExtract(entry))+500;
     }
+    scrollSmooth();
     // console.log(debugJSON);
 }
 
@@ -72,6 +76,7 @@ function respond(val) {
             content: message
         })
         }
+        scrollSmooth();
         break;
     case 2: // Buttons
         var message = messageExtract(val);
@@ -85,6 +90,7 @@ function respond(val) {
         setTimeout(function() { 
         addButton(val.replies);
         }, delay);
+        scrollSmooth();
         break;
     default:
         return messageSorry;
@@ -99,6 +105,7 @@ function addButton(val) {
         value: entry
     });
     }
+    scrollSmooth();
     botui.action.button({
     action: buttons
     }).then(function(res) {
@@ -127,3 +134,13 @@ function messageExtract(val) { // Function to extract message from object of res
         return messageSorry;
     }
 }
+
+function scrollSmooth () {
+    var shouldScroll = chatSection.offset().top + chatSection.height()- $(window).height() + 50 >= $('html, body').scrollTop();
+    if (shouldScroll) {
+        var scrollPos = chatSection.offset().top + chatSection.height()- $(window).height()+ 120;
+        $('html, body').animate({
+            scrollTop: scrollPos
+        }, 1000);
+    }
+ }
