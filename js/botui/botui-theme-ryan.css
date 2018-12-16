@@ -197,19 +197,10 @@ body {
 
 @media screen and (max-width:414px) {
     .botui-actions-container{
-        padding: 0;
-        position: absolute;
-        width: 100%;
-        bottom: 20px;
+        overflow-x: scroll;
     }
     .botui-messages-container{
-        padding:0 0 60px 0;
-    }
-    #avatar img {
-        width: 50px;
-    }
-    .botui-message:first-of-type {
-        padding-top: 60px;
+        padding:0 0 1em 0;
     }
 }
 

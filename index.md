@@ -5,7 +5,7 @@ tag: home
 ---
 <section class="intro">
 
-  <div class="horizontal-bar"></div>
+  <!-- <div class="horizontal-bar"></div> -->
   <div  class="intro-text">
     <h1> Hello, I'm Ryan, a product designer in Sydney. I design meaningful and lovable products across different technologies and businesses.</h1>
     <form>
