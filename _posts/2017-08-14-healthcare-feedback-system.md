@@ -6,9 +6,11 @@ categories:
 - projects
 layout: post
 status: featured
-text: design research | interaction design | design thinking
+text: <span>design research</span> <span>interaction design</span> <span>design thinking</span>
 summary: Helping healthcare organization and professional improve service quality via listening to feedbacks from patient
 thumbnail: https://res.cloudinary.com/ryanntt/image/upload/s--YJ655bTg--/c_fill,h_1082,w_1536/v1508815659/Healthcare-Feedback/Final-Mockup-1.png
+theme-color: c3e6f0
+year: March - May 2017
 ---
 
 ## Overview
@@ -28,9 +30,11 @@ In Redbank House, currently patients give feedback at admission, midterm through
 I worked together with [Min Yi Tan](https://www.linkedin.com/in/min-yi-tan-648039127/) and [Elektra Jiang](https://www.linkedin.com/in/elektra-jiang-099546129/) in this project, using human-centered design methodology to understand, define problem, then explore and create solution (*see diagram below*). We worked individually in the research phase in March 2017 then regrouped in April 2017 to start the ideation, then followed through the rest of the project. The project ended in May 2017.
 
 <figure>
-    <img src="https://res.cloudinary.com/ryanntt/image/upload/s---OzjSgOu--/c_scale,w_1000/v1506927689/Healthcare-Feedback/Double-Diamond-Framework.png">
+    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--wmsT83mB--/c_scale,w_1155/v1506927689/Healthcare-Feedback/Double-Diamond-Framework.png">
     <figcaption>Double Diamond Framework</figcaption>
 </figure>
+
+<div class="spacer-block-1"></div>
 
 ### Methods We Used
 
@@ -76,7 +80,7 @@ Around 25 people interviewed include:
 
 **Why this method -** From the beginning, the staffs at Redbank told us about the time-consuming process of distributing, collecting and analysing feedbacks. Therefore, we followed a psychologist in Redbank House for a few hours to understand how the process is being carried out in a daily basis.
 
-<figure>
+<figure class="text-width">
     <img src="https://res.cloudinary.com/ryanntt/image/upload/s--yC76QItN--/c_scale,w_768/v1506940677/Healthcare-Feedback/Shadowing.jpg">
     <figcaption>The specialist was consolidating feedback result (left)</figcaption>
 </figure>
@@ -97,8 +101,8 @@ After interviewing and shadowing psychologists, we understood the whole picture 
 - Hospital Admin person input the data into database
 - Specialist/Social workers run SPSS to analyze data creating insights, then share those with other specialists -->
 
-<figure>
-    <img width="768" src="https://res.cloudinary.com/ryanntt/image/upload/s--u9fKem-h--/v1508813760/Healthcare-Feedback/Feedback-Process.png">
+<figure class="text-width">
+    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--u9fKem-h--/v1508813760/Healthcare-Feedback/Feedback-Process.png">
 </figure>
 
 
@@ -110,7 +114,7 @@ We then created 3 personas representing our potential users in order to empathis
 - **Lucy**: 32 year-old girl with a full-on job, living with two uni mates.
 - **Wesley**: 23 years-old male, forever young at heart: no big long-term plans for life – he'll ride the waves as they come.
 
-<figure>
+<figure class="text-width">
     <img src="https://res.cloudinary.com/ryanntt/image/upload/s--ubRICLyM--/c_scale,w_768/v1507032930/Healthcare-Feedback/Personas.png">
     <figcaption>Writeup by <a href="https://www.linkedin.com/in/min-yi-tan-648039127/">Min Yi Tan</a>. Icons and layout by <a href="https://www.linkedin.com/in/elektra-jiang-099546129/">Elektra</a></figcaption>
 </figure>
@@ -120,7 +124,7 @@ We then created 3 personas representing our potential users in order to empathis
 People going to hospital for checkup have different concerns at different touch points. We used customer journey to identify the area of problems, and potentially when to offer our solution.
 
 <figure>
-    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--d5ptiM6I--/c_scale,w_1000/v1506949192/Healthcare-Feedback/User-Journey.jpg">
+    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--SRUJasjk--/c_scale,h_597,w_1155/v1506949192/Healthcare-Feedback/User-Journey.png">
     <figcaption>Painpoints of a person going to hospital</figcaption>
 </figure>
 
@@ -141,7 +145,7 @@ potential solution is unique and highly complex, and that not many of current ex
 solutions haven’t been able to fix the problems well.
 
 <figure>
-    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--WafJuQa9--/c_scale,w_1000/v1506951979/Healthcare-Feedback/Problem-Prioritisation.png">
+    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--WGtmogau--/c_scale,h_550,w_1155/v1506951979/Healthcare-Feedback/Problem-Prioritisation.png">
     <figcaption>We still focused on feedback system in Redbank House</figcaption>
 </figure>
 
@@ -205,19 +209,19 @@ We combined the strength of our ideas and improved their drawbacks to produce a 
 - Interactive feedback visualisation to monitor feedback status.
 
 
-<figure>
+<figure class="text-width">
     <img src="https://res.cloudinary.com/ryanntt/image/upload/s--OrdzSnPB--/c_scale,q_80,w_768/v1506991879/Healthcare-Feedback/Testing-Setup.png">
     <figcaption>Prototype of our Feedback space</figcaption>
 </figure>
 
-<figure>
+<figure class="text-width">
     <img src="https://res.cloudinary.com/ryanntt/image/upload/s--PvsNARcO--/c_scale,q_60,w_768/v1507009018/Healthcare-Feedback/Room-DataVis.png">
     <figcaption>Projected nature scene(left) and feedback data visualisation(right)</figcaption>
 </figure>
 
 
 <figure>
-    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--9o6YCPV3--/c_scale,w_1000/v1507035278/Healthcare-Feedback/Prototype-UI.png">
+    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--moItbEmw--/c_scale,h_526,w_1155/v1507035278/Healthcare-Feedback/Prototype-UI.png">
     <figcaption>Feedback form on tablet</figcaption>
 </figure>
 
@@ -234,7 +238,7 @@ User Scenarios for testing:
 - Participant tries VR/AR demo to have fun and give feedback
 - Participant interacts with Feedback Data Visualization
 
-<figure>
+<figure class="text-width">
     <img src="https://res.cloudinary.com/ryanntt/image/upload/s--_TYYEcTZ--/c_scale,w_768/v1506942503/Healthcare-Feedback/User-Testing.jpg">
     <figcaption>We recorded participant's reaction during the test</figcaption>
 </figure>
@@ -246,18 +250,22 @@ The testing gave us a generally positive results with some minor problems in the
     <figcaption>Insights from user testing</figcaption>
 </figure>
 
+<div class="spacer-block-1"></div>
+
 ### Iteration
 
 I implemented the insights from user testing to the interface of feedback form. [Min Yi](https://www.linkedin.com/in/min-yi-tan-648039127/) rewrote the copy to make it more engaging and friendly. [Elektra](https://www.linkedin.com/in/elektra-jiang-099546129/) redesigned the interactive feedback wall. 
 
+<div class="spacer-block-2"></div>
+
 <figure>
-    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--DmjcZrAa--/c_scale,w_1000/v1507034878/Healthcare-Feedback/Final-Mock-1.png">
+    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--K4Xot5hR--/c_scale,h_554,w_1155/v1507034878/Healthcare-Feedback/Final-Mock-1.png">
 </figure>
 <figure>
-    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--UW5kOCJS--/c_scale,w_1000/v1507037749/Healthcare-Feedback/Final-Mock-2.png">
+    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--FteJWDrE--/c_scale,h_554,w_1155/v1507037749/Healthcare-Feedback/Final-Mock-2.png">
 </figure>
 <figure>
-    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--DnFff3i---/c_scale,w_1000/v1507037748/Healthcare-Feedback/Final-Mock-3.png">
+    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--QI_kfkSq--/c_scale,h_506,w_1155/v1507037748/Healthcare-Feedback/Final-Mock-3.png">
 </figure>
 
 ### Final Solution
@@ -266,8 +274,10 @@ We kept improving the design and getting feedback via user testing. Regarding ti
 
 [Prototype on Invision](https://invis.io/J8DRSVR7E#/256422616_Welcome_1)
 
+<div class="spacer-block-2"></div>
+
 <figure>
-    <img width="1000" src="https://res.cloudinary.com/ryanntt/image/upload/s--x8DcJmGH--/q_80/v1508162776/Healthcare-Feedback/Final-Mockup-2.png">
+    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--v3TGIQ_i--/c_scale,w_1155/v1508162776/Healthcare-Feedback/Final-Mockup-2.png">
     <figcaption>Final Mockups of Feedback Form</figcaption>
 </figure>
 

@@ -117,19 +117,22 @@ html.projects {
 }
 
 figcaption {
-  max-width: $text-width;
   margin: 0 auto;
   margin-bottom: 2em;
   padding: 0.1em 0 0.5em 0;
-  color: $mid-gray;
-  text-align: center;
-  font-size: 0.9em;
+  text-align: left;
+  font-size: 0.8em;
+  border-bottom: 1px solid $lighter-gray;
 }
 
 figure {
   text-align: center;
-  margin: 0;
-  margin-top: -7px; //hackish way to temporarily fix the different height of <figure> and <img>
+  margin: auto;
+  //margin-top: -7px; //hackish way to temporarily fix the different height of <figure> and <img>
+}
+
+figure:not(.no-bg-color) img {
+  background-color: #f8f8f8;
 }
 
 .trip-content {

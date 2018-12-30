@@ -19,7 +19,7 @@ Following are the definitions of forward and backward thinking (terms thinking a
 **Working backwards is the way of advancing backwards from the goal state (Polya, 1957 in Ginat, 2005).**
 
 <figure>
-    <img width="768" src="https://res.cloudinary.com/ryanntt/image/upload/s--mUY6P4mw--/v1530803654/blog/backward-thinking/forward_backward_thinking.jpg">
+    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--mUY6P4mw--/v1530803654/blog/backward-thinking/forward_backward_thinking.jpg">
     <figcaption>The goal state can be defined by you, and presence sometimes is not fully known as you thought.</figcaption>
 </figure>
 

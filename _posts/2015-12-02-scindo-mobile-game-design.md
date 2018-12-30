@@ -7,6 +7,7 @@ layout: post
 text: interaction design, interface design
 summary: My first mobile game design. Had fun with UI and character design.
 thumbnail: https://res.cloudinary.com/ryanntt/image/upload/s--mg7Q8PuR--/c_scale,w_1536/v1542801308/scindo/scindo-thumbnail.png
+year: May - December 2015
 ---
 
 ## About SCiNDO
@@ -31,19 +32,19 @@ The game was inspired by another mobile game called [Blek](https://en.wikipedia.
 
 The graphics of the game are kept simple to help players focus on the swiping interaction. The full form of menu is designed to appear only when the game is paused. Most of the screen is for gameplay. 
 
-<figure>
+<figure class="text-width">
     <img width="768" src="https://res.cloudinary.com/ryanntt/image/upload/s--LlZEFtAc--/c_scale,h_522,w_1536/v1542790547/scindo/characters.png">
     <figcaption>Character design</figcaption>
 </figure>
 
 
-<figure>
-    <img style="box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);" width="384" src="https://res.cloudinary.com/ryanntt/image/upload/s--pbgXsosq--/v1542788689/scindo/help-menu.gif">
+<figure style="max-width: 384px;">
+    <img style="box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);" src="https://res.cloudinary.com/ryanntt/image/upload/s--pbgXsosq--/v1542788689/scindo/help-menu.gif">
     <figcaption>Help menu</figcaption>
 </figure>
 
-<figure>
-    <img style="box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);" width="384" src="https://res.cloudinary.com/ryanntt/image/upload/s--txmENH9A--/v1542788692/scindo/level-menu.gif">
+<figure style="max-width: 384px;">
+    <img style="box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);" src="https://res.cloudinary.com/ryanntt/image/upload/s--txmENH9A--/v1542788692/scindo/level-menu.gif">
     <figcaption>Level menu</figcaption>
 </figure>
 

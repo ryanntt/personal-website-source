@@ -5,8 +5,9 @@ categories:
 - projects
 layout: post
 summary: This project is about how I make data-informed design decision by using A/B testing.
-text: interface design, experimental design
+text: <span>interface design</span> <span>experimental design</span>
 thumbnail: https://res.cloudinary.com/ryanntt/image/upload/s--caXM7FiC--/c_scale,h_1082,w_1536/v1542723204/panelplace/panelplace-thumbnail.png
+year: August - October 2014
 ---
 
 ## Context
@@ -55,7 +56,7 @@ We interviewed 6 users. The questions were structured to help us gain insights i
 
 The early involvement of stakeholders in wireframing is essential to the faster approval of design later since stockholder will have a better sense of ownership in the design process. This project is the first time we experiment collaboration workshop with stakeholders. We wanted clients and designers to align themselves with each other about what the design will look like. 
 
-<figure>
+<figure class="text-width">
   <img src="/images/panelplace/collaboration-wireframe.jpg" alt="">
   <figcaption>We used Six Up method, which requires each person to draw 6 ideas. We then compiled and sorted them into catefories.</figcaption>
 </figure>
@@ -82,14 +83,14 @@ We wanted to know if simplifying the form, communicating more information of reg
 
 In the original homepage, the value of being secure was not well received by our interviewed users. Moreover, We used heatmap to monitor the homepage and found out that people rarely use the social media signup.
 
-<figure>
+<figure class="text-width">
   <img src="https://res.cloudinary.com/ryanntt/image/upload/s--bUrwzVDm--/c_scale,w_1536/v1542724481/panelplace/original-homepage.png" alt="" width="768">
   <figcaption>The original homepage communicated its value about security, had unnecessary elements such as the Facebook button.</figcaption>
 </figure>
 
 In the redesigned homepage, we conveyed the convenience of using PanelPlace by explaining the process of signing up. The form was simplified to contain only compulsory fields.
 
-<figure>
+<figure class="text-width">
   <img src="https://res.cloudinary.com/ryanntt/image/upload/s--UY7mACIw--/c_scale,w_1536/v1542724471/panelplace/redesigned-homepage.png" alt="" width="768">
   <figcaption>The redesigned homepage communicated its value about the ease of signing up and had a linear format of content leading to the form.</figcaption>
 </figure>

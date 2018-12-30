@@ -3,7 +3,7 @@ title: Case Studies
 layout: default
 tag: projects
 ---
-<div class="spacer-block-2"></div>
+
 <div class="projects list">
   <div class="posts">
     {% for post in site.categories.projects %} 

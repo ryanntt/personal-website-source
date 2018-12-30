@@ -56,11 +56,11 @@
 
 .project-meta span {
   display: inline-block;
-  background: #86f9a9; // try out highlight in blue for skills
+  background: $lighter-gray; // try out highlight in blue for skills
   padding: 0.2em 0.6em;
-  margin: 0.1em 0;
+  margin: 0.1em 0 0.2em 0;
   border-radius: 20px;
-  color: #293c3a;
+  color: $mid-gray;
 }
 
 .meta,
@@ -95,6 +95,10 @@ p, .p,.f4, dl, ol, ul {
 
 .site-wrap {
  min-height: 100%;
+}
+
+.text-width {
+  max-width: $text-width;
 }
 
 section {
@@ -175,7 +179,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 1.6em auto;
   }
   h2 {
-    text-align: center;
+    text-align: left;
   }
   h3 {
     margin-top: $space-3;
@@ -201,7 +205,7 @@ hr {
   &:before {
     content: '...';
     display: inline-block;
-    color: rgba(171, 23, 23, 0.6);
+    color: $brand;
     position: relative;
     top: -30px;
     font-size: 2em;
@@ -274,10 +278,16 @@ hr {
 
 .post a:not(.button):not(.post-link) {
   color: $dark-gray;
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0) 50%, rgba(0,0,0,0.6) 50%);
-  background-repeat: repeat-x;
-  background-size: 2px 2px;
-  background-position: 0 20px;
+  // background-image: linear-gradient(to bottom, rgba(0,0,0,0) 50%, rgba(0,0,0,0.6) 50%);
+  // background-repeat: repeat-x;
+  // background-size: 2px 2px;
+  // background-position: 0 20px;
+  font-weight: $bold-font-weight;
+  color: #3a8bbb;
+  &:hover {
+    color: white;
+    background-color: #3a8bbb;
+  }
 }
 
 .post a.no-underline {
@@ -294,7 +304,7 @@ hr {
 .button {
   display: block;
   margin-bottom: 1rem;
-  padding: 0.8rem 1rem;
+  padding: 0.6rem 1rem 0.8em;
   font-size: 0.9rem;
   background: $darker-gray;
   color: white;
@@ -437,9 +447,9 @@ small {
   canvas {
     width: 100%;
   }
-  .post a:not(.button):not(.post-link) {
-    background-position: 0 18px;
-  }
+  // .post a:not(.button):not(.post-link) {
+  //   background-position: 0 18px;
+  // }
   .post-header.project {
     flex-direction: column;
   }
