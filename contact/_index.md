@@ -3,7 +3,7 @@ title: Say Hello to Ryan
 layout: page
 ---
 
-<div class="py2" style="max-width: 672px; margin: auto;">
+<div class="py2" style="max-width: 650px; margin: auto;">
   {% if site.ajaxify_contact_form %}
     <form class="form-stacked">
       <input type="text" name="email" class="field-light" placeholder="Your Email Address">

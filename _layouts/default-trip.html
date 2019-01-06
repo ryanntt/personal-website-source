@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <!-- #if expr="$HTTP_COOKIE=/fonts\-loaded\=true/" -->
-<html AMP lang="en" class="fonts-loaded">
+<html lang="en" class="fonts-loaded">
 <!-- #else -->
-<html AMP lang="en">
+<html lang="en">
 <!-- #endif -->
 
 {% include head.html %}
@@ -15,7 +15,7 @@
       {% include header_back.html %}
     {% endif %}
 
-    <div class="trip p2 p-responsive wrap" role="main">
+    <div class="trip p2 px2 wrap" role="main">
       {% if page.type == "detail" %}
         {{ content }}  
       {% else %}

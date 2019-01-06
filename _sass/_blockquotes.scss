@@ -1,7 +1,7 @@
 blockquote {
   // border-left: 5px solid #7a7a7a;
   font-style: italic;
-  text-align: center;
+  text-align: left;
   margin-left: $space-1;
   padding: $space-1;
 }
@@ -16,15 +16,13 @@ blockquote footer {
   padding: 0;
 }
 
-blockquote.emphasis {
-  background-color: #FAF3EA;
-  margin: 2em 0;
-  .label {
+blockquote.highlighted {
+  background-color: #163d6f;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding: 2rem 0;
+  .label, p {
     font-style: normal;
-    color: #994D17;
-  }
-  p {
-    font-style: normal;
-    color: #AE5E26;
+    color: white;
   }
 }

@@ -1,29 +1,66 @@
+.site-title {
+  padding-top: 4px;
+}
+
 .site-header {
   box-sizing: border-box;
-  border-bottom: 1px solid #EFEFEF;
-  background: rgba(255, 255, 255, .96);
 }
 
 .site-header nav a {
-  padding: 0.5em 0 0.2em 0;
+  padding: 0.3em 0.6em 0.3em 0.6em;
+  border-radius: none;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 
-.site-header nav a:hover {
-  border-bottom: 1px solid $dark-gray;
+.site-header nav a:hover, .site-header nav a.current {
+  background-color: $brand;
+  color: white;
 }
 
-.site-header nav a.current {
-  border-bottom: 1px solid $dark-gray;
-  color: #000000;
+.posts a.post-link {
+  padding: 0.1em 0.4em 0.1em 0.4em;
+  text-transform: uppercase;
+  font-weight: $bold-font-weight;
+  color: $brand;
+  font-size: $h5;
+  &:hover {
+    color: white;
+    background-color: $brand;
+  }
 }
 
 .post-header {
   text-align: center;
   margin-bottom: 2em;
+}
+
+.post-header.project {
+  display: flex;
+  text-align: left;
+}
+
+.project-summary {
+  max-width: 50%;
+}
+.project-meta {
+  padding-top: 2em;
+  max-width: 50%;
+}
+
+.project-summary {
+  padding-right: 5%;
+}
+
+.project-meta span {
+  display: inline-block;
+  background: $lighter-gray; // try out highlight in blue for skills
+  padding: 0.2em 0.6em;
+  margin: 0.1em 0 0.2em 0;
+  border-radius: 20px;
+  color: $mid-gray;
 }
 
 .meta,
@@ -39,16 +76,12 @@ p, .p,.f4, dl, ol, ul {
 }
 
 .home .measure{
-  max-width: 768px;
   & > h1, h2{
     color: $darker-gray;
     font-family:$heading-font-family;
   }
-  & > h1 {
-    margin-top: 2em;
-  }
   & > p {
-    max-width: 620px;
+    max-width: $text-width;
   }
 }
 
@@ -64,9 +97,16 @@ p, .p,.f4, dl, ol, ul {
  min-height: 100%;
 }
 
+.text-width {
+  max-width: $text-width;
+}
+
+section {
+  padding: 2em 0 2.5em 0;
+}
+
 footer {
   padding: 1rem 0 1.5rem 0;
-  margin-top: $space-2;
 }
 
 .footer p2 {
@@ -106,10 +146,6 @@ ul {
   margin: 1em auto;
 }
 
-.p-responsive {
-  padding: 0 1rem 1rem 1rem;
-}
-
 p, .p {
   font-weight: 400;
   line-height: $line-height;
@@ -123,9 +159,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .avatar {
   display:block; 
-  margin-top: 108px; 
-  width: 220px; 
-  height: 220px;
+  margin: 1.5em auto;
+  width: 110px; 
+  height: 110px;
   img {
     border: 1px solid #efefef;
     border-radius:400px;
@@ -134,9 +170,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .intro-text {
   display:block; 
-  width: 50%; 
-  padding-left: 8%; 
-  flex: 1;
+  max-width: $text-width; 
 }
 
 .post-content {
@@ -145,7 +179,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 1.6em auto;
   }
   h2 {
-    text-align: center;
+    text-align: left;
   }
   h3 {
     margin-top: $space-3;
@@ -166,13 +200,12 @@ h1, h2, h3, h4, h5, h6 {
 hr {
   border: none;
   text-align: center;
+  height: 20px;
   width: 100%;
-  height: 10px;
-  margin: 40px auto 0 auto;
   &:before {
     content: '...';
     display: inline-block;
-    color: rgba(0,0,0,.6);
+    color: $brand;
     position: relative;
     top: -30px;
     font-size: 2em;
@@ -189,10 +222,15 @@ hr {
   margin: 3em 0;
 }
 
+.horizontal-bar {
+  display: block;
+  height: 4px;
+  width: 70px;
+  background:$brand;
+}
+
 .key-category {
   display: inline-block;
-  border-top: 1px solid #ccc;
-  padding-top: 2rem;
 }
 
 .home .posts .post{
@@ -231,7 +269,7 @@ hr {
 }
 
 .blog .posts {
-  max-width: 620px;
+  max-width: $text-width;
 }
 
 .posts .post {
@@ -240,10 +278,16 @@ hr {
 
 .post a:not(.button):not(.post-link) {
   color: $dark-gray;
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0) 50%, rgba(0,0,0,0.6) 50%);
-  background-repeat: repeat-x;
-  background-size: 2px 2px;
-  background-position: 0 20px;
+  // background-image: linear-gradient(to bottom, rgba(0,0,0,0) 50%, rgba(0,0,0,0.6) 50%);
+  // background-repeat: repeat-x;
+  // background-size: 2px 2px;
+  // background-position: 0 20px;
+  font-weight: $bold-font-weight;
+  color: #3a8bbb;
+  &:hover {
+    color: white;
+    background-color: #3a8bbb;
+  }
 }
 
 .post a.no-underline {
@@ -253,32 +297,25 @@ hr {
 .button:focus {outline:0;}
 
 #summary {
-  max-width: 672px;
+  max-width: $text-width;
   margin: 0 auto;
 }
 
 .button {
+  display: block;
   margin-bottom: 1rem;
-  font-weight: bold;
-  // text-transform: capitalize;
+  padding: 0.6rem 1rem 0.8em;
   font-size: 0.9rem;
-  height: 42px;
-  background: white;
-  border-radius: 30px;
-  border: 1px solid $mid-gray;
+  background: $darker-gray;
+  color: white;
+  border-radius: 2px;
   -webkit-transition: .8s cubic-bezier(.2,1,.2,1);
   -o-transition: .8s cubic-bezier(.2,1,.2,1);
   transition: .8s cubic-bezier(.2,1,.2,1);
-  color: $dark-gray;
 
   cursor: pointer;
   &:hover {
-    color: $darker-gray;
-    -webkit-transform: translateY(-1px);
-    -ms-transform: translateY(-1px);
-    transform: translateY(-1px);
-    -webkit-box-shadow: 0 5px 10px 0 rgba(0,0,0,.1);
-    box-shadow: 0 5px 10px 0 rgba(0,0,0,.1);
+    background: $brand;
   }
 }
 
@@ -328,7 +365,7 @@ hr {
 }
 
 #disqus_thread {
-  max-width: 672px;
+  max-width: $text-width;
   margin-left: auto;
   margin-right: auto;
 }
@@ -363,6 +400,7 @@ hr {
 .more-posts {
   max-width: $text-width;
   margin: 4em auto 1em auto;
+  padding: 1em 0 1em 0;
   border-top: 1px dashed #999;
   h3 {
     margin-bottom: 1.5rem;
@@ -376,7 +414,7 @@ hr {
     margin: 1em 0 0 0 
   }
   p {
-    margin: 0.2em 0 1.2em 0;
+    margin: 0.2em 0 1.5em 0;
     font-size: 0.9em;
     line-height: 1.3rem;
   }
@@ -396,30 +434,28 @@ small {
   margin: auto;
 }
 
-@media screen and (min-width: $viewport-medium) {
-  // This is to make header fixed at top
-  // body {
-  //   padding-top: 1.25*$space-5;
-  // }
-  // .site-header {
-  //   position: fixed;
-  //   top: 0;
-  //   width: 100%;
-  // }
-  .highlighted {
-    p {
-      color: #056171;
-      font-size: 1.5rem;
-    } 
-  }
+.full-width {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
 }
 
 @media screen and (max-width: $viewport-medium) {
   canvas {
     width: 100%;
   }
-  .post a:not(.button):not(.post-link) {
-    background-position: 0 18px;
+  // .post a:not(.button):not(.post-link) {
+  //   background-position: 0 18px;
+  // }
+  .post-header.project {
+    flex-direction: column;
+  }
+  .project-summary, .project-meta {
+    max-width: 100%;
+    padding-top: 0;
   }
 }
 
@@ -429,6 +465,7 @@ small {
   }
   h1, .h1 {
     font-size: 1.4rem;
+    line-height: 1.6;
   }
   h2, .h2 {
     font-size: 1.2rem;
@@ -436,9 +473,15 @@ small {
   h3, .h3 {
     font-size: 1.1rem;
   }
+
+  .site-header {
+    margin-bottom: 1rem;
+  }
+
   .site-header a {
     font-size: $h4;
   }
+
   table,
   tbody {
     display: block;
@@ -464,7 +507,7 @@ small {
   table th[data-title]:before,
   table td[data-title]:before {
     content: attr(data-title) ":\00A0";
-    font-weight: bold;
+    font-weight: $bold-font-weight;
   }
 
   table > tbody > tr > td {
@@ -476,34 +519,21 @@ small {
   table > tbody > tr > td:empty {display: none;}
 
   table > tbody > tr > td:first-child {
-    font-weight: bold;
+    font-weight: $bold-font-weight;
     font-size: 1.1em;
   }
 
   table td:first-child:before { content: ''; }
 
-  .intro {
-    flex-direction: column;
+  .more-posts .post {
+    width: 100%;
+    margin-bottom: 0;
   }
 
-  .avatar {
-    margin-top: 1.5em; 
-    width: 110px; 
-    height: 110px;
+  .button {
+    margin-left: auto;
+    margin-right: auto;
   }
-  
-  .intro-text {
-    width: 100%; 
-    padding-left: 0; 
-    flex: 1;
-  }
-
-  .home .measure{
-    h1 {
-      margin-top: 0.5em;
-    }
-  }
-  
 }
 
 footer a{

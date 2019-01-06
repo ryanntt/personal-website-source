@@ -14,10 +14,13 @@
   margin:0
 }
 
+.list .post-entry {
+  display: flex;
+}
+
 .list .wrap {
   position: relative;
   line-height: 0;
-  border-radius: 5px;
   overflow: hidden;
   -webkit-transition: .8s cubic-bezier(.2,1,.2,1);
   -o-transition: .8s cubic-bezier(.2,1,.2,1);
@@ -41,11 +44,6 @@
   width: 100%;
 }
 
-.trip.p-responsive{
-  font-weight: 400;
-  // padding: 0 0 1em 0;
-}
-
 .list .thumb {
   -moz-transition: all 2.3s;
   -webkit-transition: all 2.3s;
@@ -55,10 +53,6 @@
     -webkit-transform: scale(1.15);
     transform: scale(1.15);
   }  
-}
-
-img {
-  border-radius: 5px;
 }
 
 .list .img {
@@ -80,18 +74,23 @@ img {
 }
 
 .list .summary {
-  width: 100%;
-  text-align: center;
+  width: 33.33%;
+  text-align: left;
+  padding-right: 1em;
+}
+
+.list .thumbnail {
+  width: 66.67%;
 }
 
 .list .summary {
-  p ,a {
+  p {
     color: $mid-gray;
   }
-  h3 {
-    display:inline-block;
-    font-weight: bold;
-    color: $dark-gray;
+  .title {
+    font-weight: $bold-font-weight;
+    color: $darker-gray;
+    margin-top: 0;
     margin-bottom: 0.25rem;
   }
 }
@@ -115,38 +114,25 @@ html.projects {
     flex-wrap: wrap;
     justify-content: space-between;
   }
-  .post-entry {
-    width: 49%;
-    min-height: 200px;
-    .thumb {
-      background-color: #EFEFEF;
-    }
-    .summary {
-      position: relative;
-      background: none;
-      padding: 0;
-    }
-    @media screen and (max-width: $viewport-small) {
-      width: 100%;
-    }
-  }
 }
 
 figcaption {
-  max-width: 672px;
   margin: 0 auto;
   margin-bottom: 2em;
   padding: 0.1em 0 0.5em 0;
-  color: $mid-gray;
-  text-align: center;
-  font-size: 0.9em;
+  text-align: left;
+  font-size: 0.8em;
+  border-bottom: 1px solid $lighter-gray;
 }
 
 figure {
-  max-width: $measure-width;
   text-align: center;
-  margin: 0;
-  margin-top: -7px; //hackish way to temporarily fix the different height of <figure> and <img>
+  margin: auto;
+  //margin-top: -7px; //hackish way to temporarily fix the different height of <figure> and <img>
+}
+
+figure:not(.no-bg-color) img {
+  background-color: #f8f8f8;
 }
 
 .trip-content {
@@ -211,6 +197,13 @@ figure {
   .trip .py3 {
     width: 100%;
   }
+  .list .summary {
+    width: 50%;
+  }
+  
+  .list .thumbnail {
+    width: 50%;
+  }
 }
 
 @media screen and (max-width: $viewport-small){
@@ -225,5 +218,16 @@ figure {
     figure, .video-container {
       width: 100% !important;
     }
-  }     
+  }
+  .list .post-entry {
+    flex-direction: column;
+  }
+
+  .list .summary, .list .thumbnail {
+    width: 100%;
+  }
+
+  .list .summary {
+    margin: $h5 0 $h4 0;
+  }
 }   

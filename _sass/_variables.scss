@@ -1,11 +1,11 @@
 // Typography
 $base-font-size: 18px !default;
-$bold-font-weight: bold !default;
-$font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, 'Arial', sans-serif !default;
-$line-height: 1.55 !default;
-$heading-font-family: 'Lora', 'Georgia', serif !default;
-$heading-font-weight: 600 !default;
-$heading-line-height: 1.35 !default;
+$bold-font-weight: 500 !default;
+$font-family: 'Poppins', 'Helvetica Neue', Helvetica, 'Arial', sans-serif !default;
+$line-height: 1.65 !default;
+$heading-font-family: 'Poppins', 'Helvetica Neue', Helvetica, 'Arial', sans-serif !default;
+$heading-font-weight: 500 !default;
+$heading-line-height: 1.4 !default;
 $monospace-font-family: 'Source Code Pro', Consolas, monospace !default;
 $fallback-font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
 $h1: 2.0rem !default;
@@ -25,8 +25,8 @@ $h1-responsive-max: 3.84rem !default;
 $abbr-border-bottom: 1px black dotted;
 
 // Page width
-$measure-width: 1000px !default;
-$text-width: 672px !default;
+$measure-width: 1155px !default;
+$text-width:650px !default;
 
 // Viewport widths
 $viewport-small: 32em;
@@ -49,14 +49,15 @@ $darker-gray: #222 !default;
 $dark-gray: #444 !default;
 $mid-gray: #777 !default;
 $light-gray: #ccc !default;
-$lighter-gray: #eee !default;
+$lighter-gray: #E8E8E8 !default;
 $darken-1: rgba(#000,.0625) !default;
 $darken-2: rgba(#000,.125) !default;
 $darken-3: rgba(#000,.25) !default;
 $darken-4: rgba(#000,.5) !default;
+$brand: #F2490C !default;
 
 // Links
-$link-color: $blue;
+$link-color: $brand;
 $link-hover-color: darken($blue, 40%);
 
 // Breakpoints
@@ -120,6 +121,6 @@ $hljs-chunk: $light-gray;
 $footer-border-top: thin solid #f3f3f3;
 $footer-padding: $space-3;
 $footer-color: #7a7a7a;
-$footer-bg-color: #fafafa;
+$footer-bg-color: #ffffff;
 $footer-font-weight: 400;
 $footer-font-size: .75rem;

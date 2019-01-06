@@ -59,7 +59,7 @@
 .hljs-id,
 .scss .hljs-preprocessor {
   color: $hljs-title;
-  font-weight: bold;
+  font-weight: $bold-font-weight;
 }
 
 .highlight .k {
@@ -99,7 +99,7 @@
 .hljs-shebang,
 .hljs-cdata {
   color: $hljs-preprocessor;
-  font-weight: bold;
+  font-weight: $bold-font-weight;
 }
 
 .hljs-deletion {

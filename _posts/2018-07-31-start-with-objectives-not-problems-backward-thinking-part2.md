@@ -4,14 +4,14 @@ date: 2018-07-31 00:06:00 Z
 categories:
 - blog
 layout: post
-summary: This is 2nd article of series Backward Thinking in Problem Solving. We are usually given problems to solve, which might make understanding problem further appealing as the immediate step. However, what we want to start any project with should be objectives.
+summary: We are usually given problems to solve, which might make understanding problem further appealing as the immediate step. What we want to start any project with should be objectives.
 
 ---
 
 This is **2nd article** of series **Backward Thinking in Problem Solving** ([Backward Thinking in Problem Solving — Part 1: Introduction](https://medium.com/design-notebook/backward-thinking-in-problem-solving-part-1-introduction-75ee71829abb)). We are usually given problems to solve, which might make understanding problem further appealing as the immediate step. However, what we want to start any project with should be objectives. 
 
-<figure>
-    <img width="768" src="https://cdn-images-1.medium.com/max/11674/1*-QvTTBvQrpZ6o3G4L-PWSQ.jpeg">
+<figure class="text-width">
+    <img src="https://cdn-images-1.medium.com/max/11674/1*-QvTTBvQrpZ6o3G4L-PWSQ.jpeg">
     <figcaption>Start with Objectives, not Problems (Photo by <a href="https://unsplash.com/photos/aOYA7D3fse8" target="_blank">rawpixel</a>)</figcaption>
 </figure>
 

@@ -5,20 +5,16 @@ categories:
 - projects
 layout: post
 summary: This project is about how I make data-informed design decision by using A/B testing.
-text: interface design, experimental design
+text: <span>interface design</span> <span>experimental design</span>
 thumbnail: https://res.cloudinary.com/ryanntt/image/upload/s--caXM7FiC--/c_scale,h_1082,w_1536/v1542723204/panelplace/panelplace-thumbnail.png
+year: August - October 2014
 ---
-
-<figure>
-    <img width="768" src="https://res.cloudinary.com/ryanntt/image/upload/s--caXM7FiC--/c_scale,h_1082,w_1536/v1542723204/panelplace/panelplace-thumbnail.png">
-    <figcaption>Control (A) and variable (B) of the homepage design</figcaption>
-</figure>
 
 ## Context
 
 PanelPlace is a platform that helps people track and manage paid survey opportunities from market research companies. In July 2014, the client was working on significant feature changes and wanted to redesign the homepage as part of this rebranding. The conversion rate at homepage was low as people were reluctant to register for a new service like PanelPlace. As PanelPlace was growing its user base, therefore, this was the most critical issue on the website. The client wanted to take this opportunity to communicate with users about the rebranding of its product and new features.
 
-<blockquote class="emphasis">
+<blockquote class="highlighted full-width">
     <h2 class="label">Reframed challenge</h2>
     <p>How can we redesign the homepage to convey trust and potential values of using PanelPlace to the new customers?</p>
 </blockquote>
@@ -47,7 +43,7 @@ We want to understand what people think when they reach the homepage, and why th
 
 We interviewed 6 users. The questions were structured to help us gain insights into their goals and needs in the platform. Some people joined the platform just because they had free time and want to spend on earning some money. Others are very systematic about how to manage their earning and want to be efficient when doing surveys. We identified a common theme among these users.
 
-<blockquote class="emphasis">
+<blockquote class="highlighted full-width">
     <h2 class="label">Common theme</h2>
     <p>People consider answering surveys as a way to earn side money, so they do it only when the process is convenient, flexible and hassle-free.</p>
 </blockquote>
@@ -60,12 +56,12 @@ We interviewed 6 users. The questions were structured to help us gain insights i
 
 The early involvement of stakeholders in wireframing is essential to the faster approval of design later since stockholder will have a better sense of ownership in the design process. This project is the first time we experiment collaboration workshop with stakeholders. We wanted clients and designers to align themselves with each other about what the design will look like. 
 
-<figure>
+<figure class="text-width">
   <img src="/images/panelplace/collaboration-wireframe.jpg" alt="">
   <figcaption>We used Six Up method, which requires each person to draw 6 ideas. We then compiled and sorted them into catefories.</figcaption>
 </figure>
 
-<blockquote class="emphasis">
+<blockquote class="highlighted full-width">
     <h2 class="label">PanelPlace's Value Proposition</h2>
     <p>Our customers can focus on earning money as we help them choose and manage the optimal survey panels at their convenience.</p>
 </blockquote>
@@ -87,14 +83,14 @@ We wanted to know if simplifying the form, communicating more information of reg
 
 In the original homepage, the value of being secure was not well received by our interviewed users. Moreover, We used heatmap to monitor the homepage and found out that people rarely use the social media signup.
 
-<figure>
+<figure class="text-width">
   <img src="https://res.cloudinary.com/ryanntt/image/upload/s--bUrwzVDm--/c_scale,w_1536/v1542724481/panelplace/original-homepage.png" alt="" width="768">
   <figcaption>The original homepage communicated its value about security, had unnecessary elements such as the Facebook button.</figcaption>
 </figure>
 
 In the redesigned homepage, we conveyed the convenience of using PanelPlace by explaining the process of signing up. The form was simplified to contain only compulsory fields.
 
-<figure>
+<figure class="text-width">
   <img src="https://res.cloudinary.com/ryanntt/image/upload/s--UY7mACIw--/c_scale,w_1536/v1542724471/panelplace/redesigned-homepage.png" alt="" width="768">
   <figcaption>The redesigned homepage communicated its value about the ease of signing up and had a linear format of content leading to the form.</figcaption>
 </figure>
@@ -186,4 +182,4 @@ There were one control and four variations. I ran the test for seven days. Withi
 
 Two weeks after we launched the redesigned homepage, the improvement of signup rate was relatively smaller than the result in the experiments. The reason, we agreed, was that the conversion rate was decided by not just individual elements but as a whole with their complex influential relationship. Regarding the time and traffic constraints we had, the testings helped my team improve the design, and convince client to implement the new design.  
 
-<p style="color:#999999;">All information in this case study is my own and does not necessarily reflects PanelPlace's view.</p>
+<p style="color:#999999;">All information in this case study is my own and does not necessarily reflect PanelPlace's view.</p>
