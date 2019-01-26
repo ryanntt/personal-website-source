@@ -5,7 +5,7 @@ categories:
 - projects
 layout: post
 summary: This project is about how I make data-informed design decision by using A/B testing.
-text: <span>interface design</span> <span>experimental design</span>
+text: <span>Interface design</span> <span>Experimental design</span>
 thumbnail: https://res.cloudinary.com/ryanntt/image/upload/s--caXM7FiC--/c_scale,h_1082,w_1536/v1542723204/panelplace/panelplace-thumbnail.png
 year: August - October 2014
 ---
