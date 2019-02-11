@@ -25,7 +25,7 @@ tag: home
 
 <section>
   <div class="horizontal-bar"></div>
-  <h2 class="h1 key-category" id="case-studies">Selected Case Studies</h2>
+  <h2 class="h1 key-category" id="case-studies">Select Case Studies</h2>
 
   <div class="projects list featured">
     <div class="posts">

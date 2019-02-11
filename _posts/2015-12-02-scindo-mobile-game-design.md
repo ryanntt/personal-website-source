@@ -4,7 +4,7 @@ date: 2015-12-02 08:06:18 Z
 categories:
 - projects
 layout: post
-text: interaction design, interface design
+text: <span>Interaction design</span> <span>Interface design</span>
 summary: My first mobile game design. Had fun with UI and character design.
 thumbnail: https://res.cloudinary.com/ryanntt/image/upload/s--mg7Q8PuR--/c_scale,w_1536/v1542801308/scindo/scindo-thumbnail.png
 year: May - December 2015

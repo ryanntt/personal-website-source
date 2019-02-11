@@ -6,7 +6,7 @@ categories:
 - projects
 layout: post
 status: featured
-text: <span>design research</span> <span>interaction design</span> <span>design thinking</span>
+text: <span>Design research</span> <span>Interaction design</span> <span>Design thinking</span>
 summary: Helping healthcare organization and professional improve service quality via listening to feedbacks from patient
 thumbnail: https://res.cloudinary.com/ryanntt/image/upload/s--YJ655bTg--/c_fill,h_1082,w_1536/v1508815659/Healthcare-Feedback/Final-Mockup-1.png
 theme-color: c3e6f0

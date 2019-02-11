@@ -127,9 +127,9 @@ layout: default
     {% if site.show_post_footers %}
     <form action="/{{ page.categories }}" class="btn-back">
       {% if page.categories contains 'projects' %}
-      <input type="submit" class="button button-big mobile-block" value="Back to Case Studies" />
+      <input type="submit" class="button button-big mobile-block" value="View All Case Studies" />
         {% else %}
-        <input type="submit" class="button button-big mobile-block" value="Back to {{ page.categories }}" />
+        <input type="submit" class="button button-big mobile-block" value="View All {{ page.categories }}" />
       {% endif %}
     </form>
     {% endif %}

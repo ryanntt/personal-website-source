@@ -6,10 +6,11 @@ categories:
 - projects
 layout: post
 status: featured
-text:  <span>design research</span>  <span>interaction design</span> <span>interface design</span>
+text:  <span>Design research</span>  <span>Interaction design</span> <span>Interface design</span>
 summary: <p>Drivers in human-driven car and pedestrians communicate with each other via eye contact and hand gesture, which do not exist in autonomous cars. With autonomous cars being tested in many cities around the world, the lack of interpersonal communication poses a challenge in having clear communication between autonomous cars and pedestrian.</p> <p>This project aims to design a communication solution and answer the question of how people understand and trust this solution in their interaction with driverless cars, especially in the situation not regulated by a traffic light.</p>
 year: June - December 2018
-thumbnail: https://res.cloudinary.com/ryanntt/image/upload/s--tnaJ7x5C--/v1543381304/light-wave/light-wave-thumbnail.png
+theme-color: 888888
+thumbnail: https://res.cloudinary.com/ryanntt/image/upload/s--Xs4yp45V--/c_fill,h_1082,w_1536/v1548480050/light-wave/light-wave-thumbnail.png
 
 ---
 
@@ -101,7 +102,7 @@ analysis. Based on the literature review of previous studies, we identified two 
 
 <figure class="no-bg-color text-width">
     <img src="https://res.cloudinary.com/ryanntt/image/upload/s--ijSRYuM2--/c_scale,h_619,w_1150/v1546162374/light-wave/Official_Experiment.png">
-    <figcaption>The 18 participants have a wide variety of background knowledge about autonomous car.</figcaption>
+    <figcaption>Different types of data were collected in the study.</figcaption>
 </figure>
 
 <div class="spacer-block-2"></div>

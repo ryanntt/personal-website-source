@@ -63,6 +63,10 @@
   color: $mid-gray;
 }
 
+.posts .post-entry .summary span:not(:last-of-type)::after {
+  content: " · ";
+}
+
 .meta,
 .post-meta {
   font-family: $font-family;
