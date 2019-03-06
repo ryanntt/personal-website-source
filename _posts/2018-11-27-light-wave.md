@@ -13,7 +13,7 @@ theme-color: 888888
 thumbnail: https://res.cloudinary.com/ryanntt/image/upload/s--Xs4yp45V--/c_fill,h_1082,w_1536/v1548480050/light-wave/light-wave-thumbnail.png
 
 ---
-
+ 
 ## Autonomous cars and human?
 
 Drivers in human-driven car and pedestrians communicate with each other via eye contact and hand gesture, which do not exist in autonomous cars. With autonomous cars being tested in many cities around the world, the lack of interpersonal communication poses a challenge in having clear communication between autonomous cars and pedestrian.
@@ -29,6 +29,15 @@ To form the research questions, I reviewed papers of different domain such as au
 <figure class="no-bg-color text-width">
     <img src="https://res.cloudinary.com/ryanntt/image/upload/s--qTZwLx3w--/c_scale,q_60,w_1150/v1546686210/light-wave/Literature-Review.png">
     <figcaption>I reviewed more than 50 papers to form the research questions.</figcaption>
+</figure>
+
+## Components of Trust
+
+As we are integrating intent and awareness into the solution, we also want to see the impact of these two factors in creating trust. Intent and awareness contribute to how people understand the system and therefore contribute to the cognition-based trust. As trust has both affect-based and cognition components, we will quantify trust in relation to the value of these two categories.
+
+<figure class="no-bg-color text-width">
+    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--1_jxUJ4O--/c_scale,w_650/v1551875316/light-wave/Trust_Model.png">
+    <figcaption>Trust has affect-based and cognition-based components, which we are going to measure in this study.</figcaption>
 </figure>
 
 <div class="spacer-block-2"></div>
@@ -53,6 +62,16 @@ Prototyping in Virtual Reality requires the solution idea to have specifications
 
 <div class="spacer-block-2"></div>
 
+<figure>
+    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--XiyRoHZ4--/c_scale,h_881,w_1155/v1551868042/light-wave/Mockup-Board.png">
+    <figcaption>Design variations and iterations of the light signal.</figcaption>
+</figure>
+
+<figure class="text-width">
+    <img src="https://res.cloudinary.com/ryanntt/image/upload/v1551870663/light-wave/Processing-Animation.gif">
+    <figcaption>The animation was programmed in Processing to gain better control of design variables such as framerates, gaps, colour, speed.</figcaption>
+</figure>
+
 ## Experimental Design
 
 As our research objective is to study how design elements intent and awareness impact people trust in communication with autonomous cars, we want to test our solution in various scenarios having different intent and levels of awareness. The hardware that controls awareness are car sensors, so we design scenarios to have sensor failure at different points of time to evaluate how pedestrians would react and behaviour, and most importantly whether people can make a safe decision using the communication the car sends.
@@ -61,7 +80,7 @@ As our research objective is to study how design elements intent and awareness i
 
 <figure class="no-bg-color text-width">
     <img src="https://res.cloudinary.com/ryanntt/image/upload/s--rnHmFOzE--/c_scale,w_1150/v1546689476/light-wave/Experiment-Design.png">
-    <figcaption>Four scenarios: (A) Car sensor works well throughout the scenario (B) Car sensors fails when the pedestrian is crossing (C) Car sensors fails before the car completely stop (D) Car does not see the pedestrian at all.</figcaption>
+    <figcaption><b>Four scenarios</b>: (A) Car sensor works well throughout the scenario (B) Car sensors fails when the pedestrian is crossing (C) Car sensors fails before the car completely stop (D) Car does not see the pedestrian at all.</figcaption>
 </figure>
 
 ## Study in Virtual Reality
@@ -114,6 +133,12 @@ analysis. Based on the literature review of previous studies, we identified two 
     <figcaption>The 18 participants have a wide variety of background knowledge about autonomous car.</figcaption>
 </figure>
 
+
+<figure class="text-width">
+    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--hpMAxiEG--/c_scale,h_350,w_650/v1551873968/light-wave/Multiple_Regression_Analysis_-Trust.png">
+    <figcaption>Multiple Regression Analysis was used to understand the relationship between Trust and other variables such as Comfort, Intent and Awareness. Good p-values support the strong relationship.</figcaption>
+</figure>
+
 <div class="spacer-block-2"></div>
 
 ## Result
@@ -124,7 +149,6 @@ The result confirmed that the comfort and intention of the cars understood by pe
     <img src="https://res.cloudinary.com/ryanntt/image/upload/s--yylWKt9l--/v1546692777/light-wave/Study_Footage.gif">
     <figcaption>Participants exhibited behaviours they normally have in real-life crossing situations.</figcaption>
 </figure>
-
 
 ## Reflection
 
