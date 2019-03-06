@@ -81,4 +81,10 @@
       <link rel="stylesheet" href="./js/botui/botui-theme-ryan.css">
     {% endif %}
     <!-- End Chatbot Script -->
+
+    <!-- Custom Script -->
+    {% for javascript in page.custom-javascript-list %}
+        <script src="{{ javascript }}"></script>
+    {% endfor %}
+    <!-- End Custom Script -->
 </head>
