@@ -9,7 +9,7 @@ tag: home
   <div  class="intro-text">
     <h1> Hello, I'm Ryan, a product designer in Sydney. I design meaningful and lovable products across different technologies and businesses.</h1>
     <form>
-      <input id="start-chat" type="button" class="button button-big mobile-block" value="Feeling Chatty Today" onClick="startChat()"/>
+      <input id="start-chat" type="button" class="button button-big mobile-block" value="Feeling chatty today" onClick="startChat()"/>
     </form>
     <div class="spacer-block-2"></div>
   </div>

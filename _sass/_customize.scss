@@ -1,3 +1,29 @@
+html {
+  --bg: white;
+  --bg-secondary: #efefef;
+  --headings: #222;
+  --text: #444;
+  --hint: #777;
+}
+
+html[data-theme='dark'] {
+  --bg: #222222;
+  --bg-secondary: #333333;
+  --headings: #ffffff;
+  --text: #dddddd;
+  --hint: #bbbbbb;
+}
+
+html[data-theme='dark'] {
+  .site-header .site-title {
+    img {
+      -webkit-filter: invert(1);
+      filter: invert(1);
+    }
+  }
+}
+
+
 .site-title {
   padding-top: 4px;
 }
@@ -22,7 +48,6 @@
 
 .posts a.post-link {
   padding: 0.1em 0.4em 0.1em 0.4em;
-  text-transform: uppercase;
   font-weight: $bold-font-weight;
   color: $brand;
   font-size: $h5;
@@ -56,11 +81,11 @@
 
 .project-meta span {
   display: inline-block;
-  background: $lighter-gray; // try out highlight in blue for skills
+  background: var(--bg-secondary); // try out highlight in blue for skills
   padding: 0.2em 0.6em;
   margin: 0.1em 0 0.2em 0;
   border-radius: 20px;
-  color: $mid-gray;
+  color: var(--hint);
 }
 
 .posts .post-entry .summary span:not(:last-of-type)::after {
@@ -81,7 +106,7 @@ p, .p,.f4, dl, ol, ul {
 
 .home .measure{
   & > h1, h2{
-    color: $darker-gray;
+    color: var(--headings);
     font-family:$heading-font-family;
   }
   & > p {
@@ -153,11 +178,11 @@ ul {
 p, .p {
   font-weight: 400;
   line-height: $line-height;
-  color: $dark-gray;
+  color: var(--text);
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: $darker-gray;
+  color: var(--headings);
 }
 
 
@@ -167,7 +192,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 110px; 
   height: 110px;
   img {
-    border: 1px solid #efefef;
+    border: 1px solid var(--bg);
     border-radius:400px;
   }
 }
@@ -276,6 +301,10 @@ hr {
   max-width: $text-width;
 }
 
+.post-link .post-title {
+  color: var(--text);
+}
+
 .posts .post {
   margin-bottom: 0;
 }
@@ -310,8 +339,8 @@ hr {
   margin-bottom: 1rem;
   padding: 0.6rem 1rem 0.8em;
   font-size: 0.9rem;
-  background: $darker-gray;
-  color: white;
+  background: var(--headings);
+  color: var(--bg);
   border-radius: 2px;
   -webkit-transition: .8s cubic-bezier(.2,1,.2,1);
   -o-transition: .8s cubic-bezier(.2,1,.2,1);

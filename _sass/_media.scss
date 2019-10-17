@@ -85,12 +85,12 @@
 
 .list .summary {
   p {
-    color: $mid-gray;
+    color: var(--text);
     margin-bottom: 0.5em;
   }
   .title {
     font-weight: $bold-font-weight;
-    color: $darker-gray;
+    color: var(--headings);
     margin-top: 0;
     margin-bottom: 0.25rem;
   }
@@ -133,7 +133,7 @@ figure {
 }
 
 figure:not(.no-bg-color) img {
-  background-color: #f8f8f8;
+  background-color: white;
 }
 
 .trip-content {
