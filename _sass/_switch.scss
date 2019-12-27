@@ -1,0 +1,92 @@
+/* -------------------------------- 
+
+File#: _1_switch
+Title: Switch
+Descr: Custom ON/OFF checkbox toggle
+Usage: codyhouse.co/license
+
+-------------------------------- */
+
+:root {
+    // style
+    --switch-width: 64px;
+    --switch-height: 32px;
+    --switch-padding: 3px;
+  
+    // animation
+    --switch-animation-duration: 0.2s;
+  }
+  
+  .switch {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    position: relative;
+    width: var(--switch-width);
+    height: var(--switch-height);
+    border-radius: 50em;
+    float: right;
+  }
+  
+  .switch__input, .switch__label {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  .switch__input {
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    height: 0;
+    width: 0;
+    pointer-events: none;
+  
+    &:checked + .switch__label {
+      background-color: $brand;
+    }
+  
+    &:checked + .switch__label + .switch__marker {
+      left: calc(100% - var(--switch-height) + var(--switch-padding));
+    }
+  
+    &:focus + .switch__label,
+    &:active + .switch__label {
+      box-shadow: 0 0 0 3px rgba(242,73,12,0.2);
+    }
+  }
+  
+  .switch__label {
+    width: 100%;
+    height: 100%;
+    color: transparent;
+    user-select: none;
+    background-color: var(--bg-secondary);
+    border-radius: inherit;
+    z-index: 1;
+    transition: background var(--switch-animation-duration);
+  }
+  
+  .switch__marker {
+    position: relative;
+    background-color: var(--bg);
+    width: calc(var(--switch-height) - var(--switch-padding) * 2);
+    height: calc(var(--switch-height) - var(--switch-padding) * 2);
+    border-radius: 50%;
+    z-index: 2;
+    pointer-events: none;
+    box-shadow: 0 1px 1px hsla(0, 0%, 0%, 0.25);
+    left: var(--switch-padding);
+    transition: left var(--switch-animation-duration);
+    will-change: left;
+    line-height: 27px;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+@media screen and (max-width: $viewport-small) {
+    html:not(.home) .switch {
+      float: none;
+      margin: 1.5em auto;
+    }
+}

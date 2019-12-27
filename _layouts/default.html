@@ -8,14 +8,7 @@
 {% include head.html %}
 
 <body class="site{% if site.animated %} animated fade-in-down{% endif %}">
-  <button id="theme-toggle" onclick="modeSwitcher()"></button>
-  <script>
-    const theme = localStorage.getItem('theme');
-    if (theme === "dark") {
-      document.documentElement.setAttribute('data-theme', 'dark');
-    }
-  </script>
-  <div class="site-wrap">
+  <div class="site-wrap"></div>
     {% if page.tag != 'home' %}
         {% include header.html %}
     {% endif %}
@@ -54,34 +47,79 @@
     }( this ));
   </script>
   <script>
-  const userPrefers = getComputedStyle(document.documentElement).getPropertyValue('content');	
-
-  if (theme === "dark") {
-    document.getElementById("theme-toggle").innerHTML = "Light Mode";
-  } else if (theme === "light") {
-    document.getElementById("theme-toggle").innerHTML = "Dark Mode";
-  } else if  (userPrefers === "dark") {
-    document.documentElement.setAttribute('data-theme', 'dark');
-    window.localStorage.setItem('theme', 'dark');
-    document.getElementById("theme-toggle").innerHTML = "Light Mode";
-  } else {
-    document.documentElement.setAttribute('data-theme', 'light');
-    window.localStorage.setItem('theme', 'light');
-    document.getElementById("theme-toggle").innerHTML = "Dark Mode";
-  }
-
-  function modeSwitcher() {
-    let currentMode = document.documentElement.getAttribute('data-theme');
-    if (currentMode === "dark") {
-      document.documentElement.setAttribute('data-theme', 'light');
-      window.localStorage.setItem('theme', 'light');
-      document.getElementById("theme-toggle").innerHTML = "Dark Mode";
-    } else {
+    // This checks whether system dark mode is set
+    let systemInitiatedDark = window.matchMedia("(prefers-color-scheme: dark)");
+    // This checks for session storage telling to override the system preferences
+    let theme = sessionStorage.getItem('theme');
+  
+    if (systemInitiatedDark.matches) {
       document.documentElement.setAttribute('data-theme', 'dark');
-      window.localStorage.setItem('theme', 'dark');
-      document.getElementById("theme-toggle").innerHTML = "Light Mode";
+      document.getElementById("theme-toggle").checked = true;
+      document.getElementById("theme-label").innerHTML = "🌙";
+      console.log("Hello Dark");
+    } else {
+      document.documentElement.setAttribute('data-theme', 'light');
+      document.getElementById("theme-toggle").checked = false;
+      document.getElementById("theme-label").innerHTML = "☀️";
+      console.log("Hello Light");
     }
-  }
+
+    function prefersColorTest (systemInitiatedDark) {
+      if (systemInitiatedDark.matches) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        document.getElementById("theme-toggle").checked = true;
+        document.getElementById("theme-label").innerHTML = "🌙";
+        // This clears the session storage
+        sessionStorage.setItem('theme', '');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'light');
+        document.getElementById("theme-toggle").checked = false;
+        document.getElementById("theme-label").innerHTML = "☀️";
+        sessionStorage.setItem('theme', '');
+      }
+    }
+    systemInitiatedDark.addListener(prefersColorTest);
+
+    function modeSwitcher() {
+    // It's important to check for overrides again
+      let theme = sessionStorage.getItem('theme');
+      
+      // Checks if reader selected dark mode
+      if (theme === "dark") {
+        document.documentElement.setAttribute("data-theme", "light");
+        sessionStorage.setItem('theme', 'light');
+        document.getElementById("theme-toggle").checked = false;
+        document.getElementById("theme-label").innerHTML = "☀️";
+        // Checks if reader selected dark mode
+      } else if ( theme === "light") {
+        document.documentElement.setAttribute("data-theme", "dark");
+        sessionStorage.setItem('theme', 'dark');
+        document.getElementById("theme-toggle").checked = true;
+        document.getElementById("theme-label").innerHTML = "🌙";
+      } else if (systemInitiatedDark.matches) {
+        document.documentElement.setAttribute("data-theme", "light");
+        sessionStorage.setItem('theme', 'light');
+        document.getElementById("theme-toggle").checked = false;
+        document.getElementById("theme-label").innerHTML = "☀️";
+      } else {
+        document.documentElement.setAttribute("data-theme", "dark");
+        sessionStorage.setItem('theme', 'dark');
+        document.getElementById("theme-toggle").checked = true;
+        document.getElementById("theme-label").innerHTML = "🌙";
+      }
+    }
+
+    if (theme === "dark") {
+      document.documentElement.setAttribute("data-theme", "dark");
+      sessionStorage.setItem("theme", "dark");
+      document.getElementById("theme-toggle").checked = true;
+      document.getElementById("theme-label").innerHTML = "🌙";
+    } else if (theme === "light") {
+      document.documentElement.setAttribute('data-theme', 'light');
+      sessionStorage.setItem('theme', 'light');
+      document.getElementById("theme-toggle").checked = false;
+      document.getElementById("theme-label").innerHTML = "☀️";
+    }
   </script>
 </body>
 </html>

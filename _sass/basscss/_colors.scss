@@ -103,3 +103,53 @@
 .bg-darken-4 {
   background-color: $darken-4;
 }
+
+html, html[data-theme="light"] {
+  --bg: white;
+  --bg-secondary: #efefef;
+  --headings: #222;
+  --text: #444;
+  --hint: #777;
+}
+
+html[data-theme="dark"] {
+  --bg: #222222;
+  --bg-secondary: #333333;
+  --headings: #ffffff;
+  --text: #dddddd;
+  --hint: #bbbbbb;
+
+  & .site-header .site-title {
+    img {
+      -webkit-filter: invert(1);
+      filter: invert(1);
+    }
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  html, html[data-theme="light"] {
+    --bg: white;
+    --bg-secondary: #efefef;
+    --headings: #222;
+    --text: #444;
+    --hint: #777;
+    --brand: #c91d1d;  
+  }
+  
+  html[data-theme="dark"] {
+    --bg: #222222;
+    --bg-secondary: #333333;
+    --headings: #ffffff;
+    --text: #dddddd;
+    --hint: #bbbbbb;
+    --brand: #c91d1d;
+  
+    & .site-header .site-title {
+      img {
+        -webkit-filter: invert(1);
+        filter: invert(1);
+      }
+    }
+  }
+}
