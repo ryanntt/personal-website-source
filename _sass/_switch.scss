@@ -43,7 +43,7 @@ Usage: codyhouse.co/license
     pointer-events: none;
   
     &:checked + .switch__label {
-      background-color: $brand;
+      background-color: var(--brand);
     }
   
     &:checked + .switch__label + .switch__marker {

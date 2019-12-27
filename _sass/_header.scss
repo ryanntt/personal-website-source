@@ -35,7 +35,7 @@
 .site-header nav a:focus,
 .site-header nav a:active {
   color: white;
-  background: $brand;
+  background: var(--brand);
 }
 
 .site-nav a + a {
