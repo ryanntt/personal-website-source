@@ -7,6 +7,12 @@
       <nav class="site-nav">
         {% include navigation.html %}
       </nav>
+      <!-- <button id="theme-toggle" onclick="modeSwitcher()" class="theme-toggle-button"></button> -->
+      <div class="switch theme-toggle-button">
+        <input class="switch__input" type="checkbox" id="theme-toggle" onclick="modeSwitcher()">
+        <label class="switch__label" for="theme-toggle">Dark Mode</label>
+        <div aria-hidden="true" class="switch__marker" id="theme-label"></div>
+      </div>
       <div class="clearfix"></div>
       {% if site.show_social_icons %}
         {% include social_links.html %}

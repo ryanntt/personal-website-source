@@ -19,9 +19,9 @@
 }
 
 footer {
-  background-color: $footer-bg-color;
-  border-top: $footer-border-top;
-  color: $footer-color;
+  background-color: var(--bg-secondary);
+  border-top: var(--hint);
+  color: var(--hint);
   font-size: $footer-font-size;
   font-weight: $footer-font-weight;
   padding: $footer-padding;

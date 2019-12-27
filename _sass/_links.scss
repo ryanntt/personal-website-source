@@ -10,7 +10,7 @@ a:not(.button):hover,
 a:not(.button):focus,
 a:not(.button):active {
   border: 0;
-  color: $link-hover-color;
+  color: var(--text);
   text-decoration: none;
 }
 

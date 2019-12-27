@@ -60,5 +60,3 @@ sass:
   sass_dir: _sass
   style: compressed
 excerpt_separator: ''
-
-theme: jekyll-theme-minimal

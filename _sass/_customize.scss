@@ -16,19 +16,18 @@
 }
 
 .site-header nav a:hover, .site-header nav a.current {
-  background-color: $brand;
+  background-color: var(--brand);
   color: white;
 }
 
 .posts a.post-link {
   padding: 0.1em 0.4em 0.1em 0.4em;
-  text-transform: uppercase;
   font-weight: $bold-font-weight;
-  color: $brand;
+  color: var(--brand);
   font-size: $h5;
   &:hover {
     color: white;
-    background-color: $brand;
+    background-color: var(--brand);
   }
 }
 
@@ -56,11 +55,11 @@
 
 .project-meta span {
   display: inline-block;
-  background: $lighter-gray; // try out highlight in blue for skills
+  background: var(--bg-secondary); // try out highlight in blue for skills
   padding: 0.2em 0.6em;
   margin: 0.1em 0 0.2em 0;
   border-radius: 20px;
-  color: $mid-gray;
+  color: var(--hint);
 }
 
 .posts .post-entry .summary span:not(:last-of-type)::after {
@@ -81,7 +80,7 @@ p, .p,.f4, dl, ol, ul {
 
 .home .measure{
   & > h1, h2{
-    color: $darker-gray;
+    color: var(--headings);
     font-family:$heading-font-family;
   }
   & > p {
@@ -125,13 +124,13 @@ table {
 
 table th {
   text-align: left;
-  border-top: 2px solid #eee;
+  border-top: 2px solid var(--bg-secondary);
   vertical-align: bottom;
   padding: 0 1em 1em 1em;
 }
 
 table td {
-  border-top: 1px solid #eee;
+  border-top: 2px solid var(--bg-secondary);
   vertical-align: top;
   padding: 1em;
   text-align: left;
@@ -153,11 +152,11 @@ ul {
 p, .p {
   font-weight: 400;
   line-height: $line-height;
-  color: $dark-gray;
+  color: var(--text);
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: $darker-gray;
+  color: var(--headings);
 }
 
 
@@ -167,7 +166,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 110px; 
   height: 110px;
   img {
-    border: 1px solid #efefef;
+    border: 1px solid var(--bg);
     border-radius:400px;
   }
 }
@@ -209,7 +208,7 @@ hr {
   &:before {
     content: '...';
     display: inline-block;
-    color: $brand;
+    color: var(--brand);
     position: relative;
     top: -30px;
     font-size: 2em;
@@ -230,7 +229,7 @@ hr {
   display: block;
   height: 4px;
   width: 70px;
-  background:$brand;
+  background:var(--brand);
 }
 
 .key-category {
@@ -276,6 +275,10 @@ hr {
   max-width: $text-width;
 }
 
+.post-link .post-title {
+  color: var(--text);
+}
+
 .posts .post {
   margin-bottom: 0;
 }
@@ -310,8 +313,8 @@ hr {
   margin-bottom: 1rem;
   padding: 0.6rem 1rem 0.8em;
   font-size: 0.9rem;
-  background: $darker-gray;
-  color: white;
+  background: var(--headings);
+  color: var(--bg);
   border-radius: 2px;
   -webkit-transition: .8s cubic-bezier(.2,1,.2,1);
   -o-transition: .8s cubic-bezier(.2,1,.2,1);
@@ -319,93 +322,15 @@ hr {
 
   cursor: pointer;
   &:hover {
-    background: $brand;
+    background: var(--brand);
   }
-}
-
-.share-btn, #like-btn, #like-btn.in{
-  float: left;
-  width: 90px;
-}
-
-#like-count {
-  vertical-align: 1px;
-  margin-left: 4px;
-  color: #aab8c2;
-  font-family: $font-family;
-  font-size: 0.9em;
-  font-weight: bold;
-  min-width: 18px;
-  display: inline-block;
-}
-
-#like-btn:not(.in):hover {
-  #heart-animation {
-    background-position: right;
-  }
-  #like-count {
-    color: #FF4848;
-  }
-}
-
-#like-btn.active {
-  #like-count {
-    color: #FF4848;
-  }
-  #heart-animation {
-    background-position: right;
-    transition: background 1s steps(28);
-    animation: heart-animation 1s steps(28);
-  }
-}
-
-.share-btn {
-  padding: 0;
-  .fa {
-    height: 100%;
-    width: 100%;
-    background: none;
-  }  
-}
-
-#disqus_thread {
-  max-width: $text-width;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-@keyframes heart-animation {
-  0% {
-    background-position: left;
-  }
-  100% {
-    background-position: right;
-  }
-}
-
-#heart-shape {
-  position: relative;
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-}
-
-#heart-animation {
-  position: absolute;
-  left: -100%;
-  top: -100%;
-  width: 50px;
-  height: 50px;
-  background: url("https://abs.twimg.com/a/1450471907/img/t1/web_heart_animation.png");
-  background-size: 2900%;
-  background-position: left;
 }
 
 .more-posts {
   max-width: $text-width;
   margin: 4em auto 1em auto;
   padding: 1em 0 1em 0;
-  border-top: 1px dashed #999;
+  border-top: 1px dashed var(--hint);
   h3 {
     margin-bottom: 1.5rem;
   }
@@ -479,7 +404,8 @@ small {
   }
 
   .site-header {
-    margin-bottom: 1rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
   }
 
   .site-header a {

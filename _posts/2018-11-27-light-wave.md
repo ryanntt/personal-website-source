@@ -26,7 +26,7 @@ This project aims to design a communication solution and answer the question of 
 
 To form the research questions, I reviewed papers of different domain such as autonomous cars, interaction between cars and pedestrian in urban environment, trust between human and technology, cognition, virtual reality. In the end, I shortlisted and used around 15 papers as references in this project. I found that there was a gap in the way previous researchers prototyped and evaluated design solution for the interaction between pedestrians and autonomous cars.
 
-<figure class="no-bg-color text-width">
+<figure class="text-width">
     <img src="https://res.cloudinary.com/ryanntt/image/upload/s--qTZwLx3w--/c_scale,q_60,w_1150/v1546686210/light-wave/Literature-Review.png">
     <figcaption>I reviewed more than 50 papers to form the research questions.</figcaption>
 </figure>
@@ -35,7 +35,7 @@ To form the research questions, I reviewed papers of different domain such as au
 
 As we are integrating intent and awareness into the solution, we also want to see the impact of these two factors in creating trust. Intent and awareness contribute to how people understand the system and therefore contribute to the cognition-based trust. As trust has both affect-based and cognition components, we will quantify trust in relation to the value of these two categories.
 
-<figure class="no-bg-color text-width">
+<figure class="text-width">
     <img src="https://res.cloudinary.com/ryanntt/image/upload/s--1_jxUJ4O--/c_scale,w_650/v1551875316/light-wave/Trust_Model.png">
     <figcaption>Trust has affect-based and cognition-based components, which we are going to measure in this study.</figcaption>
 </figure>
@@ -55,7 +55,7 @@ As we are integrating intent and awareness into the solution, we also want to se
 
 Prototyping in Virtual Reality requires the solution idea to have specifications regarding appearance, animation, which was first assessed and adjusted in 2D prototypes. Each iteration was subjected to evaluation using the heuristics framework formed in a previous research on driverless-car-pedestrian interaction.
 
-<figure class="no-bg-color">
+<figure>
     <img src="https://res.cloudinary.com/ryanntt/image/upload/s--zIrebbhW--/c_scale,h_257,w_1155/v1546162372/light-wave/Iterative_Process.png">
     <figcaption>The design process was iterative, from sketching, digital mockups, code-based prototype in Processing to 3D mockup in Unity.</figcaption>
 </figure>
@@ -78,7 +78,7 @@ As our research objective is to study how design elements intent and awareness i
 
 <div class="spacer-block-1"></div>
 
-<figure class="no-bg-color text-width">
+<figure class="text-width">
     <img src="https://res.cloudinary.com/ryanntt/image/upload/s--rnHmFOzE--/c_scale,w_1150/v1546689476/light-wave/Experiment-Design.png">
     <figcaption><b>Four scenarios</b>: (A) Car sensor works well throughout the scenario (B) Car sensors fails when the pedestrian is crossing (C) Car sensors fails before the car completely stop (D) Car does not see the pedestrian at all.</figcaption>
 </figure>
@@ -89,7 +89,7 @@ In the process of designing for interaction between pedestrians and driverless c
 
 <div class="spacer-block-1"></div>
 
-<figure class="no-bg-color text-width">
+<figure class="text-width">
     <img src="https://res.cloudinary.com/ryanntt/image/upload/s--vuqs4rW8--/c_scale,h_574,w_1300/v1546162365/light-wave/Experiment_Environment.png">
     <figcaption>The test setup had enough room for walking inside VR and interview booth that allowed comfort when answering the questions.</figcaption>
 </figure>
@@ -119,7 +119,7 @@ analysis. Based on the literature review of previous studies, we identified two 
 
 <div class="spacer-block-1"></div>
 
-<figure class="no-bg-color text-width">
+<figure class="text-width">
     <img src="https://res.cloudinary.com/ryanntt/image/upload/s--ijSRYuM2--/c_scale,h_619,w_1150/v1546162374/light-wave/Official_Experiment.png">
     <figcaption>Different types of data were collected in the study.</figcaption>
 </figure>
@@ -128,7 +128,7 @@ analysis. Based on the literature review of previous studies, we identified two 
 
 <div class="spacer-block-1"></div>
 
-<figure class="no-bg-color text-width">
+<figure class="text-width">
     <img src="https://res.cloudinary.com/ryanntt/image/upload/s--o881UbsI--/c_scale,h_301,w_650/v1546773545/light-wave/Demographics.png">
     <figcaption>The 18 participants have a wide variety of background knowledge about autonomous car.</figcaption>
 </figure>
@@ -145,7 +145,7 @@ analysis. Based on the literature review of previous studies, we identified two 
 
 The result confirmed that the comfort and intention of the cars understood by pedestrian contribute to the overall trust toward communication with driverless vehicles. Participants did not rely significantly on knowing whether the car is aware of their presence to make a decision. The use of Virtual Reality as a testing medium is proven to be effective as participants exhibited emotions and behaviours that they normally have shown in real life situations.
 
-<figure class="no-bg-color text-width">
+<figure class="text-width">
     <img src="https://res.cloudinary.com/ryanntt/image/upload/s--yylWKt9l--/v1546692777/light-wave/Study_Footage.gif">
     <figcaption>Participants exhibited behaviours they normally have in real-life crossing situations.</figcaption>
 </figure>

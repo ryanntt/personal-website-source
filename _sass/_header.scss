@@ -6,7 +6,7 @@
 }
 
 .site-header a {
-  color: $dark-gray;
+  color: var(--headings);
   font-size: $h4;
   font-weight: 400;
 }
@@ -14,7 +14,7 @@
 .site-header .site-title {
   font-family: $heading-font-family;
   font-size: $h4;
-  color: $darker-gray;
+  color: var(--headings);
   font-weight:$bold-font-weight;
   img {
     max-height: 20px;
@@ -28,14 +28,14 @@
 }
 
 .site-header nav a {
-  color: #666;
+  color: var(--headings);
 }
 
 .site-header nav a:hover,
 .site-header nav a:focus,
 .site-header nav a:active {
   color: white;
-  background: $brand;
+  background: var(--brand);
 }
 
 .site-nav a + a {

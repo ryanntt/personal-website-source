@@ -50,7 +50,8 @@ textarea {
 }
 
 .field-light {
-  background-color: white;
+  background-color: var(--bg-secondary);
+  color: var(--hint);
   transition: box-shadow .2s ease;
   border-style: solid;
   border-width: $border-width;
@@ -66,11 +67,11 @@ textarea {
 
 .field-light:disabled {
   color: $mid-gray;
-  background-color: $darken-2;
+  background-color: var(--bg-secondary);
 }
 
 .field-light:read-only:not(select) {
-  background-color: $darken-2;
+  background-color: var(--bg-secondary);
 }
 
 .field-light:invalid {

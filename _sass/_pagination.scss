@@ -12,7 +12,7 @@
   background: #fafafa;
   border-radius: 0.1875em;
   border: 1px solid #f3f3f3;
-  color: $dark-gray;
+  color: var(--text);
   padding: 1em 1.5em;
 }
 
@@ -37,12 +37,12 @@
 
 .button-disabled {
   opacity: 0.55;
-  background-color: #999;
+  background-color: var(--hint);
 }
 
 .button-disabled:hover,
 .button-disabled:active,
 .button-disabled:focus {
   cursor: not-allowed;
-  background-color: #999;
+  background-color: var(--hint);
 }
