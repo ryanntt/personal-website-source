@@ -110,6 +110,7 @@ html, html[data-theme="light"] {
   --headings: #222;
   --text: #444;
   --hint: #777;
+  --brand: #E5210B;
 }
 
 html[data-theme="dark"] {
@@ -118,6 +119,7 @@ html[data-theme="dark"] {
   --headings: #ffffff;
   --text: #dddddd;
   --hint: #bbbbbb;
+  --brand: #F25618;
 
   & .site-header .site-title {
     img {
