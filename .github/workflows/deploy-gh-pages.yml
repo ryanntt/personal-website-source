@@ -1,0 +1,22 @@
+name: GitHub Pages
+
+on: 
+  push:
+    branches:
+      - master
+    schedule:
+      - cron: '00 00 * * 6' # Every Saturday. See https://crontab.guru
+
+jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./
+          enable_jekyll: true
+          cname: ryanntt.com
