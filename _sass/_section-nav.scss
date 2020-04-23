@@ -15,8 +15,14 @@ html {
   margin-left: 2rem;
   border-left: 1px solid var(--bg-secondary);
 
+  li > ul {
+    margin: 0.25em auto;
+    padding-left: 1rem;
+  }
+
   li.toc-entry {
     list-style: none;
+    margin: 0.5rem;
 
     /* 3. ScrollSpy active styles (see JS tab for activation) */
     &.active > a {
