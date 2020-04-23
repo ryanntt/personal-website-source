@@ -1,0 +1,47 @@
+/* 1. Enable smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* 2. Make nav sticky */
+.section-nav-container {
+    position: sticky;
+    top: 2rem;
+    align-self: start;
+}
+
+.post .section-nav {
+  /* Sidebar Navigation */
+  margin-left: 2rem;
+  border-left: 1px solid var(--bg-secondary);
+
+  li.toc-entry {
+    list-style: none;
+
+    /* 3. ScrollSpy active styles (see JS tab for activation) */
+    &.active > a {
+      color: white;
+    }
+
+    & > a {
+      text-decoration: none;
+      display: block;
+      padding: .125rem 0;
+      color: var(--hint);
+      font-size: 0.85rem; 
+      transition: all 50ms ease-in-out; /* 💡 This small transition makes setting of the active state smooth */
+    }
+  
+    // & > a:hover,
+    // & > a:focus {
+    //   color: white;
+    //   background-color: #3a8bbb; // TODO
+    // }
+  }
+
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 15em;
+}
