@@ -60,3 +60,5 @@ sass:
   sass_dir: _sass
   style: compressed
 excerpt_separator: ''
+plugins:
+  - jekyll-toc
