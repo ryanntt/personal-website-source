@@ -56,10 +56,15 @@ layout: default
 <div class="spacer-block-2"></div>
 {% endif %}
 
+<main>
+  <article class="post-content">
+    {{ content }}
+  </article>
 
-<article class="post-content">
-  {{ content }}
-</article>
+  <nav class="section-nav-container">
+    {% toc %}
+  </nav>
+</main>
 
 {% if site.show_sharing_icons %}
   {% include share_buttons.html %}
