@@ -43,16 +43,18 @@ As we are integrating intent and awareness into the solution, we also want to se
     <figcaption>Trust has affect-based and cognition-based components, which we are going to measure in this study.</figcaption>
 </figure>
 
-<div class="spacer-block-2"></div>
-<blockquote class="highlighted full-width no_toc_section">
-    <div class="spacer-block-1"></div>
-    <h2 class="label">Research Question 1</h2>
-    <p>How can driverless cars communicate their intent and awareness to pedestrians, especially in situations not facilitated by traffic lights?</p>
-    <h2 class="label">Research Question 2</h2>
-    <p>How do intent and awareness affect pedestrian trust toward the new communication solution?</p>
-    <div class="spacer-block-1"></div>
-</blockquote>
-<div class="spacer-block-2"></div>
+
+## Researcher Questions
+
+#### Question 1
+
+How can driverless cars communicate their intent and awareness to pedestrians, especially in situations not facilitated by traffic lights?
+
+#### Question 2
+    
+How do intent and awareness affect pedestrian trust toward the new communication solution?
+
+---
 
 ## Design Methodology
 
