@@ -11,6 +11,9 @@ summary: <p>Drivers in human-driven car and pedestrians communicate with each ot
 year: June - December 2018
 theme-color: 888888
 thumbnail: https://res.cloudinary.com/ryanntt/image/upload/s--Xs4yp45V--/c_fill,h_1082,w_1536/v1548480050/light-wave/light-wave-thumbnail.png
+toc: true
+custom-javascript-list:
+- "/js/section-nav.js"
 
 ---
  
@@ -41,11 +44,11 @@ As we are integrating intent and awareness into the solution, we also want to se
 </figure>
 
 <div class="spacer-block-2"></div>
-<blockquote class="highlighted full-width">
+<blockquote class="highlighted full-width no_toc_section">
     <div class="spacer-block-1"></div>
     <h2 class="label">Research Question 1</h2>
     <p>How can driverless cars communicate their intent and awareness to pedestrians, especially in situations not facilitated by traffic lights?</p>
-     <h2 class="label">Research Question 2</h2>
+    <h2 class="label">Research Question 2</h2>
     <p>How do intent and awareness affect pedestrian trust toward the new communication solution?</p>
     <div class="spacer-block-1"></div>
 </blockquote>
