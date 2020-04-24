@@ -1,0 +1,58 @@
+/* Enable smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Make nav sticky */
+.section-nav-container {
+  max-width: $text-width;
+  margin-left: 2rem;
+  
+  .section-nav-title {
+    color: var(--hint);
+  }
+
+  @media screen and (min-width: $viewport-medium) {
+    display: block;
+    position: sticky;
+    top: 2rem;
+    align-self: start;
+  }
+}
+
+.post .section-nav {
+  padding-left: 0;
+
+  li.toc-entry {
+    list-style: none;
+
+    /* ScrollSpy active styles (see JS tab for activation) */
+    &.active > a {
+      color: var(--headings);
+      font-weight: $bold-font-weight;
+      border-left: 1px solid var(--headings);
+    }
+
+    & > a {
+      text-decoration: none;
+      display: block;
+      padding: .5rem 0;
+      padding-left: 1rem;
+      color: var(--hint);
+      font-size: 0.85rem;
+      font-weight: normal;
+      border-left: 1px solid var(--bg-secondary);
+      transition: all 50ms ease-in-out; /* 💡 This small transition makes setting of the active state smooth */
+    }
+  }
+}
+
+main {
+  display: flex;
+  flex-direction: column-reverse;
+  
+  @media screen and (min-width: $viewport-medium) {
+    display: grid;
+    grid-template-columns: 1fr 15em;
+  }
+}
