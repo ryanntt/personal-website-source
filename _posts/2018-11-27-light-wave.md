@@ -12,8 +12,6 @@ year: June - December 2018
 theme-color: 888888
 thumbnail: https://res.cloudinary.com/ryanntt/image/upload/s--Xs4yp45V--/c_fill,h_1082,w_1536/v1548480050/light-wave/light-wave-thumbnail.png
 toc: true
-custom-javascript-list:
-- "/js/section-nav.js"
 
 ---
  
@@ -98,16 +96,6 @@ In the process of designing for interaction between pedestrians and driverless c
     <img src="https://res.cloudinary.com/ryanntt/image/upload/s--vuqs4rW8--/c_scale,h_574,w_1300/v1546162365/light-wave/Experiment_Environment.png">
     <figcaption>The test setup had enough room for walking inside VR and interview booth that allowed comfort when answering the questions.</figcaption>
 </figure>
-
-<div class="spacer-block-2"></div>
-
-<div class="my-video [vimeo, widescreen]">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/S5N5-TtK4DA" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
-<!-- <div class="my-video [vimeo, widescreen]">
-    <iframe width="560" height="315" src="https://www.youtube.com//embed/videoseries?list=PL-kCG1y2NE9RBZv9enPFyi_J4P6HqNrsF&loop=1&autoplay=1&modestbranding=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div> -->
 
 <div class="spacer-block-2"></div>
 
