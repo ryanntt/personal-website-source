@@ -327,7 +327,7 @@ hr {
 }
 
 .more-posts {
-  max-width: $text-width;
+  max-width: $measure-width;
   margin: 4em auto 1em auto;
   padding: 1em 0 1em 0;
   border-top: 1px dashed var(--hint);
@@ -356,11 +356,6 @@ hr {
 
 small {
   margin: 0 0.2rem;
-}
-
-.btn-back {
-  max-width: $text-width;
-  margin: auto;
 }
 
 .full-width {
@@ -455,11 +450,17 @@ small {
 
   table td:first-child:before { content: ''; }
 
-  .more-posts .post {
-    width: 100%;
-    margin-bottom: 0;
-  }
+  .more-posts {
+    .post {
+      width: 100%;
+      margin-bottom: 0;
+    }
 
+    .btn-back {
+      margin: auto;
+    }
+  }
+  
   .button {
     margin-left: auto;
     margin-right: auto;
