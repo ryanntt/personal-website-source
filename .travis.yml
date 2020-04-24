@@ -1,0 +1,17 @@
+language: ruby
+
+cache: bundler
+
+before_install: gem update bundler
+
+install:
+  - bundle install
+
+script:
+  -"./build.sh"
+
+branches:
+  only:
+  - build
+
+sudo: false
