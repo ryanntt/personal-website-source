@@ -62,3 +62,5 @@ sass:
 excerpt_separator: ''
 plugins:
   - jekyll-toc
+toc:
+  max_level: 2
