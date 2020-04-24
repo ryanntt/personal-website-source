@@ -56,6 +56,7 @@ layout: default
 <div class="spacer-block-2"></div>
 {% endif %}
 
+{% if page.toc ==true %}
 <main>
   <article class="post-content">
     {{ content }}
@@ -66,6 +67,11 @@ layout: default
     {% toc %}
   </nav>
 </main>
+{% else %}
+<article class="post-content">
+  {{ content }}
+</article>
+{% endif %}
 
 {% if site.show_sharing_icons %}
   {% include share_buttons.html %}

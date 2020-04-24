@@ -82,6 +82,10 @@
     {% endif %}
     <!-- End Chatbot Script -->
 
+    {% if page.toc == true %}
+      <script src="/js/section-nav.js"></script>
+    {% endif %}
+
     <!-- Custom Script -->
     {% for javascript in page.custom-javascript-list %}
         <script src="{{ javascript }}"></script>
