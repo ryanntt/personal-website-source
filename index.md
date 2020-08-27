@@ -92,29 +92,8 @@ tag: home
 
 <section>
   <div class="horizontal-bar"></div>
-  <h2 class="h1 key-category">Work with Ryan</h2>
-  <p style="max-width: 650px;">I'm looking for a challenging role in which I can use my skill sets and creativity to add values to the business and users. If you want to work together, please fill in the following form and I will reply shortly.</p>
-
-  <div class="py2" style="max-width: 650px;">
-    {% if site.ajaxify_contact_form %}
-      <form class="form-stacked">
-        <input type="text" name="email" class="field-light" placeholder="Your email address">
-        <textarea type="text" name="content" class="field-light" rows="5" placeholder="What would you like to say?"></textarea>
-        <input type="hidden" name="_subject" value="New submission!" />
-        <input type="text" name="_gotcha" style="display:none" />
-        <button type='submit' class="button button-big mobile-block" >Send to Ryan</button>
-      </form>
-    {% else %}
-      <form action="https://formspree.io/{{ site.email }}" method="POST" class="form-stacked">
-        <input type="text" name="email" class="field-light" placeholder="Your email address">
-        <textarea type="text" name="content" class="field-light" rows="5" placeholder="What would you like to say?"></textarea>
-        <input type="hidden" name="_next" value="{{ site.baseurl }}/thanks/" />
-        <input type="hidden" name="_subject" value="New submission!" />
-        <input type="text" name="_gotcha" style="display:none" />
-        <input type="submit" class="button button-big mobile-block" value="Send to Ryan">
-      </form>
-    {% endif %}
-  </div>
+  <h2 class="h1 key-category">Message Ryan</h2>
+  <p style="max-width: 650px;">If you'd like to have a chat, please send me an email at <a href="mailto:{{ site.email }}">{{ site.email }}</a> and I will reply shortly.</p>
 </section>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
