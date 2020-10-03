@@ -1,3 +1,4 @@
 {% assign current = page.url | downcase | split: '/' %}
+<a href="{{ site.url }}">Home</a>
 <a href="{{ site.baseurl }}/projects/" {% if current[1] == 'projects' %}class='current'{% endif %}>Case Studies</a>
 <a href="{{ site.baseurl }}/blog/" {% if current[1] == 'blog' %}class='current'{% endif %}>Writings</a>

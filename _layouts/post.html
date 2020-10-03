@@ -35,10 +35,8 @@ layout: default
     {% endif %}
     <span class="post-meta small">
     {% if page.minutes %}
-      <i class="fa fa-clock-o" aria-hidden="true"></i>
       {{ page.minutes }} minute read
     {% else %}
-      <i class="fa fa-clock-o" aria-hidden="true"></i>
       {{ minutes }} minute read
     {% endif %}
     </span>
@@ -105,8 +103,8 @@ layout: default
             {% if page.categories contains category %}
               {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}  
               <div class="post ml2">
+                <a href="{{ post.url | prepend: site.baseurl }}">
                 {% if post.thumbnail %}
-                <a href="{{ post.url | prepend: site.baseurl }}" class="link">
                   <div class="wrap">
                     <img class="thumb" src="{{ post.thumbnail }}" ref="{{ post.title | downcase | prepend: site.baseurl }}" alt="{{post.title}}">  
                   </div>

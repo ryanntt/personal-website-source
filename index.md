@@ -34,23 +34,23 @@ tag: home
     <div class="posts">
       {% for post in site.categories.projects %}
         {% if post.status contains 'featured' %}
-          <div class="post py3">
-            <div class="summary">
-              <a href="{{ post.url | prepend: site.baseurl }}">
-                <h2 class="h2 post-title">{{ post.title }}</h2>
-              </a>
-              <p class="text">
-                {% if post.text %}
-                  {{ post.text }}
-                {% endif %}
-              </p>
-            </div>
-            <a href="{{ post.url | prepend: site.baseurl }}" class="thumbnail">
-              <div class="wrap">
-                <img class="thumb" src="{{ post.thumbnail }}" ref="{{ post.title | downcase | prepend: site.baseurl }}" alt="{{post.title}}">  
+          <a href="{{ post.url | prepend: site.baseurl }}">
+            <div class="post py2">
+              <div class="summary">
+                  <h2 class="h2 post-title">{{ post.title }}</h2>
+                <p class="text">
+                  {% if post.text %}
+                    {{ post.text }}
+                  {% endif %}
+                </p>
               </div>
-            </a>
-          </div>
+              <div class="thumbnail">
+                <div class="wrap">
+                  <img class="thumb" src="{{ post.thumbnail }}" ref="{{ post.title | downcase | prepend: site.baseurl }}" alt="{{post.title}}">  
+                </div>
+              </div>
+            </div>
+          </a>
         {% endif %}
       {% endfor %}
     </div>
@@ -66,17 +66,18 @@ tag: home
   <div class="blog">
     <div class="publication">
       <div class="posts">
-          <div class="post py3">
-          <h3 class="h4 post-title">
-            <em>Nguyen, Trung Thanh</em>, Kai Holländer, Marius Hoggenmueller, Callum Parker, and Martin Tomitsch. Designing for Projection-based Communication between Autonomous Vehicles and Pedestrians. 
-          </h3>
-          <p class="summary">
-            <span>In Proceedings of the 11th International Conference on Automotive User Interfaces and Interactive Vehicular Applications</span>
-            <span>September 2019</span>
-            <span>Pages 284-294</span>
-            <a class="link" href="https://dl.acm.org/doi/abs/10.1145/3342197.3344543" target="_blank">Read more</a>
-          </p>
-        </div>
+        <a class="link" href="https://dl.acm.org/doi/abs/10.1145/3342197.3344543" target="_blank">
+          <div class="post py2">
+            <h3 class="h4 post-title">
+              <em>Nguyen, Trung Thanh</em>, Kai Holländer, Marius Hoggenmueller, Callum Parker, and Martin Tomitsch. Designing for Projection-based Communication between Autonomous Vehicles and Pedestrians. 
+            </h3>
+            <p class="summary">
+              <span>In Proceedings of the 11th International Conference on Automotive User Interfaces and Interactive Vehicular Applications</span>
+              <span>September 2019</span>
+              <span>Pages 284-294</span>
+            </p>
+          </div>
+        </a>
       </div>
     </div>
   </div>
@@ -92,16 +93,18 @@ tag: home
   <div class="blog featured">
     <div class="posts">
       {% for post in site.categories.blog limit:3 %}
-        <div class="post py3">
-          <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="h3 post-title">{{ post.title }}</h3></a>
-          <p class="post-summary">
-            {% if post.summary %}
-              {{ post.summary }}
-            {% else %}
-              {{ post.excerpt }}
-            {% endif %}
-          </p>
-        </div>
+        <a href="{{ post.url | prepend: site.baseurl }}">
+          <div class="post py1">
+            <h3 class="h3 post-title">{{ post.title }}</h3>
+            <p class="post-summary">
+              {% if post.summary %}
+                {{ post.summary }}
+              {% else %}
+                {{ post.excerpt }}
+              {% endif %}
+            </p>
+          </div>
+        </a>
       {% endfor %}
     </div>
   </div>

@@ -21,7 +21,7 @@
 }
 
 .project-summary {
-  padding-right: 5%;
+  margin-right: 5%;
 }
 
 .project-meta span {
@@ -33,7 +33,7 @@
   color: var(--hint);
 }
 
-.projects .post .summary span:not(:last-of-type)::after {
+.post .summary span:not(:last-of-type)::after {
   content: " · ";
 }
 
@@ -207,16 +207,6 @@ hr {
   display: inline-block;
 }
 
-.home .posts .post{
-  border-bottom: 0;
-  &:not(:first-child) {
-    padding-top: 1rem;
-  }
-  &:not(:last-child) {
-    padding-bottom:0;  
-  }
-}
-
 .my-video {
   height: 0;
   padding-top: 25px;
@@ -250,12 +240,27 @@ hr {
   color: var(--text);
 }
 
-a.link:hover {
-  text-decoration: underline;
+a.link {
+  position: relative;
+  text-decoration: none;
 }
 
-.posts .post {
-  margin-bottom: 0;
+a.link::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--link);
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+a.link:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
 }
 
 .post a.no-underline {
