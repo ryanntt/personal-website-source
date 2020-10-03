@@ -1,5 +1,5 @@
 ---
-title: Design Clients then Their Products
+title: Help clients and their products
 date: 2015-07-03 01:00:00 Z
 categories:
 - blog

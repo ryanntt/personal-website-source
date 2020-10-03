@@ -35,10 +35,8 @@ layout: default
     {% endif %}
     <span class="post-meta small">
     {% if page.minutes %}
-      <i class="fa fa-clock-o" aria-hidden="true"></i>
       {{ page.minutes }} minute read
     {% else %}
-      <i class="fa fa-clock-o" aria-hidden="true"></i>
       {{ minutes }} minute read
     {% endif %}
     </span>
@@ -73,10 +71,6 @@ layout: default
 </article>
 {% endif %}
 
-{% if site.show_sharing_icons %}
-  {% include share_buttons.html %}
-{% endif %}
-
 {% if current[1] == 'blog' %}
   {% if site.disqus_shortname %}
     <div id="disqus_thread"></div>
@@ -101,7 +95,7 @@ layout: default
   {% assign maxRelatedCounter = 0 %}
 
   <section class="more-posts">
-    <h3 class="title">You may also enjoy</h3>  
+    <h3 class="title">Next read</h3>
     <div class="list">
       {% for post in site.posts %}
         {% for category in post.categories %}
@@ -109,23 +103,23 @@ layout: default
             {% if page.categories contains category %}
               {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}  
               <div class="post ml2">
+                <a href="{{ post.url | prepend: site.baseurl }}">
                 {% if post.thumbnail %}
-                <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
                   <div class="wrap">
                     <img class="thumb" src="{{ post.thumbnail }}" ref="{{ post.title | downcase | prepend: site.baseurl }}" alt="{{post.title}}">  
                   </div>
                 </a>
                 {% endif %}
-                <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
-                  <h4 class="post-title">{{ post.title }}</h4>
-                  <p class="post-meta">
-                    {% if post.text %}
-                      {{ post.text }}
-                      {% else %}
-                        {{ post.summary }}
-                    {% endif %}
-                  </p>              
+                <a href="{{ post.url | prepend: site.baseurl }}">
+                  <h4 class="post-title ">{{ post.title }}</h4>
                 </a>
+                <p class="post-meta">
+                  {% if post.text %}
+                    {{ post.text }}
+                    {% else %}
+                      {{ post.summary }}
+                  {% endif %}
+                </p>              
               </div>
             {% endif %}
           {% endif %}       
@@ -136,15 +130,6 @@ layout: default
       {% endfor %}
     </div>
 
-    {% if site.show_post_footers %}
-    <form action="/{{ page.categories }}" class="btn-back">
-      {% if page.categories contains 'projects' %}
-      <input type="submit" class="button button-big mobile-block" value="View All Case Studies" />
-        {% else %}
-        <input type="submit" class="button button-big mobile-block" value="View All {{ page.categories }}" />
-      {% endif %}
-    </form>
-    {% endif %}
   </section>
 {% endif %}
 

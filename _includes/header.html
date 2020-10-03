@@ -1,9 +1,6 @@
 <header class="site-header px2 px-responsive">
   <div class="mt1 wrap">
     <div class="measure">
-      <a href="{{ site.url }}" class="site-title">
-        <img src="../images/logo.png"></img>
-      </a>
       <nav class="site-nav">
         {% include navigation.html %}
       </nav>
@@ -14,9 +11,6 @@
         <div aria-hidden="true" class="switch__marker" id="theme-label"></div>
       </div>
       <div class="clearfix"></div>
-      {% if site.show_social_icons %}
-        {% include social_links.html %}
-      {% endif %}
     </div>
   </div>
 </header>

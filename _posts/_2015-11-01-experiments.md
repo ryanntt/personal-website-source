@@ -39,30 +39,6 @@ These are some of my experimental works on interface design, animation and compu
 
 <div id="shots"></div>
 
-<!-- <script>
-//Set the Access Token
-var accessToken = "9daf27d240782089f50bfaa2d51b522a94c818bf7602993dd63257eb5feca9d4";
-
-//Call Dribbble v2 APi
-$.ajax({
-    url: 'https://api.dribbble.com/v2/user/shots?per_page=10&access_token='+accessToken,
-    dataType: 'json',
-    type: 'GET',
-    success: function(data) {  
-      if (data.length > 0) { 
-        $.each(data.reverse(), function(i, val) {                
-          $('#shots').prepend(
-            '<a class="shot" target="_blank" href="'+ val.html_url +'" title="' + val.title + '"><div class="title">' + val.title + '</div><img src="'+ val.images.hidpi +'"/></a>'
-            )
-        })
-      }
-      else {
-        $('#shots').append('<p>No shots yet!</p>');
-      }
-    }
-});
-</script> -->
-
 <script>
 //Set the Access Token
 var accessToken = "9daf27d240782089f50bfaa2d51b522a94c818bf7602993dd63257eb5feca9d4";

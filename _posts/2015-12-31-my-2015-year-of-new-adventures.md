@@ -1,5 +1,5 @@
 ---
-title: My 2015 - The Year of New Adventures
+title: My 2015 - A year of new adventures
 date: 2015-12-31 23:55:00 Z
 categories:
 - blog

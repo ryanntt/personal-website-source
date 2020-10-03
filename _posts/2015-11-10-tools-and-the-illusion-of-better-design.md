@@ -1,5 +1,5 @@
 ---
-title: Tools and The Illusion of Better Design
+title: Tools and the illusion of better design
 date: 2015-11-10 10:37:00 Z
 categories:
 - blog

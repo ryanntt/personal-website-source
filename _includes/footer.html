@@ -1,6 +1,6 @@
 <footer class="center">
   <div class="avatar">
-    <img src="../images/me.png"/>
+    <img src="/images/me.png"/>
   </div>
   <div class="measure">
     <small>
@@ -30,40 +30,10 @@
         </span>
       </a>
     </small>
-    <small style="display:block; margin: 0.2rem 0">
-      <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-    </small>
-    <small style="display:block; margin: 0.2rem 0">
-      © {{ site.time | date: '%Y' }} Ryan Nguyen
-    </small>
+    <p class="copyright">
+      © 2015-{{ site.time | date: '%Y' }} Ryan Nguyen
+    </p>
   </div>
-
-  <script src="/js/fontfaceobserver.js"></script>
-
-  <script>
-    var read = false;
-
-    (function( w ){
-        // if the class is already set, we're good.
-        if( w.document.documentElement.className.indexOf( "fonts-loaded" ) > -1 ){
-            return;
-        }
-        var fontA = new w.FontFaceObserver( "Merriweather", {
-            weight: 300
-        });
-        var fontB = new w.FontFaceObserver( "Lato", {
-            weight: 900
-        });
-        w.Promise
-            .all([fontA.check(), fontB.check()])
-            .then(function(){
-                w.document.documentElement.className += " fonts-loaded";
-                console.log('All fonts are loaded');
-            }, function () {
-                console.log('Web font could not be loaded in time. Falling back to system fonts.');
-            });
-    }( this ));
-  </script>
 
   <script>
     // This checks whether system dark mode is set

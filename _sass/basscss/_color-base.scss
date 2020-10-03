@@ -6,12 +6,7 @@ body {
 }
 
 a {
-  color: $blue;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
+  color: var(--link);
 }
 
 pre,
