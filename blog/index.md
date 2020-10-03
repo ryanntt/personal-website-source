@@ -1,11 +1,14 @@
 ---
 title: Writings
 layout: default
+pagination: 
+  enabled: true
+  category: blog
+  permalink: '/:num/'
 ---
-
 <div class="blog">
   <div class="posts">
-    {% for post in site.categories.blog %}
+    {% for post in paginator.posts %}
       <div class="post py3">
         <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
         <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="h2 post-title">{{ post.title }}</h3></a>
@@ -15,9 +18,10 @@ layout: default
           {% else %}
             {{ post.excerpt }}
           {% endif %}
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">Read more</a>
         </p>
       </div>
     {% endfor %}
   </div>
 </div>
+
+{% include pagination.html %}

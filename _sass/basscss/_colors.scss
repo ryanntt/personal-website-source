@@ -24,24 +24,8 @@
   color: $lighter-gray;
 }
 
-.red {
-  color: $red;
-}
-
 .red-brand {
   color: #c91d1d;
-}
-
-.green {
-  color: $green;
-}
-
-.yellow {
-  color: $yellow;
-}
-
-.orange {
-  color: $orange;
 }
 
 .bg-dark-gray {
@@ -68,24 +52,8 @@
   background-color: $lighter-gray;
 }
 
-.bg-red {
-  background-color: $red;
-}
-
 .bg-red-brand {
   color: #c91d1d;
-}
-
-.bg-green {
-  background-color: $green;
-}
-
-.bg-yellow {
-  background-color: $yellow;
-}
-
-.bg-orange {
-  background-color: $orange;
 }
 
 .bg-darken-1 {
@@ -111,6 +79,7 @@ html, html[data-theme="light"] {
   --text: #444;
   --hint: #777;
   --brand: #E5210B;
+  --link: #006fd0;
 }
 
 html[data-theme="dark"] {
@@ -120,6 +89,7 @@ html[data-theme="dark"] {
   --text: #dddddd;
   --hint: #bbbbbb;
   --brand: #F25618;
+  --link: #72BBE7;
 
   & .site-header .site-title {
     img {

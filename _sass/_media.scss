@@ -1,11 +1,3 @@
-// .wide {
-//   .measure {
-//     max-width:100%;
-//   }
-//   .site-header {
-//     padding-bottom: 0;
-//   }
-// }
 .list {
   display: flex;
   flex-flow: row wrap;
@@ -14,7 +6,7 @@
   margin:0
 }
 
-.list .post-entry {
+.projects .post {
   display: flex;
 }
 
@@ -29,19 +21,6 @@
     -webkit-box-shadow: 0 5px 10px 0 rgba(0,0,0,.15);
     box-shadow: 0 5px 10px 0 rgba(0,0,0,.15);
   }
-}
-
-.trip .post-header {
-  max-width: $text-width;
-  margin: 0 auto;
-  line-height: $heading-line-height;
-  h1 {
-    text-align: center;
-  }
-}
-
-.highlight .trip .py3 {
-  width: 100%;
 }
 
 .list .thumb {
@@ -67,10 +46,6 @@
     padding-bottom: 0;
     background-attachment: fixed;
   }
-}
-
-.trip blockquote {
-  margin: 0 auto;
 }
 
 .list .summary {
@@ -100,12 +75,12 @@
   color: #EFEFEF;
 }
 
-.post-entry {
+.projects .post {
   padding-bottom: 0;
-}
 
-.post-entry:last-child {
-  padding-bottom: 1.5rem;
+  &:last-child {
+    padding-bottom: 1.5rem;
+  }
 }
 
 html.projects {
@@ -136,53 +111,6 @@ figure:not(.no-bg-color) img {
   background-color: white;
 }
 
-.trip-content {
-  position: relative;
-  overflow: hidden;
-  margin: 0 auto;
-  // padding: 0 1em;
-  // max-width: 1000px;
-  display: flex;
-  flex-wrap: wrap;
-  span {
-    max-width: $text-width;
-  }
-  h4 {
-    width: 100%;
-    font-size: 1.8em;
-    margin-bottom: 1em;
-  }
-  h2,h3,h4 {
-    text-align: center;
-  }
-  p {
-    max-width: $text-width;
-    margin: 1em auto;
-  }
-  video {
-    display: block;
-    max-width: 100%;
-    margin: 2em auto;
-  }
-  .img-small {
-    width: 43.5%;
-  }
-}
-
-.trip {
-  .social-btns {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 1em 0;
-  }
-  .share-btn, #like-btn, #like-btn.in {
-    margin-left: 1em;
-  }
-  .share-btn:first-child {
-    margin-left: 0;
-  }
-}
-
 .set {
   display: flex;
   flex-wrap: wrap;
@@ -202,45 +130,14 @@ figure:not(.no-bg-color) img {
   margin: auto;
   
   .shot {
-    // position: relative;
     display: block;
     width: 100%;
     margin: 1rem 0;
-    // color: white;
     text-decoration: none;
-    
-    // &:hover {
-    //   img {
-    //     opacity: .1;
-    //   }
-    //   .title {
-    //     opacity: 1;
-    //   }
-    // }
-    
-    // .title {
-    //   position: absolute;
-    //   width: calc(100% - 2rem);
-    //   padding: 1rem;
-    //   opacity: 0;
-    //   transition: opacity .2s ease-in-out;
-    //   font-size: 1rem;
-    //   font-weight: 500;
-    //   letter-spacing: 1px;
-    // }
-
-    // img {
-    //   display: block;
-    //   max-width: 100%;
-    //   transition: opacity .2s ease-in-out;
-    // }
   }
 }    
 
 @media screen and (max-width: $viewport-medium) {
-  .trip .py3 {
-    width: 100%;
-  }
   .list .summary {
     width: 50%;
   }
@@ -255,15 +152,8 @@ figure:not(.no-bg-color) img {
     padding-bottom: 50.77%;
     background-size: 150%;
   }
-  .trip-content {
-    .img-small {
-      width: 100%;
-    }
-    figure, .video-container {
-      width: 100% !important;
-    }
-  }
-  .list .post-entry {
+
+  .projects .post {
     flex-direction: column;
   }
 

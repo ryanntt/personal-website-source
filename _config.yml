@@ -5,10 +5,6 @@ collections:
   posts:
     title: Posts
     output: true
-  trips:
-    title: Trips
-    output: true
-    permalink: "/trips/:path"
   uploads:
     title: Uploads
     output: true
@@ -22,9 +18,7 @@ google_tag_manager: GTM-NMCCW9
 show_social_icons: false
 date_format: "%b %-d, %Y"
 google_verification: 
-animated: false
 show_related_posts: true
-show_post_footers: true
 disqus_shortname: ryanntt
 github_username: ryanntt
 bitbucket_username: 
@@ -48,6 +42,15 @@ share_tumblr: false
 share_reddit: false
 share_stumbleupon: false
 share_hackernews: false
+# Pagination Settings
+pagination:
+  enabled: true
+  per_page: 5
+  permalink: '/page/:num/' 
+  title: ':title - page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
 markdown: kramdown
 redcarpet:
   extensions:
@@ -61,5 +64,6 @@ sass:
 excerpt_separator: ''
 plugins:
   - jekyll-toc
+  - jekyll-paginate-v2
 toc:
   max_level: 2

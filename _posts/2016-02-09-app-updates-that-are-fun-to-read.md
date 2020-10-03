@@ -1,5 +1,5 @@
 ---
-title: App Updates that are Fun to Read
+title: App updates that are fun to read
 date: 2016-02-09 00:42:00 Z
 categories:
 - blog

@@ -49,48 +49,6 @@ textarea {
   width: 100%;
 }
 
-.field-light {
-  background-color: var(--bg-secondary);
-  color: var(--hint);
-  transition: box-shadow .2s ease;
-  border-style: solid;
-  border-width: $border-width;
-  border-color: $border-color;
-  border-radius: $border-radius;
-}
-
-.field-light:focus {
-  outline: none;
-  border-color: $blue;
-  box-shadow: 0 0 2px rgba($blue,.5);
-}
-
-.field-light:disabled {
-  color: $mid-gray;
-  background-color: var(--bg-secondary);
-}
-
-.field-light:read-only:not(select) {
-  background-color: var(--bg-secondary);
-}
-
-.field-light:invalid {
-  border-color: $red;
-}
-
-.field-light.is-success {
-  border-color: $green;
-}
-
-.field-light.is-warning {
-  border-color: $yellow;
-}
-
-.field-light.is-error {
-  border-color: $red;
-}
-
-
 .radio-light,
 .checkbox-light {
   transition: box-shadow .2s ease;

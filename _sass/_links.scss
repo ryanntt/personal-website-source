@@ -1,5 +1,6 @@
 a {
-  color: $link-color;
+  color: var(--link);
+  text-decoration: none;
   -webkit-transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease-out;
   -o-transition: all 0.5s ease-out;
@@ -9,8 +10,6 @@ a {
 a:not(.button):hover,
 a:not(.button):focus,
 a:not(.button):active {
-  border: 0;
-  color: var(--text);
   text-decoration: none;
 }
 

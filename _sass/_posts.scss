@@ -5,20 +5,23 @@
 
 .posts .post {
   margin-bottom: 0.75em;
-  border-bottom: thin solid #f3f3f3;
+  border-bottom: thin solid var(--hint);
 }
 
 .posts .post:last-child {
   border-bottom: none;
   margin-bottom: .375em;
-  // padding-bottom: 0;
 }
 
-.post-link .post-title {
+.link .post-title {
   margin-top: 0;
   font-weight: $bold-font-weight;
   color: var(--headings);
   margin-bottom: $space-1;
+}
+
+.post-content a:hover {
+  text-decoration: underline;
 }
 
 .post-footer {
@@ -46,4 +49,8 @@
 
 .related-post-title {
   border-bottom: thin solid #f3f3f3;
+}
+
+.projects .posts .post {
+  border-bottom: none;
 }

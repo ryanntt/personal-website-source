@@ -12,11 +12,6 @@ sections:
   label: Uploads
   create: all
   match: "**/*"
-- type: directory
-  path: _trips
-  label: Trips
-  create: all
-  match: "**/*"
 - type: jekyll-posts
   label: Posts
   create: all

@@ -12,10 +12,10 @@
 }
 
 .site-header .site-title {
-  font-family: $heading-font-family;
-  font-size: $h4;
-  color: var(--headings);
-  font-weight:$bold-font-weight;
+  // font-family: $heading-font-family;
+  // font-size: $h4;
+  // color: var(--headings);
+  // font-weight:$bold-font-weight;
   img {
     max-height: 20px;
     border-radius: 0;
@@ -28,18 +28,24 @@
 }
 
 .site-header nav a {
+  box-sizing: boder-box;
+  padding: 0.6em 0;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
   color: var(--headings);
 }
 
 .site-header nav a:hover,
 .site-header nav a:focus,
-.site-header nav a:active {
-  color: white;
-  background: var(--brand);
+.site-header nav a:active,
+.site-header nav a.current {
+  border-bottom: 2px solid var(--brand);
 }
 
 .site-nav a + a {
-  margin-left: 1em;
+  margin-left: 2em;
 }
 
 .site-header a:hover,
