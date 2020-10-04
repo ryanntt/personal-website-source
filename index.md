@@ -19,7 +19,7 @@ tag: home
   <div id="chat" class="hidden">
     <div class="botui-app-container" id="my-pa">
       <div id="avatar" class="hidden">
-        <img src="/images/me.png" alt="">    
+        {% cloudinary avatar /images/me.png alt="Ryan Nguyen" %}
       </div>
       <bot-ui></bot-ui>
     </div>

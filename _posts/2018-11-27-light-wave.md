@@ -28,7 +28,7 @@ This project aims to design a communication solution and answer the question of 
 To form the research questions, I reviewed papers of different domain such as autonomous cars, interaction between cars and pedestrian in urban environment, trust between human and technology, cognition, virtual reality. In the end, I shortlisted and used around 15 papers as references in this project. I found that there was a gap in the way previous researchers prototyped and evaluated design solution for the interaction between pedestrians and autonomous cars.
 
 <figure class="text-width">
-    {% cloudinary https://res.cloudinary.com/ryanntt/image/upload/s--qTZwLx3w--/c_scale,q_60,w_1150/v1546686210/light-wave/Literature-Review.png alt="literature review" %}
+    {% cloudinary intext https://res.cloudinary.com/ryanntt/image/upload/s--qTZwLx3w--/c_scale,q_60,w_1150/v1546686210/light-wave/Literature-Review.png alt="literature review" %}
     <figcaption>I reviewed more than 50 papers to form the research questions.</figcaption>
 </figure>
 

@@ -58,6 +58,13 @@ cloudinary:
   verbose: true
   presets:
     thumb:
-       attributes:
+      attributes:
         class: "thumb"
         loading: "lazy"
+    avatar:
+      min_width: 110
+      max_width: 110
+    intext:
+      min_width: 320
+      max_width: 650
+      steps: 3
