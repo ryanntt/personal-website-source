@@ -49,5 +49,15 @@ excerpt_separator: ''
 plugins:
   - jekyll-toc
   - jekyll-paginate-v2
+  - jekyll-cloudinary
 toc:
   max_level: 2
+cloudinary:
+  cloud_name: 'ryanntt'
+  only_prod: true
+  verbose: true
+  presets:
+    thumb:
+       attributes:
+        class: "thumb"
+        loading: "lazy"
