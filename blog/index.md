@@ -10,7 +10,7 @@ pagination:
   <div class="posts">
     {% for post in paginator.posts %}
       <a href="{{ post.url | prepend: site.baseurl }}">
-        <div class="post py3">
+        <div class="post py2">
           <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
           <h3 class="h3 post-title">{{ post.title }}</h3>
           <p class="post-summary">
