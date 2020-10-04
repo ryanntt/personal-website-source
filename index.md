@@ -46,7 +46,7 @@ tag: home
               </div>
               <div class="thumbnail">
                 <div class="wrap">
-                  <img class="thumb" src="{{ post.thumbnail }}" ref="{{ post.title | downcase | prepend: site.baseurl }}" alt="{{post.title}}">  
+                  {% cloudinary thumb {{ post.thumbnail }} alt="{{post.title}}" %}
                 </div>
               </div>
             </div>

@@ -24,6 +24,7 @@
   -moz-transition: all 2.3s;
   -webkit-transition: all 2.3s;
   transition: all 2.3s;
+  height: auto;
 }
 
 .list a:hover .thumb {
@@ -86,6 +87,9 @@ figure {
   text-align: center;
   margin: auto;
   //margin-top: -7px; //hackish way to temporarily fix the different height of <figure> and <img>
+  img {
+    height: auto;
+  }
 }
 
 figure:not(.no-bg-color) img {
