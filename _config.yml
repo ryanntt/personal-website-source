@@ -14,7 +14,7 @@ description: Portfolio and blog of Ryan Nguyen, an UX designer in Sydney.
 baseurl: ''
 url: https://ryanntt.com
 google_analytics: 
-google_tag_manager: GTM-NMCCW9
+google_tag_manager:
 date_format: "%b %-d, %Y"
 google_verification: 
 show_related_posts: true
@@ -23,7 +23,7 @@ github_username: ryanntt
 bitbucket_username: 
 stackoverflow_id: 
 twitter_username: ryannguyentt
-google_plus_id: '105998436745738889893'
+google_plus_id:
 linkedin_username: ryanntt
 medium_id: 
 # Pagination Settings
