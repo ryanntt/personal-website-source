@@ -57,6 +57,8 @@ cloudinary:
   only_prod: true
   verbose: true
   presets:
+    default:
+      max_width: 1155
     thumb:
       attributes:
         class: "thumb"
@@ -65,6 +67,10 @@ cloudinary:
       min_width: 110
       max_width: 110
     intext:
+      figure: auto
       min_width: 320
       max_width: 650
       steps: 3
+      attributes:
+        class: "text-width"
+        loading: "lazy"

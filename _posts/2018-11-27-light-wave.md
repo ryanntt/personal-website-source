@@ -27,20 +27,13 @@ This project aims to design a communication solution and answer the question of 
 
 To form the research questions, I reviewed papers of different domain such as autonomous cars, interaction between cars and pedestrian in urban environment, trust between human and technology, cognition, virtual reality. In the end, I shortlisted and used around 15 papers as references in this project. I found that there was a gap in the way previous researchers prototyped and evaluated design solution for the interaction between pedestrians and autonomous cars.
 
-<figure class="text-width">
-    {% cloudinary intext https://res.cloudinary.com/ryanntt/image/upload/s--qTZwLx3w--/c_scale,q_60,w_1150/v1546686210/light-wave/Literature-Review.png alt="literature review" %}
-    <figcaption>I reviewed more than 50 papers to form the research questions.</figcaption>
-</figure>
+{% cloudinary intext https://res.cloudinary.com/ryanntt/image/upload/s--qTZwLx3w--/c_scale,q_60,w_1150/v1546686210/light-wave/Literature-Review.png alt="literature review" caption="I reviewed more than 50 papers to form the research questions." %}
 
 ## Components of Trust
 
 As we are integrating intent and awareness into the solution, we also want to see the impact of these two factors in creating trust. Intent and awareness contribute to how people understand the system and therefore contribute to the cognition-based trust. As trust has both affect-based and cognition components, we will quantify trust in relation to the value of these two categories.
 
-<figure class="text-width">
-    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--1_jxUJ4O--/c_scale,w_650/v1551875316/light-wave/Trust_Model.png">
-    <figcaption>Trust has affect-based and cognition-based components, which we are going to measure in this study.</figcaption>
-</figure>
-
+{% cloudinary intext https://res.cloudinary.com/ryanntt/image/upload/s--1_jxUJ4O--/c_scale,w_650/v1551875316/light-wave/Trust_Model.png alt="Trust model" caption="Trust has affect-based and cognition-based components, which we are going to measure in this study." %}
 
 ## Researcher Questions
 
@@ -58,17 +51,11 @@ How do intent and awareness affect pedestrian trust toward the new communication
 
 Prototyping in Virtual Reality requires the solution idea to have specifications regarding appearance, animation, which was first assessed and adjusted in 2D prototypes. Each iteration was subjected to evaluation using the heuristics framework formed in a previous research on driverless-car-pedestrian interaction.
 
-<figure>
-    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--zIrebbhW--/c_scale,h_257,w_1155/v1546162372/light-wave/Iterative_Process.png">
-    <figcaption>The design process was iterative, from sketching, digital mockups, code-based prototype in Processing to 3D mockup in Unity.</figcaption>
-</figure>
+{% cloudinary https://res.cloudinary.com/ryanntt/image/upload/s--zIrebbhW--/c_scale,h_257,w_1155/v1546162372/light-wave/Iterative_Process.png alt="Iterative process" caption="The design process was iterative, from sketching, digital mockups, code-based prototype in Processing to 3D mockup in Unity." %}
 
 <div class="spacer-block-2"></div>
 
-<figure>
-    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--XiyRoHZ4--/c_scale,h_881,w_1155/v1551868042/light-wave/Mockup-Board.png">
-    <figcaption>Design variations and iterations of the light signal.</figcaption>
-</figure>
+{% cloudinary https://res.cloudinary.com/ryanntt/image/upload/s--XiyRoHZ4--/c_scale,h_881,w_1155/v1551868042/light-wave/Mockup-Board.png alt="Mockup board" caption="Design variations and iterations of the light signal." %}
 
 <figure class="text-width">
     <img src="https://res.cloudinary.com/ryanntt/image/upload/v1551870663/light-wave/Processing-Animation.gif">
@@ -81,10 +68,7 @@ As our research objective is to study how design elements intent and awareness i
 
 <div class="spacer-block-1"></div>
 
-<figure class="text-width">
-    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--rnHmFOzE--/c_scale,w_1150/v1546689476/light-wave/Experiment-Design.png">
-    <figcaption><b>Four scenarios</b>: (A) Car sensor works well throughout the scenario (B) Car sensors fails when the pedestrian is crossing (C) Car sensors fails before the car completely stop (D) Car does not see the pedestrian at all.</figcaption>
-</figure>
+{% cloudinary https://res.cloudinary.com/ryanntt/image/upload/s--rnHmFOzE--/c_scale,w_1150/v1546689476/light-wave/Experiment-Design.png alt="Experiment design" caption="<b>Four scenarios</b>: (A) Car sensor works well throughout the scenario (B) Car sensors fails when the pedestrian is crossing (C) Car sensors fails before the car completely stop (D) Car does not see the pedestrian at all." %}
 
 ## Study in Virtual Reality
 
@@ -92,10 +76,7 @@ In the process of designing for interaction between pedestrians and driverless c
 
 <div class="spacer-block-1"></div>
 
-<figure class="text-width">
-    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--vuqs4rW8--/c_scale,h_574,w_1300/v1546162365/light-wave/Experiment_Environment.png">
-    <figcaption>The test setup had enough room for walking inside VR and interview booth that allowed comfort when answering the questions.</figcaption>
-</figure>
+{% cloudinary intext https://res.cloudinary.com/ryanntt/image/upload/s--vuqs4rW8--/c_scale,h_574,w_1300/v1546162365/light-wave/Experiment_Environment.png alt="Experiment environment" caption="The test setup had enough room for walking inside VR and interview booth that allowed comfort when answering the questions." %}
 
 <div class="spacer-block-2"></div>
 
@@ -112,25 +93,15 @@ analysis. Based on the literature review of previous studies, we identified two 
 
 <div class="spacer-block-1"></div>
 
-<figure class="text-width">
-    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--ijSRYuM2--/c_scale,h_619,w_1150/v1546162374/light-wave/Official_Experiment.png">
-    <figcaption>Different types of data were collected in the study.</figcaption>
-</figure>
+{% cloudinary intext https://res.cloudinary.com/ryanntt/image/upload/s--ijSRYuM2--/c_scale,h_619,w_1150/v1546162374/light-wave/Official_Experiment.png alt="Official experiment" caption="Different types of data were collected in the study." %}
 
 <div class="spacer-block-2"></div>
 
 <div class="spacer-block-1"></div>
 
-<figure class="text-width">
-    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--o881UbsI--/c_scale,h_301,w_650/v1546773545/light-wave/Demographics.png">
-    <figcaption>The 18 participants have a wide variety of background knowledge about autonomous car.</figcaption>
-</figure>
+{% cloudinary intext https://res.cloudinary.com/ryanntt/image/upload/s--o881UbsI--/c_scale,h_301,w_650/v1546773545/light-wave/Demographics.png alt="Demographics" caption="18 participants have a wide variety of background knowledge about autonomous car." %}
 
-
-<figure class="text-width">
-    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--hpMAxiEG--/c_scale,h_350,w_650/v1551873968/light-wave/Multiple_Regression_Analysis_-Trust.png">
-    <figcaption>Multiple Regression Analysis was used to understand the relationship between Trust and other variables such as Comfort, Intent and Awareness. Good p-values support the strong relationship.</figcaption>
-</figure>
+{% cloudinary intext https://res.cloudinary.com/ryanntt/image/upload/s--hpMAxiEG--/c_scale,h_350,w_650/v1551873968/light-wave/Multiple_Regression_Analysis_-Trust.png alt="Multiple regression analysis - Trust" caption="Multiple Regression Analysis was used to understand the relationship between Trust and other variables such as Comfort, Intent and Awareness. Good p-values support the strong relationship." %}
 
 <div class="spacer-block-2"></div>
 
