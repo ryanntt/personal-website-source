@@ -12,7 +12,7 @@ summary: There are many design tools while you may have little time to master th
 
 *There are many design tools while you may have little time to master them all. How do you choose the “right” one?*
 
-## The Problem with Tools##
+## The Problem with Tools
 
 In photography, there is a syndrome called [Gear Acquisition Syndrome, aka GAS](https://en.wikipedia.org/wiki/User:GreyCat/Gear_Acquisition_Syndrome). GAS is a term used to describe an urge to acquire and accumulate lots of gear (Wikipedia). When people with GAS see great art work, they focus mainly on the contribution of tool. They forget who choose the tool and how that person made the choice. I first learnt about GAS in [this blog post](http://erickimphotography.com/blog/2014/04/06/fk-gas-gear-acquisition-syndrome/), written by Eric Kim, a street photographer. I used to be one of those people. I bought and tried out different camera and lens. I never felt satisfied with my cameras.
 
@@ -20,7 +20,7 @@ In photography, there is a syndrome called [Gear Acquisition Syndrome, aka GAS](
 
 The more tools I have, the more I think about which tool to use in which situation. I used to feel curious about the tools used to create nice design. But having the tool, I didn’t know how to start creating. The truth is that I don’t create better works with better tools. What I thought previously as better is simply more fancy-looking design. *But the core of design is decided by me, not the tools I choose*. What I should have done is to choose one tool and think about how to deliver the best result regarding requirement of situation and limitation of tool, which are always existing regardless of tool I choose.
 
-## The Path through (Overwhelming) Choices##
+## The Path through (Overwhelming) Choices
 When I was in university, Photoshop(CS4) was my choice for anything related to design. I remember that it got things done but is slow in iterating, especially with interface design. I tried out other tools as well. Illustrator was fast but lack of certain functionalities to fit to my workflow. Firework was right for the job until [Adobe stopped supporting it](http://blogs.adobe.com/fireworks/2013/05/the-future-of-adobe-fireworks.html), which led to its sluggishness on Mac OSX. Then I discovered [Sketch](http://www.sketchapp.com/) and immediately saw it as the right fit to my workflow.
 
 The same thing is happening with prototyping tools. [Invision](http://www.invisionapp.com/), [Marvel](http://marvelapp.com/) are good enough for me. But [Framer](http://framerjs.com/), [Flinto](https://www.flinto.com/), [Principle](http://principleformac.com/) open more possibilities to achieve a higher level of deliverables. This makes me feel that what was enough is not enough any more. People on all social medias are asking each other what tools they should be using. People feel overwhelmed with choices.
@@ -35,7 +35,7 @@ I felt excited learning new tool knowing that it will improve my workflow. But s
 
 Yes, but being lazy forces me to be selective with what I spent time on. *Learning a new tool means less time on mastering my current tool. Is it a fair trade-off?* Only when I can justify this point, I will start to master that new tool.
 
-## Which design tool should I choose?##
+## Which design tool should I choose?
 
 It boils down to answering 3 questions:
 

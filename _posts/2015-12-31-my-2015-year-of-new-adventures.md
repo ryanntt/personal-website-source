@@ -9,7 +9,7 @@ summary: The review of my life in 2015
 
 *Compared to 2014, this year 2015, I put up a better plan for the year and even had monthly goals. Normally, yearly reviewing is done on a Google doc and kept private. But this year, I want to put it on this blog so I am more accountable to myself.*
 
-## Work##
+## Work
 
 The biggest decision I made this year is to quit the first full-time job. I am not suitable for agency model, where the relationship with client needs a lot of rework to maintain the integrity of doing design and development across different projects and clients. I have moved to a product company where there is one client with one product. It has given me more focus with clear goal everyday going to work.
 
@@ -17,7 +17,7 @@ Leaving my first full-time job also meant a much-needed retrospective time. Afte
 
 My new job has brought a new perspective into my design work as I am designing help people to travel better. There are much things for me to learn about travel industry.
 
-## Fear##
+## Fear
 
 Fear has been the reason I didn't do and did a lot of things. I discovered some of my fear in 2015:
 
@@ -29,7 +29,7 @@ There is the fear and the fear to start fighting it back. My solution is to get 
 
 The fear of not having enough time and being left behind in society is due to the depression I had when applying for new job and felt frustrated when comparing myself to my peers. It was extremely unhealthy. I kept going and found a fulfilling job. Running also taught me how to tackle these fears. I am going to write a blog post about this.
 
-## Health##
+## Health
 
 I moved house so the my 2014 gym schedule is interrupted. I decided to join a gym near my new office. Regular excercising has helped me release stress after office hours.
 
@@ -39,7 +39,7 @@ I experimented with standing desk this year, at both office and home. I felt bet
 
 Things planned but not done properly yet this year are meditation and yoga. I could only practice those for a few days then gave up. These are going to be my goals in 2016. 
 
-## Travel##
+## Travel
 
 I travelled to a few cities this year:
 
@@ -56,7 +56,7 @@ Most of my time in Indonesia was for climbing. I started to understand the peopl
 
 During all my trips, the most memorable times are with my friends, new and old ones. I am lucky to have all these friends around me sharing both enjoyable and challenging times.
 
-## Design##
+## Design
 
 I revamped my portfolio website and transfered many cluttered projects to the website you are reading. I wrote more this year and felt more confident with my writing. More articles is my goal in 2015. Next year is a higher quality of writing.
 
@@ -66,11 +66,11 @@ In June, my friends and I in a game development group called Hiterus published [
 
 2015 is a year that I learnt different set of new design skills. Knowing my strength and weakness better is what I have been doing. 
 
-## Photography##
+## Photography
 
 [My photography blog](http://chillingkat.com) has been continued this year. I bought an iPhone 6 Plus and took more photos with it more than my film camera. Film photography with its complication slowed down me. I love the fact that it separates the desire to see photos published on social media, which delay the gratification and improve focus when taking photos. However, the need to capture the moment at right times make mobile photography a better fit.
 
-## Reading##
+## Reading
 
 My favourite non-fiction book in 2015 is Design is a Job by Mike Monteiro. It really changed how I see my job and approach my career planning as a grand design project.
 
@@ -90,17 +90,17 @@ Murakami is my most favourite author and I just finished What I talk about when 
 
 I tried a few other non-fiction books this year but haven't finished such as Awake The Giant within by Tony Robbins and Meditations by Marcus Aurelius. 
 
-## Volunteering##
+## Volunteering
 
 A recent activity that I took up is volunteering for Garden by the Bay. Though it has been only 3 months but I think this is one of the most meaningful acivities I did in 2015.
 
-## Languages##
+## Languages
 
 It is not a good year for me when it comes to learning new languages. I set a goal of improving my Japanese but then didn't learn more of it in 2015.
 
 This year, I learnt Chinese for 3 months but stopped after finishing the beginner class due to busy schedule at new job. One thing I got out of the class is a love for Chinese culture.
 
-## Family##
+## Family
 
 The Christmas vacation with parents and sister is my best highlight this year. 
 
