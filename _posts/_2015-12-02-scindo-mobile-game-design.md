@@ -34,18 +34,18 @@ The graphics of the game are kept simple to help players focus on the swiping in
 
 <figure class="text-width">
     <img width="768" src="https://res.cloudinary.com/ryanntt/image/upload/s--LlZEFtAc--/c_scale,h_522,w_1536/v1542790547/scindo/characters.png">
-    <figcaption>Character design</figcaption>
+    <figcaption><p>Character design</p></figcaption>
 </figure>
 
 
 <figure style="max-width: 384px;">
     <img style="box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);" src="https://res.cloudinary.com/ryanntt/image/upload/s--pbgXsosq--/v1542788689/scindo/help-menu.gif">
-    <figcaption>Help menu</figcaption>
+    <figcaption><p>Help menu</p></figcaption>
 </figure>
 
 <figure style="max-width: 384px;">
     <img style="box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);" src="https://res.cloudinary.com/ryanntt/image/upload/s--txmENH9A--/v1542788692/scindo/level-menu.gif">
-    <figcaption>Level menu</figcaption>
+    <figcaption><p>Level menu</p></figcaption>
 </figure>
 
 ## Launch

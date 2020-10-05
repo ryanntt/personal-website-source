@@ -5,7 +5,6 @@ original_date: 2017-08-29 08:06:18 Z
 categories:
 - projects
 layout: post
-status: featured
 text: <span>Design research</span> <span>Interaction design</span> <span>Design thinking</span>
 summary: Helping healthcare organization and professional improve service quality via listening to feedbacks from patient
 thumbnail: https://res.cloudinary.com/ryanntt/image/upload/s--YJ655bTg--/c_fill,h_1082,w_1536/v1508815659/Healthcare-Feedback/Final-Mockup-1.png
@@ -31,7 +30,7 @@ I worked together with [Min Yi Tan](https://www.linkedin.com/in/min-yi-tan-64803
 
 <figure>
     <img src="https://res.cloudinary.com/ryanntt/image/upload/s--wmsT83mB--/c_scale,w_1155/v1506927689/Healthcare-Feedback/Double-Diamond-Framework.png">
-    <figcaption>Double Diamond Framework</figcaption>
+    <figcaption><p>Double Diamond Framework</p></figcaption>
 </figure>
 
 <div class="spacer-block-1"></div>
@@ -82,7 +81,7 @@ Around 25 people interviewed include:
 
 <figure class="text-width">
     <img src="https://res.cloudinary.com/ryanntt/image/upload/s--yC76QItN--/c_scale,w_768/v1506940677/Healthcare-Feedback/Shadowing.jpg">
-    <figcaption>The specialist was consolidating feedback result (left)</figcaption>
+    <figcaption><p>The specialist was consolidating feedback result (left)</p></figcaption>
 </figure>
 
 
@@ -116,7 +115,7 @@ We then created 3 personas representing our potential users in order to empathis
 
 <figure class="text-width">
     <img src="https://res.cloudinary.com/ryanntt/image/upload/s--ubRICLyM--/c_scale,w_768/v1507032930/Healthcare-Feedback/Personas.png">
-    <figcaption>Writeup by <a href="https://www.linkedin.com/in/min-yi-tan-648039127/">Min Yi Tan</a>. Icons and layout by <a href="https://www.linkedin.com/in/elektra-jiang-099546129/">Elektra</a></figcaption>
+    <figcaption><p>Writeup by <a href="https://www.linkedin.com/in/min-yi-tan-648039127/">Min Yi Tan</a>. Icons and layout by <a href="https://www.linkedin.com/in/elektra-jiang-099546129/">Elektra</a></p></figcaption>
 </figure>
 
 ### User Journey
@@ -125,7 +124,7 @@ People going to hospital for checkup have different concerns at different touch 
 
 <figure>
     <img src="https://res.cloudinary.com/ryanntt/image/upload/s--SRUJasjk--/c_scale,h_597,w_1155/v1506949192/Healthcare-Feedback/User-Journey.png">
-    <figcaption>Painpoints of a person going to hospital</figcaption>
+    <figcaption><p>Painpoints of a person going to hospital</p></figcaption>
 </figure>
 
 <hr>
@@ -146,7 +145,7 @@ solutions haven’t been able to fix the problems well.
 
 <figure>
     <img src="https://res.cloudinary.com/ryanntt/image/upload/s--WGtmogau--/c_scale,h_550,w_1155/v1506951979/Healthcare-Feedback/Problem-Prioritisation.png">
-    <figcaption>We still focused on feedback system in Redbank House</figcaption>
+    <figcaption><p>We still focused on feedback system in Redbank House</p></figcaption>
 </figure>
 
 ### Problems in Giving Feedback
@@ -161,7 +160,7 @@ We used affinity mapping to group similar problem together and created pain poin
 
 What is a framed problem? Framed problem is a statement that specify the problem to the extent that everyone in design team can understand it as well as the direction of solution. According to IDEO Human-Centered Design Framework, having a framed problem helps design team have the right understanding of the problem, be more confident in exploring creative possibilities and solutions.  
 
-<blockquote class="highlighted full-width">
+<blockquote class="highlighted">
   <p>How might we make the feedback system in hospitals more accessible, engaging, effective and efficient for people? </p>
 </blockquote>
 
@@ -196,7 +195,7 @@ We drew storyboards for our three personas James, Lucy and Wesley to visualise h
 
 <figure>
     <img src="https://res.cloudinary.com/ryanntt/image/upload/s--WdfxPZ7q--/c_scale,q_60,w_1000/v1506990369/Healthcare-Feedback/Storyboard.png">
-    <figcaption>Storyboard with persona Lucy</figcaption>
+    <figcaption><p>Storyboard with persona Lucy</p></figcaption>
 </figure>
 
 ## Create Solution
@@ -211,18 +210,18 @@ We combined the strength of our ideas and improved their drawbacks to produce a 
 
 <figure class="text-width">
     <img src="https://res.cloudinary.com/ryanntt/image/upload/s--OrdzSnPB--/c_scale,q_80,w_768/v1506991879/Healthcare-Feedback/Testing-Setup.png">
-    <figcaption>Prototype of our Feedback space</figcaption>
+    <figcaption><p>Prototype of our Feedback space</p></figcaption>
 </figure>
 
 <figure class="text-width">
     <img src="https://res.cloudinary.com/ryanntt/image/upload/s--PvsNARcO--/c_scale,q_60,w_768/v1507009018/Healthcare-Feedback/Room-DataVis.png">
-    <figcaption>Projected nature scene(left) and feedback data visualisation(right)</figcaption>
+    <figcaption><p>Projected nature scene(left) and feedback data visualisation(right)</p></figcaption>
 </figure>
 
 
 <figure>
     <img src="https://res.cloudinary.com/ryanntt/image/upload/s--moItbEmw--/c_scale,h_526,w_1155/v1507035278/Healthcare-Feedback/Prototype-UI.png">
-    <figcaption>Feedback form on tablet</figcaption>
+    <figcaption><p>Feedback form on tablet</p></figcaption>
 </figure>
 
 ### User Testing
@@ -240,14 +239,14 @@ User Scenarios for testing:
 
 <figure class="text-width">
     <img src="https://res.cloudinary.com/ryanntt/image/upload/s--_TYYEcTZ--/c_scale,w_768/v1506942503/Healthcare-Feedback/User-Testing.jpg">
-    <figcaption>We recorded participant's reaction during the test</figcaption>
+    <figcaption><p>We recorded participant's reaction during the test</p></figcaption>
 </figure>
 
 The testing gave us a generally positive results with some minor problems in the interface of feedback form. Most people feel satisfied after giving the feedback and would like to use the product if implemented in hospitals. Most importantly, our hypotheses were proven to be true.
 
 <figure>
     <img src="https://res.cloudinary.com/ryanntt/image/upload/s--jSMtnngY--/c_scale,w_1000/v1506950363/Healthcare-Feedback/Testing-Insights.png">
-    <figcaption>Insights from user testing</figcaption>
+    <figcaption><p>Insights from user testing</p></figcaption>
 </figure>
 
 <div class="spacer-block-1"></div>
@@ -278,7 +277,7 @@ We kept improving the design and getting feedback via user testing. Regarding ti
 
 <figure>
     <img src="https://res.cloudinary.com/ryanntt/image/upload/s--v3TGIQ_i--/c_scale,w_1155/v1508162776/Healthcare-Feedback/Final-Mockup-2.png">
-    <figcaption>Final Mockups of Feedback Form</figcaption>
+    <figcaption><p>Final Mockups of Feedback Form</p></figcaption>
 </figure>
 
 <!-- ### Walkthrough Video

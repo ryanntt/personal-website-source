@@ -74,13 +74,17 @@
   color: #EFEFEF;
 }
 
-figcaption, figcaption p {
+figcaption p {
   margin: 0 auto;
   margin-bottom: 2em;
-  padding: 0.1em 0 0.5em 0;
   text-align: left;
   font-size: 0.8em;
   border-bottom: 2px solid var(--bg-secondary);
+
+  .post-content & {
+    max-width: none;
+    margin: 0 auto; // Overrides
+  }
 }
 
 figure {

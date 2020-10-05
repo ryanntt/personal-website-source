@@ -19,13 +19,6 @@ date_format: "%b %-d, %Y"
 google_verification: 
 show_related_posts: true
 disqus_shortname: ryanntt
-github_username: ryanntt
-bitbucket_username: 
-stackoverflow_id: 
-twitter_username: ryannguyentt
-google_plus_id:
-linkedin_username: ryanntt
-medium_id: 
 # Pagination Settings
 pagination:
   enabled: true
@@ -57,6 +50,8 @@ cloudinary:
   only_prod: true
   verbose: true
   presets:
+    default:
+      max_width: 1155
     thumb:
       attributes:
         class: "thumb"
@@ -65,6 +60,10 @@ cloudinary:
       min_width: 110
       max_width: 110
     intext:
+      figure: auto
       min_width: 320
       max_width: 650
       steps: 3
+      attributes:
+        class: "text-width"
+        loading: "lazy"

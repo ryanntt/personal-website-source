@@ -18,10 +18,7 @@ Following are the definitions of forward and backward thinking (terms thinking a
 
 **Working backwards is the way of advancing backwards from the goal state (Polya, 1957 in Ginat, 2005).**
 
-<figure>
-    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--mUY6P4mw--/v1530803654/blog/backward-thinking/forward_backward_thinking.jpg">
-    <figcaption>The goal state can be defined by you, and presence sometimes is not fully known as you thought.</figcaption>
-</figure>
+{% cloudinary intext https://res.cloudinary.com/ryanntt/image/upload/s--mUY6P4mw--/v1530803654/blog/backward-thinking/forward_backward_thinking.jpg alt="Forward backward thinking" caption="The goal state can be defined by you, and presence sometimes is not fully known as you thought." %}
 
 
 It is easy to see why people often choose the forward option: from Initial state to Goal state. However, the reverse might be more logical and often optimal. People tend to think they understand what they have at the presence and constrain themselves to that understanding when planning for the future. Without defining the desired goal, it’s easy to limit yourself and miss out ambitious targets.
@@ -33,9 +30,9 @@ Though fancy as it sounds, backward thinking is what you actually have used sinc
 
 Math is one of the first domains where we learn how to work backward. Let’s consider two following math problems:
 
-**Problem 1: A car park has a maximum capacity of 75 cars. What is 2/3 of its capacity?**
+- Problem 1: A car park has a maximum capacity of 75 cars. What is 2/3 of its capacity?
 
-**Problem 2: A car park currently has 50 cars parking. We know that this is only 2/3 of its maximm capacity. What is its maximum capacity then?**
+- Problem 2: A car park currently has 50 cars parking. We know that this is only 2/3 of its maximm capacity. What is its maximum capacity then?
 
 In the first problem, 75 cars is the known initial state, the relation to goal state is operation with 2/3. The solution is times 75 and 2/3, which is working forward.
 
