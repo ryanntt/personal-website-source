@@ -30,9 +30,9 @@ Though fancy as it sounds, backward thinking is what you actually have used sinc
 
 Math is one of the first domains where we learn how to work backward. Let’s consider two following math problems:
 
-**Problem 1: A car park has a maximum capacity of 75 cars. What is 2/3 of its capacity?**
+- Problem 1: A car park has a maximum capacity of 75 cars. What is 2/3 of its capacity?
 
-**Problem 2: A car park currently has 50 cars parking. We know that this is only 2/3 of its maximm capacity. What is its maximum capacity then?**
+- Problem 2: A car park currently has 50 cars parking. We know that this is only 2/3 of its maximm capacity. What is its maximum capacity then?
 
 In the first problem, 75 cars is the known initial state, the relation to goal state is operation with 2/3. The solution is times 75 and 2/3, which is working forward.
 

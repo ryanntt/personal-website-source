@@ -6,7 +6,7 @@ categories:
 - projects
 layout: post
 status: featured
-text:  <span>Design research</span>  <span>Interaction design</span> <span>Interface design</span>
+text:  <span>Design research</span>  <span>Interaction design</span> <span>Lighting design</span>
 summary: <p>Drivers in human-driven car and pedestrians communicate with each other via eye contact and hand gesture, which do not exist in autonomous cars. With autonomous cars being tested in many cities around the world, the lack of interpersonal communication poses a challenge in having clear communication between autonomous cars and pedestrian.</p> <p>This project aims to design a communication solution and answer the question of how people understand and trust this solution in their interaction with driverless cars, especially in the situation not regulated by a traffic light.</p>
 year: June - December 2018
 theme-color: 888888
@@ -58,8 +58,8 @@ Prototyping in Virtual Reality requires the solution idea to have specifications
 {% cloudinary https://res.cloudinary.com/ryanntt/image/upload/s--XiyRoHZ4--/c_scale,h_881,w_1155/v1551868042/light-wave/Mockup-Board.png alt="Mockup board" caption="Design variations and iterations of the light signal." %}
 
 <figure class="text-width">
-    <img src="https://res.cloudinary.com/ryanntt/image/upload/v1551870663/light-wave/Processing-Animation.gif">
-    <figcaption>The animation was programmed in Processing to gain better control of design variables such as framerates, gaps, colour, speed.</figcaption>
+  <img src="https://res.cloudinary.com/ryanntt/image/upload/v1551870663/light-wave/Processing-Animation.gif">
+  <figcaption><p>The animation was programmed in Processing to gain better control of design variables such as framerates, gaps, colour, speed.</p></figcaption>
 </figure>
 
 ## Experimental Design
@@ -110,8 +110,8 @@ analysis. Based on the literature review of previous studies, we identified two 
 The result confirmed that the comfort and intention of the cars understood by pedestrian contribute to the overall trust toward communication with driverless vehicles. Participants did not rely significantly on knowing whether the car is aware of their presence to make a decision. The use of Virtual Reality as a testing medium is proven to be effective as participants exhibited emotions and behaviours that they normally have shown in real life situations.
 
 <figure class="text-width">
-    <img src="https://res.cloudinary.com/ryanntt/image/upload/s--yylWKt9l--/v1546692777/light-wave/Study_Footage.gif">
-    <figcaption>Participants exhibited behaviours they normally have in real-life crossing situations.</figcaption>
+  <img src="https://res.cloudinary.com/ryanntt/image/upload/s--yylWKt9l--/v1546692777/light-wave/Study_Footage.gif">
+  <figcaption>Participants exhibited behaviours they normally have in real-life crossing situations.</figcaption>
 </figure>
 
 ## Reflection

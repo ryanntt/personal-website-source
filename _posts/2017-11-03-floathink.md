@@ -35,7 +35,7 @@ We set out to understand the usage of the courtyard by observing and interviewin
 
 The data was analysed to devise different themes of problems, which were then combined to form the problem statement and the objective:
 
-<blockquote class="highlighted full-width">
+<blockquote class="highlighted">
   <p>The Old School courtyard lacks aesthetically pleasant elements of relaxing ambience and clear signifiers of its accessibility.</p>
   <p>How might we use playful interaction to extend the relaxing atmosphere of Cadigal Green to the Old School courtyard in the evening?</p>
 </blockquote>
@@ -52,7 +52,7 @@ As the theme of this project is Playfulness, we use Playful Experience (PLEX) fr
 
 As our concept is around wind chimes, we named our project in Chinese to reflect this cultural inspiration. 
 
-<blockquote class="highlighted full-width">
+<blockquote class="highlighted">
   <h3 class="white">Floathink - 浮 想 | fuxiang | </h3>
   <p>thoughts or recollections flashing across one's mind.</p>
 </blockquote>

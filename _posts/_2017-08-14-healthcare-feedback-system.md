@@ -5,7 +5,6 @@ original_date: 2017-08-29 08:06:18 Z
 categories:
 - projects
 layout: post
-status: featured
 text: <span>Design research</span> <span>Interaction design</span> <span>Design thinking</span>
 summary: Helping healthcare organization and professional improve service quality via listening to feedbacks from patient
 thumbnail: https://res.cloudinary.com/ryanntt/image/upload/s--YJ655bTg--/c_fill,h_1082,w_1536/v1508815659/Healthcare-Feedback/Final-Mockup-1.png
@@ -161,7 +160,7 @@ We used affinity mapping to group similar problem together and created pain poin
 
 What is a framed problem? Framed problem is a statement that specify the problem to the extent that everyone in design team can understand it as well as the direction of solution. According to IDEO Human-Centered Design Framework, having a framed problem helps design team have the right understanding of the problem, be more confident in exploring creative possibilities and solutions.  
 
-<blockquote class="highlighted full-width">
+<blockquote class="highlighted">
   <p>How might we make the feedback system in hospitals more accessible, engaging, effective and efficient for people? </p>
 </blockquote>
 
