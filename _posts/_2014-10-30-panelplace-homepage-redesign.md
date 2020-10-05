@@ -58,7 +58,7 @@ The early involvement of stakeholders in wireframing is essential to the faster 
 
 <figure class="text-width">
   <img src="/images/panelplace/collaboration-wireframe.jpg" alt="">
-  <figcaption>We used Six Up method, which requires each person to draw 6 ideas. We then compiled and sorted them into catefories.</figcaption>
+  <figcaption><p>We used Six Up method, which requires each person to draw 6 ideas. We then compiled and sorted them into catefories.</p></figcaption>
 </figure>
 
 <blockquote class="highlighted full-width">
@@ -85,14 +85,14 @@ In the original homepage, the value of being secure was not well received by our
 
 <figure class="text-width">
   <img src="https://res.cloudinary.com/ryanntt/image/upload/s--bUrwzVDm--/c_scale,w_1536/v1542724481/panelplace/original-homepage.png" alt="" width="768">
-  <figcaption>The original homepage communicated its value about security, had unnecessary elements such as the Facebook button.</figcaption>
+  <figcaption><p>The original homepage communicated its value about security, had unnecessary elements such as the Facebook button.</p></figcaption>
 </figure>
 
 In the redesigned homepage, we conveyed the convenience of using PanelPlace by explaining the process of signing up. The form was simplified to contain only compulsory fields.
 
 <figure class="text-width">
   <img src="https://res.cloudinary.com/ryanntt/image/upload/s--UY7mACIw--/c_scale,w_1536/v1542724471/panelplace/redesigned-homepage.png" alt="" width="768">
-  <figcaption>The redesigned homepage communicated its value about the ease of signing up and had a linear format of content leading to the form.</figcaption>
+  <figcaption><p>The redesigned homepage communicated its value about the ease of signing up and had a linear format of content leading to the form.</p></figcaption>
 </figure>
 
 **Result**

@@ -59,7 +59,7 @@ Prototyping in Virtual Reality requires the solution idea to have specifications
 
 <figure class="text-width">
   <img src="https://res.cloudinary.com/ryanntt/image/upload/v1551870663/light-wave/Processing-Animation.gif">
-  <figcaption><p>The animation was programmed in Processing to gain better control of design variables such as framerates, gaps, colour, speed.</p></figcaption>
+  <figcaption><p><p>The animation was programmed in Processing to gain better control of design variables such as framerates, gaps, colour, speed.</p></p></figcaption>
 </figure>
 
 ## Experimental Design
@@ -111,7 +111,7 @@ The result confirmed that the comfort and intention of the cars understood by pe
 
 <figure class="text-width">
   <img src="https://res.cloudinary.com/ryanntt/image/upload/s--yylWKt9l--/v1546692777/light-wave/Study_Footage.gif">
-  <figcaption>Participants exhibited behaviours they normally have in real-life crossing situations.</figcaption>
+  <figcaption><p>Participants exhibited behaviours they normally have in real-life crossing situations.</p></figcaption>
 </figure>
 
 ## Reflection

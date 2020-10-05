@@ -55,7 +55,7 @@ At my old office pantry, there is a water tap. When the office manager wanted to
 
 <figure>
   <img src="http://res.cloudinary.com/ryanntt/image/upload/s--v9oFL0MW--/v1479796061/blog/water-tap/overview-small.jpg" alt="">
-  <figcaption>Pantry at my office</figcaption>
+  <figcaption><p>Pantry at my office</p></figcaption>
 </figure>
 
 ![The tube from water tap to hot water dispenser](http://res.cloudinary.com/ryanntt/image/upload/s--ay6RgxUK--/v1479796058/blog/water-tap/detail-3-small.jpg)

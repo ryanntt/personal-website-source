@@ -11,7 +11,7 @@ thumbnail: https://res.cloudinary.com/ryanntt/image/upload/s--joBwpY4s--/c_fill,
 
 <figure>
     <img src="https://res.cloudinary.com/ryanntt/image/upload/s--8OCkCzxZ--/c_scale,w_784/v1502616677/201708%20Jetstellar/Final-Mockups.png">
-    <figcaption>Final Mockups</figcaption>
+    <figcaption><p>Final Mockups</p></figcaption>
 </figure>
 
 ## Design Brief
@@ -73,7 +73,7 @@ As a group, we drew many sketches of different platforms, which were based on si
 
 <figure>
     <img src="https://res.cloudinary.com/ryanntt/image/upload/s--g_Gp5Dmx--/c_scale,w_784/v1502170243/201708%20Jetstellar/Sketches.png" alt="Sketches">
-    <figcaption>Final sketches of important screens</figcaption>
+    <figcaption><p>Final sketches of important screens</p></figcaption>
 </figure>
 
 ### Wireframes
