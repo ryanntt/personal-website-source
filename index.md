@@ -67,7 +67,7 @@ tag: home
       <div class="posts">
         <a class="link" href="https://dl.acm.org/doi/abs/10.1145/3342197.3344543" target="_blank">
           <div class="post py2">
-            <h3 class="h4 post-title">
+            <h3 class="h4">
               Designing for Projection-based Communication between Autonomous Vehicles and Pedestrians. 
             </h3>
             <p class="summary">
@@ -80,7 +80,7 @@ tag: home
         </a>
         <a class="link" href="https://dl.acm.org/doi/abs/10.1145/3441000.3441031" target="_blank">
           <div class="post py2">
-            <h3 class="h4 post-title">
+            <h3 class="h4">
               Tangible Multi-Display Toolkit to Support the Collaborative Design Exploration of AV-Pedestrian Interfaces 
             </h3>
             <p class="summary">
