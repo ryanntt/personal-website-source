@@ -28,7 +28,7 @@ tag: home
 
 <section>
   <div class="horizontal-bar"></div>
-  <h2 class="h1 key-category" id="case-studies">Select Case Studies</h2>
+  <h2 class="h1 key-category mr1" id="case-studies">Select Case Studies</h2>
   <a class="link" href="{{ site.baseurl }}/projects/">View all</a>
   <div class="projects list featured">
     <div class="posts">
@@ -61,20 +61,33 @@ tag: home
 
 <section>
   <div class="horizontal-bar"></div>
-  <h2 class="h1 key-category">Publications</h2>
-
+  <h2 class="h1 key-category mr1">Publications</h2>
   <div class="blog">
     <div class="publication">
       <div class="posts">
         <a class="link" href="https://dl.acm.org/doi/abs/10.1145/3342197.3344543" target="_blank">
           <div class="post py2">
-            <h3 class="h4 post-title">
-              <em>Nguyen, Trung Thanh</em>, Kai Holländer, Marius Hoggenmueller, Callum Parker, and Martin Tomitsch. Designing for Projection-based Communication between Autonomous Vehicles and Pedestrians. 
+            <h3 class="h4">
+              Designing for Projection-based Communication between Autonomous Vehicles and Pedestrians. 
             </h3>
             <p class="summary">
-              <span>In Proceedings of the 11th International Conference on Automotive User Interfaces and Interactive Vehicular Applications</span>
+              <span><em>Nguyen, Trung Thanh</em>, Kai Holländer, Marius Hoggenmueller, Callum Parker, and Martin Tomitsch</span>
+              <span>11th International Conference on Automotive User Interfaces and Interactive Vehicular Applications</span>
               <span>September 2019</span>
               <span>Pages 284-294</span>
+            </p>
+          </div>
+        </a>
+        <a class="link" href="https://dl.acm.org/doi/abs/10.1145/3441000.3441031" target="_blank">
+          <div class="post py2">
+            <h3 class="h4">
+              Tangible Multi-Display Toolkit to Support the Collaborative Design Exploration of AV-Pedestrian Interfaces 
+            </h3>
+            <p class="summary">
+              <span>Marius Hoggenmueller, Martin Tomitsch, Callum Parker, <em>Trung Thanh Nguyen</em>, Dawei Zhou, Stewart Worrall, Eduardo Nebot</span>
+              <span>32nd Australian Conference on Human-Computer Interaction</span>
+              <span>December 2020</span>
+              <span>Pages 25-35</span>
             </p>
           </div>
         </a>
@@ -87,7 +100,7 @@ tag: home
 
 <section>
   <div class="horizontal-bar"></div>
-  <h2 class="h1 key-category">Writings</h2>
+  <h2 class="h1 key-category mr1">Writings</h2>
   <a class="link" href="{{ site.baseurl }}/blog/">View all</a>
 
   <div class="blog featured">
